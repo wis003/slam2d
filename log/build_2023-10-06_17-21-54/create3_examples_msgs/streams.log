@@ -1,0 +1,232 @@
+[0.191s] Invoking command in '/home/robotics_roomba_2/slam2d/build/create3_examples_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics_roomba_2/slam2d/install/tmf882x:/home/robotics_roomba_2/slam2d/install/create3_teleop:/home/robotics_roomba_2/slam2d/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake /home/robotics_roomba_2/slam2d/src/create3_examples/create3_examples_msgs -DCMAKE_INSTALL_PREFIX=/home/robotics_roomba_2/slam2d/install/create3_examples_msgs
+[2.276s] -- The C compiler identification is GNU 11.4.0
+[2.276s] -- The CXX compiler identification is GNU 11.4.0
+[2.277s] -- Detecting C compiler ABI info
+[2.278s] -- Detecting C compiler ABI info - done
+[2.279s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.279s] -- Detecting C compile features
+[2.280s] -- Detecting C compile features - done
+[2.280s] -- Detecting CXX compiler ABI info
+[2.281s] -- Detecting CXX compiler ABI info - done
+[2.282s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.283s] -- Detecting CXX compile features
+[2.283s] -- Detecting CXX compile features - done
+[2.284s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.333s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[4.108s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.147s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.241s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.717s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.079s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[8.329s] -- Found ament_cmake_cppcheck: 0.12.5 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[8.386s] -- Found ament_cmake_cpplint: 0.12.5 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[8.420s] -- Found ament_cmake_uncrustify: 0.12.5 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[8.465s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[10.321s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.912s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.083s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[12.112s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[12.280s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[12.280s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[12.282s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[12.283s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[12.432s] -- Found PythonExtra: .so  
+[12.724s] -- Found ament_cmake_flake8: 0.12.5 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[12.754s] -- Found ament_cmake_pep257: 0.12.5 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[12.826s] -- Configuring done
+[13.130s] -- Generating done
+[13.152s] -- Build files have been written to: /home/robotics_roomba_2/slam2d/build/create3_examples_msgs
+[13.204s] Invoked command in '/home/robotics_roomba_2/slam2d/build/create3_examples_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics_roomba_2/slam2d/install/tmf882x:/home/robotics_roomba_2/slam2d/install/create3_teleop:/home/robotics_roomba_2/slam2d/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake /home/robotics_roomba_2/slam2d/src/create3_examples/create3_examples_msgs -DCMAKE_INSTALL_PREFIX=/home/robotics_roomba_2/slam2d/install/create3_examples_msgs
+[13.214s] Invoking command in '/home/robotics_roomba_2/slam2d/build/create3_examples_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics_roomba_2/slam2d/install/tmf882x:/home/robotics_roomba_2/slam2d/install/create3_teleop:/home/robotics_roomba_2/slam2d/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --build /home/robotics_roomba_2/slam2d/build/create3_examples_msgs -- -j4 -l4
+[13.448s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[13.618s] [  3%] Built target ament_cmake_python_copy_create3_examples_msgs
+[13.638s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[16.233s] running egg_info
+[16.236s] creating create3_examples_msgs.egg-info
+[16.237s] writing create3_examples_msgs.egg-info/PKG-INFO
+[16.238s] writing dependency_links to create3_examples_msgs.egg-info/dependency_links.txt
+[16.240s] writing top-level names to create3_examples_msgs.egg-info/top_level.txt
+[16.241s] writing manifest file 'create3_examples_msgs.egg-info/SOURCES.txt'
+[16.256s] reading manifest file 'create3_examples_msgs.egg-info/SOURCES.txt'
+[16.266s] writing manifest file 'create3_examples_msgs.egg-info/SOURCES.txt'
+[16.472s] [  6%] Built target ament_cmake_python_build_create3_examples_msgs_egg
+[16.721s] [  6%] Built target create3_examples_msgs__cpp
+[16.803s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[16.851s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[16.852s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[18.211s] [ 19%] [32mBuilding C object CMakeFiles/create3_examples_msgs__rosidl_generator_c.dir/rosidl_generator_c/create3_examples_msgs/action/detail/coverage__functions.c.o[0m
+[19.228s] [ 22%] [32m[1mLinking C shared library libcreate3_examples_msgs__rosidl_generator_c.so[0m
+[19.307s] [ 25%] [32mBuilding CXX object CMakeFiles/create3_examples_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/create3_examples_msgs/action/coverage__type_support.cpp.o[0m
+[19.686s] [ 25%] Built target create3_examples_msgs__rosidl_generator_c
+[19.780s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[19.899s] [ 32%] [32mBuilding CXX object CMakeFiles/create3_examples_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/create3_examples_msgs/action/detail/coverage__type_support.cpp.o[0m
+[20.450s] [ 35%] [32mBuilding CXX object CMakeFiles/create3_examples_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/create3_examples_msgs/action/detail/dds_fastrtps/coverage__type_support.cpp.o[0m
+[23.907s] [ 38%] [32m[1mLinking CXX shared library libcreate3_examples_msgs__rosidl_typesupport_cpp.so[0m
+[24.143s] [ 41%] [32mBuilding CXX object CMakeFiles/create3_examples_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/create3_examples_msgs/action/detail/coverage__type_support_c.cpp.o[0m
+[24.324s] [ 41%] Built target create3_examples_msgs__rosidl_typesupport_cpp
+[24.478s] [ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[24.893s] [ 48%] [32m[1mLinking CXX shared library libcreate3_examples_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[25.518s] [ 48%] Built target create3_examples_msgs__rosidl_typesupport_introspection_cpp
+[25.631s] [ 51%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[26.149s] [ 54%] [32m[1mLinking CXX shared library libcreate3_examples_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[26.916s] [ 54%] Built target create3_examples_msgs__rosidl_typesupport_fastrtps_cpp
+[27.773s] [ 58%] [32mBuilding C object CMakeFiles/create3_examples_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/create3_examples_msgs/action/detail/coverage__type_support.c.o[0m
+[28.484s] [ 61%] [32m[1mLinking CXX shared library libcreate3_examples_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[28.506s] [ 64%] [32m[1mLinking C shared library libcreate3_examples_msgs__rosidl_typesupport_introspection_c.so[0m
+[28.937s] [ 64%] Built target create3_examples_msgs__rosidl_typesupport_introspection_c
+[29.166s] [ 64%] Built target create3_examples_msgs__rosidl_typesupport_fastrtps_c
+[29.190s] [ 67%] [32mBuilding CXX object CMakeFiles/create3_examples_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/create3_examples_msgs/action/coverage__type_support.cpp.o[0m
+[29.568s] [ 70%] [32m[1mLinking CXX shared library libcreate3_examples_msgs__rosidl_typesupport_c.so[0m
+[29.977s] [ 70%] Built target create3_examples_msgs__rosidl_typesupport_c
+[30.162s] [ 70%] Built target create3_examples_msgs
+[30.289s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[36.942s] [ 74%] Built target create3_examples_msgs__py
+[37.049s] [ 77%] [32mBuilding C object CMakeFiles/create3_examples_msgs__rosidl_generator_py.dir/rosidl_generator_py/create3_examples_msgs/action/_coverage_s.c.o[0m
+[37.850s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/create3_examples_msgs/libcreate3_examples_msgs__rosidl_generator_py.so[0m
+[38.070s] [ 80%] Built target create3_examples_msgs__rosidl_generator_py
+[38.185s] [ 83%] [32mBuilding C object CMakeFiles/create3_examples_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/create3_examples_msgs/_create3_examples_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[38.190s] [ 87%] [32mBuilding C object CMakeFiles/create3_examples_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/create3_examples_msgs/_create3_examples_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[38.194s] [ 90%] [32mBuilding C object CMakeFiles/create3_examples_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/create3_examples_msgs/_create3_examples_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[38.995s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/create3_examples_msgs/create3_examples_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[39.001s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/create3_examples_msgs/create3_examples_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[39.009s] [100%] [32m[1mLinking C shared library rosidl_generator_py/create3_examples_msgs/create3_examples_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[39.335s] [100%] Built target create3_examples_msgs__rosidl_typesupport_fastrtps_c__pyext
+[39.336s] [100%] Built target create3_examples_msgs__rosidl_typesupport_c__pyext
+[39.346s] [100%] Built target create3_examples_msgs__rosidl_typesupport_introspection_c__pyext
+[39.396s] Invoked command in '/home/robotics_roomba_2/slam2d/build/create3_examples_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics_roomba_2/slam2d/install/tmf882x:/home/robotics_roomba_2/slam2d/install/create3_teleop:/home/robotics_roomba_2/slam2d/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --build /home/robotics_roomba_2/slam2d/build/create3_examples_msgs -- -j4 -l4
+[39.834s] Invoking command in '/home/robotics_roomba_2/slam2d/build/create3_examples_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics_roomba_2/slam2d/install/tmf882x:/home/robotics_roomba_2/slam2d/install/create3_teleop:/home/robotics_roomba_2/slam2d/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --install /home/robotics_roomba_2/slam2d/build/create3_examples_msgs
+[39.862s] -- Install configuration: ""
+[39.863s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/ament_index/resource_index/rosidl_interfaces/create3_examples_msgs
+[39.865s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs
+[39.866s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/msg
+[39.867s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/msg/rosidl_generator_c__visibility_control.h
+[39.872s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action
+[39.873s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail
+[39.874s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/coverage__struct.h
+[39.876s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/coverage__functions.h
+[39.879s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/coverage__functions.c
+[39.881s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/coverage__type_support.h
+[39.883s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/coverage.h
+[39.886s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/environment/library_path.sh
+[39.889s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/environment/library_path.dsv
+[39.894s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_generator_c.so
+[39.897s] -- Set runtime path of "/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_generator_c.so" to ""
+[39.898s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs
+[39.900s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/msg
+[39.901s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[39.902s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action
+[39.903s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail
+[39.905s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/coverage__rosidl_typesupport_fastrtps_c.h
+[39.906s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_typesupport_fastrtps_c.so
+[39.912s] -- Set runtime path of "/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[39.913s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs
+[39.915s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/msg
+[39.916s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[39.917s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action
+[39.919s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail
+[39.919s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/coverage__type_support.c
+[39.920s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/coverage__rosidl_typesupport_introspection_c.h
+[39.922s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_typesupport_introspection_c.so
+[39.930s] -- Set runtime path of "/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_typesupport_introspection_c.so" to ""
+[39.930s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_typesupport_c.so
+[39.932s] -- Set runtime path of "/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_typesupport_c.so" to ""
+[39.933s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs
+[39.934s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action
+[39.934s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail
+[39.935s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/coverage__traits.hpp
+[39.936s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/coverage__builder.hpp
+[39.938s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/coverage__struct.hpp
+[39.940s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/coverage.hpp
+[39.942s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs
+[39.943s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/msg
+[39.944s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[39.946s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action
+[39.947s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail
+[39.948s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/dds_fastrtps
+[39.949s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/coverage__rosidl_typesupport_fastrtps_cpp.hpp
+[39.951s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_typesupport_fastrtps_cpp.so
+[39.956s] -- Set runtime path of "/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[39.957s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs
+[39.957s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action
+[39.958s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail
+[39.958s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/coverage__rosidl_typesupport_introspection_cpp.hpp
+[39.959s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/coverage__type_support.cpp
+[39.962s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_typesupport_introspection_cpp.so
+[39.968s] -- Set runtime path of "/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[39.977s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_typesupport_cpp.so
+[39.978s] -- Set runtime path of "/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_typesupport_cpp.so" to ""
+[39.978s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/environment/pythonpath.sh
+[39.979s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/environment/pythonpath.dsv
+[39.980s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs-0.0.1-py3.10.egg-info
+[39.981s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs-0.0.1-py3.10.egg-info/SOURCES.txt
+[39.981s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs-0.0.1-py3.10.egg-info/PKG-INFO
+[39.982s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs-0.0.1-py3.10.egg-info/dependency_links.txt
+[39.983s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs-0.0.1-py3.10.egg-info/top_level.txt
+[39.984s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs
+[39.984s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/_create3_examples_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[39.986s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/libcreate3_examples_msgs__rosidl_generator_py.so
+[39.988s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/create3_examples_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[39.990s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/__init__.py
+[39.992s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/_create3_examples_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[39.995s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/_create3_examples_msgs_s.ep.rosidl_typesupport_c.c
+[39.998s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/create3_examples_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[40.000s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/action
+[40.002s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/action/_coverage_s.c
+[40.003s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/action/__init__.py
+[40.005s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/action/_coverage.py
+[40.008s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/create3_examples_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[40.240s] Listing '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs'...
+[40.242s] Compiling '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/__init__.py'...
+[40.243s] Listing '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/action'...
+[40.245s] Compiling '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/action/__init__.py'...
+[40.246s] Compiling '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/action/_coverage.py'...
+[40.270s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/create3_examples_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[40.274s] -- Set runtime path of "/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/create3_examples_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[40.276s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/create3_examples_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[40.280s] -- Set runtime path of "/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/create3_examples_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[40.281s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/create3_examples_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[40.285s] -- Set runtime path of "/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/create3_examples_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[40.285s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_generator_py.so
+[40.289s] -- Set runtime path of "/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_generator_py.so" to ""
+[40.290s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/action/Coverage.idl
+[40.291s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/action/Coverage.action
+[40.294s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/ament_index/resource_index/package_run_dependencies/create3_examples_msgs
+[40.296s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/ament_index/resource_index/parent_prefix_path/create3_examples_msgs
+[40.297s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/environment/ament_prefix_path.sh
+[40.299s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/environment/ament_prefix_path.dsv
+[40.300s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/environment/path.sh
+[40.302s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/environment/path.dsv
+[40.303s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/local_setup.bash
+[40.305s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/local_setup.sh
+[40.306s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/local_setup.zsh
+[40.308s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/local_setup.dsv
+[40.309s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/package.dsv
+[40.311s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/ament_index/resource_index/packages/create3_examples_msgs
+[40.313s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/export_create3_examples_msgs__rosidl_generator_cExport.cmake
+[40.315s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/export_create3_examples_msgs__rosidl_generator_cExport-noconfig.cmake
+[40.317s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/export_create3_examples_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[40.319s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/export_create3_examples_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[40.321s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/create3_examples_msgs__rosidl_typesupport_introspection_cExport.cmake
+[40.322s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/create3_examples_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[40.324s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/create3_examples_msgs__rosidl_typesupport_cExport.cmake
+[40.326s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/create3_examples_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[40.328s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/export_create3_examples_msgs__rosidl_generator_cppExport.cmake
+[40.330s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/export_create3_examples_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[40.332s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/export_create3_examples_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[40.335s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/create3_examples_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[40.338s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/create3_examples_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[40.341s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/create3_examples_msgs__rosidl_typesupport_cppExport.cmake
+[40.342s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/create3_examples_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[40.343s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/export_create3_examples_msgs__rosidl_generator_pyExport.cmake
+[40.346s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/export_create3_examples_msgs__rosidl_generator_pyExport-noconfig.cmake
+[40.347s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/rosidl_cmake-extras.cmake
+[40.349s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[40.351s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[40.352s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[40.354s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[40.356s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[40.357s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[40.359s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/create3_examples_msgsConfig.cmake
+[40.360s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/create3_examples_msgsConfig-version.cmake
+[40.363s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/package.xml
+[40.381s] Invoked command in '/home/robotics_roomba_2/slam2d/build/create3_examples_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics_roomba_2/slam2d/install/tmf882x:/home/robotics_roomba_2/slam2d/install/create3_teleop:/home/robotics_roomba_2/slam2d/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --install /home/robotics_roomba_2/slam2d/build/create3_examples_msgs

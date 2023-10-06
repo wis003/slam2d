@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/robotics_roomba_2/slam2d/build/tmf882x_interfaces/rosidl_generator_py/tmf882x_interfaces/tmf882x_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" "TARGETS" "tmf882x_interfaces__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/tmf882x_interfaces")

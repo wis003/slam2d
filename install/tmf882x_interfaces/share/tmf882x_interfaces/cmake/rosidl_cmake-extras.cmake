@@ -1,1 +1,4 @@
-/home/robotics_roomba_2/slam2d/build/tmf882x_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake
+# generated from rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
+
+set(tmf882x_interfaces_IDL_FILES "msg/TMF882XMeasure.idl")
+set(tmf882x_interfaces_INTERFACE_FILES "msg/TMF882XMeasure.msg")

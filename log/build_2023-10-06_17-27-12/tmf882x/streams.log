@@ -1,0 +1,24 @@
+[5.402s] Invoking command in '/home/robotics_roomba_2/slam2d/src/tmf882x': PYTHONPATH=/home/robotics_roomba_2/slam2d/build/tmf882x/prefix_override:/home/robotics_roomba_2/slam2d/install/tmf882x/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tmf882x build --build-base /home/robotics_roomba_2/slam2d/build/tmf882x/build install --record /home/robotics_roomba_2/slam2d/build/tmf882x/install.log --single-version-externally-managed
+[6.996s] running egg_info
+[6.996s] writing ../../build/tmf882x/tmf882x.egg-info/PKG-INFO
+[6.997s] writing dependency_links to ../../build/tmf882x/tmf882x.egg-info/dependency_links.txt
+[6.997s] writing entry points to ../../build/tmf882x/tmf882x.egg-info/entry_points.txt
+[6.997s] writing requirements to ../../build/tmf882x/tmf882x.egg-info/requires.txt
+[6.998s] writing top-level names to ../../build/tmf882x/tmf882x.egg-info/top_level.txt
+[7.009s] reading manifest file '../../build/tmf882x/tmf882x.egg-info/SOURCES.txt'
+[7.011s] adding license file 'LICENSE'
+[7.012s] writing manifest file '../../build/tmf882x/tmf882x.egg-info/SOURCES.txt'
+[7.012s] running build
+[7.014s] running build_py
+[7.015s] running install
+[7.016s] running install_lib
+[7.020s] running install_data
+[7.023s] running install_egg_info
+[7.031s] removing '/home/robotics_roomba_2/slam2d/install/tmf882x/lib/python3.10/site-packages/tmf882x-1.0.0-py3.10.egg-info' (and everything under it)
+[7.033s] Copying ../../build/tmf882x/tmf882x.egg-info to /home/robotics_roomba_2/slam2d/install/tmf882x/lib/python3.10/site-packages/tmf882x-1.0.0-py3.10.egg-info
+[7.040s] running install_scripts
+[7.134s] Installing plane_vis script to /home/robotics_roomba_2/slam2d/install/tmf882x/lib/tmf882x
+[7.135s] Installing tmf882x_pub script to /home/robotics_roomba_2/slam2d/install/tmf882x/lib/tmf882x
+[7.135s] Installing tmf882x_vis script to /home/robotics_roomba_2/slam2d/install/tmf882x/lib/tmf882x
+[7.138s] writing list of installed files to '/home/robotics_roomba_2/slam2d/build/tmf882x/install.log'
+[7.285s] Invoked command in '/home/robotics_roomba_2/slam2d/src/tmf882x' returned '0': PYTHONPATH=/home/robotics_roomba_2/slam2d/build/tmf882x/prefix_override:/home/robotics_roomba_2/slam2d/install/tmf882x/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tmf882x build --build-base /home/robotics_roomba_2/slam2d/build/tmf882x/build install --record /home/robotics_roomba_2/slam2d/build/tmf882x/install.log --single-version-externally-managed

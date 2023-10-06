@@ -1,1 +1,2 @@
-/home/robotics_roomba_2/slam2d/build/create3_lidar/ament_cmake_environment_hooks/local_setup.dsv
+source;share/create3_lidar/environment/ament_prefix_path.sh
+source;share/create3_lidar/environment/path.sh
