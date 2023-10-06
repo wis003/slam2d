@@ -1,0 +1,13 @@
+running develop
+running egg_info
+writing create3_teleop.egg-info/PKG-INFO
+writing dependency_links to create3_teleop.egg-info/dependency_links.txt
+writing requirements to create3_teleop.egg-info/requires.txt
+writing top-level names to create3_teleop.egg-info/top_level.txt
+reading manifest file 'create3_teleop.egg-info/SOURCES.txt'
+writing manifest file 'create3_teleop.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/robotics_roomba_2/slam2d/install/create3_teleop/lib/python3.10/site-packages/create3-teleop.egg-link (link to .)
+
+Installed /home/robotics_roomba_2/slam2d/build/create3_teleop
+running install_data

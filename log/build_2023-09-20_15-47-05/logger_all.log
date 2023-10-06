@@ -1,0 +1,370 @@
+[2.611s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.612s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffad91a7d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffad91a260>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffad91a260>>)
+[2.830s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.831s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.831s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.832s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.832s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.832s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.833s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robotics_roomba_2/slam2d'
+[2.834s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.835s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.836s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.837s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.837s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.838s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.839s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.839s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.840s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.914s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.914s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.915s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.915s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.915s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.916s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.917s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.918s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.919s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.920s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.921s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extensions ['ignore', 'ignore_ament_install']
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extension 'ignore'
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extension 'ignore_ament_install'
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extensions ['colcon_pkg']
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extension 'colcon_pkg'
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extensions ['colcon_meta']
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extension 'colcon_meta'
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extensions ['ros']
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extension 'ros'
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extensions ['cmake', 'python']
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extension 'cmake'
+[2.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extension 'python'
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extensions ['python_setup_py']
+[2.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples) by extension 'python_setup_py'
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_coverage) by extensions ['ignore', 'ignore_ament_install']
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_coverage) by extension 'ignore'
+[2.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_coverage) by extension 'ignore_ament_install'
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_coverage) by extensions ['colcon_pkg']
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_coverage) by extension 'colcon_pkg'
+[2.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_coverage) by extensions ['colcon_meta']
+[2.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_coverage) by extension 'colcon_meta'
+[2.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_coverage) by extensions ['ros']
+[2.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_coverage) by extension 'ros'
+[2.950s] DEBUG:colcon.colcon_core.package_identification:Package 'src/create3_examples/create3_coverage' with type 'ros.ament_cmake' and name 'create3_coverage'
+[2.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_msgs) by extension 'ignore'
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_msgs) by extension 'ignore_ament_install'
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_msgs) by extensions ['colcon_pkg']
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_msgs) by extension 'colcon_pkg'
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_msgs) by extensions ['colcon_meta']
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_msgs) by extension 'colcon_meta'
+[2.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_msgs) by extensions ['ros']
+[2.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_msgs) by extension 'ros'
+[2.959s] DEBUG:colcon.colcon_core.package_identification:Package 'src/create3_examples/create3_examples_msgs' with type 'ros.ament_cmake' and name 'create3_examples_msgs'
+[2.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_py) by extensions ['ignore', 'ignore_ament_install']
+[2.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_py) by extension 'ignore'
+[2.963s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_py) by extension 'ignore_ament_install'
+[2.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_py) by extensions ['colcon_pkg']
+[2.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_py) by extension 'colcon_pkg'
+[2.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_py) by extensions ['colcon_meta']
+[2.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_py) by extension 'colcon_meta'
+[2.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_py) by extensions ['ros']
+[2.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_examples_py) by extension 'ros'
+[2.988s] DEBUG:colcon.colcon_core.package_identification:Package 'src/create3_examples/create3_examples_py' with type 'ros.ament_python' and name 'create3_examples_py'
+[2.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_lidar) by extensions ['ignore', 'ignore_ament_install']
+[2.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_lidar) by extension 'ignore'
+[2.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_lidar) by extension 'ignore_ament_install'
+[2.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_lidar) by extensions ['colcon_pkg']
+[2.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_lidar) by extension 'colcon_pkg'
+[2.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_lidar) by extensions ['colcon_meta']
+[2.994s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_lidar) by extension 'colcon_meta'
+[2.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_lidar) by extensions ['ros']
+[2.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_lidar) by extension 'ros'
+[3.000s] DEBUG:colcon.colcon_core.package_identification:Package 'src/create3_examples/create3_lidar' with type 'ros.ament_cmake' and name 'create3_lidar'
+[3.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_teleop) by extensions ['ignore', 'ignore_ament_install']
+[3.002s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_teleop) by extension 'ignore'
+[3.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_teleop) by extension 'ignore_ament_install'
+[3.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_teleop) by extensions ['colcon_pkg']
+[3.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_teleop) by extension 'colcon_pkg'
+[3.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_teleop) by extensions ['colcon_meta']
+[3.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_teleop) by extension 'colcon_meta'
+[3.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_teleop) by extensions ['ros']
+[3.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/create3_examples/create3_teleop) by extension 'ros'
+[3.009s] DEBUG:colcon.colcon_core.package_identification:Package 'src/create3_examples/create3_teleop' with type 'ros.ament_python' and name 'create3_teleop'
+[3.010s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.011s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.011s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.011s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.011s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.209s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/robotics_roomba_2/create3_examples_ws/install
+[3.225s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 282 installed packages in /opt/ros/humble
+[3.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.701s] Level 5:colcon.colcon_core.verb:set package 'create3_examples_msgs' build argument 'cmake_args' from command line to 'None'
+[3.701s] Level 5:colcon.colcon_core.verb:set package 'create3_examples_msgs' build argument 'cmake_target' from command line to 'None'
+[3.702s] Level 5:colcon.colcon_core.verb:set package 'create3_examples_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.702s] Level 5:colcon.colcon_core.verb:set package 'create3_examples_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[3.702s] Level 5:colcon.colcon_core.verb:set package 'create3_examples_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[3.702s] Level 5:colcon.colcon_core.verb:set package 'create3_examples_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[3.702s] Level 5:colcon.colcon_core.verb:set package 'create3_examples_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[3.702s] Level 5:colcon.colcon_core.verb:set package 'create3_examples_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[3.702s] Level 5:colcon.colcon_core.verb:set package 'create3_examples_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.703s] DEBUG:colcon.colcon_core.verb:Building package 'create3_examples_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotics_roomba_2/slam2d/build/create3_examples_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs', 'merge_install': False, 'path': '/home/robotics_roomba_2/slam2d/src/create3_examples/create3_examples_msgs', 'symlink_install': False, 'test_result_base': None}
+[3.710s] Level 5:colcon.colcon_core.verb:set package 'create3_examples_py' build argument 'cmake_args' from command line to 'None'
+[3.711s] Level 5:colcon.colcon_core.verb:set package 'create3_examples_py' build argument 'cmake_target' from command line to 'None'
+[3.711s] Level 5:colcon.colcon_core.verb:set package 'create3_examples_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.711s] Level 5:colcon.colcon_core.verb:set package 'create3_examples_py' build argument 'cmake_clean_cache' from command line to 'False'
+[3.711s] Level 5:colcon.colcon_core.verb:set package 'create3_examples_py' build argument 'cmake_clean_first' from command line to 'False'
+[3.711s] Level 5:colcon.colcon_core.verb:set package 'create3_examples_py' build argument 'cmake_force_configure' from command line to 'False'
+[3.711s] Level 5:colcon.colcon_core.verb:set package 'create3_examples_py' build argument 'ament_cmake_args' from command line to 'None'
+[3.711s] Level 5:colcon.colcon_core.verb:set package 'create3_examples_py' build argument 'catkin_cmake_args' from command line to 'None'
+[3.712s] Level 5:colcon.colcon_core.verb:set package 'create3_examples_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.712s] DEBUG:colcon.colcon_core.verb:Building package 'create3_examples_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotics_roomba_2/slam2d/build/create3_examples_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotics_roomba_2/slam2d/install/create3_examples_py', 'merge_install': False, 'path': '/home/robotics_roomba_2/slam2d/src/create3_examples/create3_examples_py', 'symlink_install': False, 'test_result_base': None}
+[3.718s] Level 5:colcon.colcon_core.verb:set package 'create3_lidar' build argument 'cmake_args' from command line to 'None'
+[3.718s] Level 5:colcon.colcon_core.verb:set package 'create3_lidar' build argument 'cmake_target' from command line to 'None'
+[3.718s] Level 5:colcon.colcon_core.verb:set package 'create3_lidar' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.718s] Level 5:colcon.colcon_core.verb:set package 'create3_lidar' build argument 'cmake_clean_cache' from command line to 'False'
+[3.719s] Level 5:colcon.colcon_core.verb:set package 'create3_lidar' build argument 'cmake_clean_first' from command line to 'False'
+[3.719s] Level 5:colcon.colcon_core.verb:set package 'create3_lidar' build argument 'cmake_force_configure' from command line to 'False'
+[3.719s] Level 5:colcon.colcon_core.verb:set package 'create3_lidar' build argument 'ament_cmake_args' from command line to 'None'
+[3.719s] Level 5:colcon.colcon_core.verb:set package 'create3_lidar' build argument 'catkin_cmake_args' from command line to 'None'
+[3.719s] Level 5:colcon.colcon_core.verb:set package 'create3_lidar' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.719s] DEBUG:colcon.colcon_core.verb:Building package 'create3_lidar' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotics_roomba_2/slam2d/build/create3_lidar', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotics_roomba_2/slam2d/install/create3_lidar', 'merge_install': False, 'path': '/home/robotics_roomba_2/slam2d/src/create3_examples/create3_lidar', 'symlink_install': False, 'test_result_base': None}
+[3.726s] Level 5:colcon.colcon_core.verb:set package 'create3_teleop' build argument 'cmake_args' from command line to 'None'
+[3.726s] Level 5:colcon.colcon_core.verb:set package 'create3_teleop' build argument 'cmake_target' from command line to 'None'
+[3.726s] Level 5:colcon.colcon_core.verb:set package 'create3_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.726s] Level 5:colcon.colcon_core.verb:set package 'create3_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[3.727s] Level 5:colcon.colcon_core.verb:set package 'create3_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[3.727s] Level 5:colcon.colcon_core.verb:set package 'create3_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[3.727s] Level 5:colcon.colcon_core.verb:set package 'create3_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[3.727s] Level 5:colcon.colcon_core.verb:set package 'create3_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[3.727s] Level 5:colcon.colcon_core.verb:set package 'create3_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.727s] DEBUG:colcon.colcon_core.verb:Building package 'create3_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotics_roomba_2/slam2d/build/create3_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotics_roomba_2/slam2d/install/create3_teleop', 'merge_install': False, 'path': '/home/robotics_roomba_2/slam2d/src/create3_examples/create3_teleop', 'symlink_install': False, 'test_result_base': None}
+[3.733s] Level 5:colcon.colcon_core.verb:set package 'create3_coverage' build argument 'cmake_args' from command line to 'None'
+[3.734s] Level 5:colcon.colcon_core.verb:set package 'create3_coverage' build argument 'cmake_target' from command line to 'None'
+[3.734s] Level 5:colcon.colcon_core.verb:set package 'create3_coverage' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.734s] Level 5:colcon.colcon_core.verb:set package 'create3_coverage' build argument 'cmake_clean_cache' from command line to 'False'
+[3.734s] Level 5:colcon.colcon_core.verb:set package 'create3_coverage' build argument 'cmake_clean_first' from command line to 'False'
+[3.734s] Level 5:colcon.colcon_core.verb:set package 'create3_coverage' build argument 'cmake_force_configure' from command line to 'False'
+[3.735s] Level 5:colcon.colcon_core.verb:set package 'create3_coverage' build argument 'ament_cmake_args' from command line to 'None'
+[3.735s] Level 5:colcon.colcon_core.verb:set package 'create3_coverage' build argument 'catkin_cmake_args' from command line to 'None'
+[3.735s] Level 5:colcon.colcon_core.verb:set package 'create3_coverage' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.735s] DEBUG:colcon.colcon_core.verb:Building package 'create3_coverage' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robotics_roomba_2/slam2d/build/create3_coverage', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robotics_roomba_2/slam2d/install/create3_coverage', 'merge_install': False, 'path': '/home/robotics_roomba_2/slam2d/src/create3_examples/create3_coverage', 'symlink_install': False, 'test_result_base': None}
+[3.740s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.759s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.762s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robotics_roomba_2/slam2d/src/create3_examples/create3_examples_msgs' with build type 'ament_cmake'
+[3.764s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robotics_roomba_2/slam2d/src/create3_examples/create3_examples_msgs'
+[3.800s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.802s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.802s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.848s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robotics_roomba_2/slam2d/src/create3_examples/create3_examples_py' with build type 'ament_python'
+[3.850s] Level 1:colcon.colcon_core.shell:create_environment_hook('create3_examples_py', 'ament_prefix_path')
+[3.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics_roomba_2/slam2d/install/create3_examples_py/share/create3_examples_py/hook/ament_prefix_path.ps1'
+[3.875s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotics_roomba_2/slam2d/install/create3_examples_py/share/create3_examples_py/hook/ament_prefix_path.dsv'
+[3.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics_roomba_2/slam2d/install/create3_examples_py/share/create3_examples_py/hook/ament_prefix_path.sh'
+[3.892s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.893s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.944s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robotics_roomba_2/slam2d/src/create3_examples/create3_lidar' with build type 'ament_cmake'
+[3.947s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robotics_roomba_2/slam2d/src/create3_examples/create3_lidar'
+[3.965s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.967s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.015s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robotics_roomba_2/slam2d/src/create3_examples/create3_teleop' with build type 'ament_python'
+[4.017s] Level 1:colcon.colcon_core.shell:create_environment_hook('create3_teleop', 'ament_prefix_path')
+[4.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics_roomba_2/slam2d/install/create3_teleop/share/create3_teleop/hook/ament_prefix_path.ps1'
+[4.049s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotics_roomba_2/slam2d/install/create3_teleop/share/create3_teleop/hook/ament_prefix_path.dsv'
+[4.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics_roomba_2/slam2d/install/create3_teleop/share/create3_teleop/hook/ament_prefix_path.sh'
+[4.082s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.083s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.174s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotics_roomba_2/slam2d/build/create3_examples_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake /home/robotics_roomba_2/slam2d/src/create3_examples/create3_examples_msgs -DCMAKE_INSTALL_PREFIX=/home/robotics_roomba_2/slam2d/install/create3_examples_msgs
+[7.759s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robotics_roomba_2/slam2d/src/create3_examples/create3_examples_py'
+[7.773s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.774s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.873s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotics_roomba_2/slam2d/build/create3_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake /home/robotics_roomba_2/slam2d/src/create3_examples/create3_lidar -DCMAKE_INSTALL_PREFIX=/home/robotics_roomba_2/slam2d/install/create3_lidar
+[13.112s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robotics_roomba_2/slam2d/src/create3_examples/create3_teleop'
+[13.154s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.155s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[19.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotics_roomba_2/slam2d/build/create3_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake /home/robotics_roomba_2/slam2d/src/create3_examples/create3_lidar -DCMAKE_INSTALL_PREFIX=/home/robotics_roomba_2/slam2d/install/create3_lidar
+[19.595s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotics_roomba_2/slam2d/build/create3_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --build /home/robotics_roomba_2/slam2d/build/create3_lidar -- -j4 -l4
+[20.348s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotics_roomba_2/slam2d/build/create3_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --build /home/robotics_roomba_2/slam2d/build/create3_lidar -- -j4 -l4
+[20.855s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotics_roomba_2/slam2d/src/create3_examples/create3_teleop': PYTHONPATH=/home/robotics_roomba_2/slam2d/build/create3_teleop/prefix_override:/home/robotics_roomba_2/slam2d/install/create3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/create3_teleop build --build-base /home/robotics_roomba_2/slam2d/build/create3_teleop/build install --record /home/robotics_roomba_2/slam2d/build/create3_teleop/install.log --single-version-externally-managed
+[21.256s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotics_roomba_2/slam2d/build/create3_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --install /home/robotics_roomba_2/slam2d/build/create3_lidar
+[21.431s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotics_roomba_2/slam2d/src/create3_examples/create3_examples_py': PYTHONPATH=/home/robotics_roomba_2/slam2d/build/create3_examples_py/prefix_override:/home/robotics_roomba_2/slam2d/install/create3_examples_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/create3_examples_py build --build-base /home/robotics_roomba_2/slam2d/build/create3_examples_py/build install --record /home/robotics_roomba_2/slam2d/build/create3_examples_py/install.log --single-version-externally-managed
+[21.612s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(create3_lidar)
+[21.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotics_roomba_2/slam2d/build/create3_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --install /home/robotics_roomba_2/slam2d/build/create3_lidar
+[21.685s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_lidar' for CMake module files
+[21.699s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_lidar' for CMake config files
+[21.702s] Level 1:colcon.colcon_core.shell:create_environment_hook('create3_lidar', 'cmake_prefix_path')
+[21.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/hook/cmake_prefix_path.ps1'
+[21.727s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/hook/cmake_prefix_path.dsv'
+[21.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/hook/cmake_prefix_path.sh'
+[21.749s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_lidar/bin'
+[21.751s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_lidar/lib/pkgconfig/create3_lidar.pc'
+[21.755s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_lidar/lib/python3.10/site-packages'
+[21.759s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_lidar/bin'
+[21.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/package.ps1'
+[21.797s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/package.dsv'
+[21.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/package.sh'
+[21.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/package.bash'
+[21.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/package.zsh'
+[21.828s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotics_roomba_2/slam2d/install/create3_lidar/share/colcon-core/packages/create3_lidar)
+[22.266s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(create3_lidar)
+[22.294s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_lidar' for CMake module files
+[22.300s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_lidar' for CMake config files
+[22.305s] Level 1:colcon.colcon_core.shell:create_environment_hook('create3_lidar', 'cmake_prefix_path')
+[22.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/hook/cmake_prefix_path.ps1'
+[22.344s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/hook/cmake_prefix_path.dsv'
+[22.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/hook/cmake_prefix_path.sh'
+[22.364s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_lidar/bin'
+[22.365s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_lidar/lib/pkgconfig/create3_lidar.pc'
+[22.368s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_lidar/lib/python3.10/site-packages'
+[22.372s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_lidar/bin'
+[22.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/package.ps1'
+[22.413s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/package.dsv'
+[22.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/package.sh'
+[22.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/package.bash'
+[22.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/package.zsh'
+[22.453s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotics_roomba_2/slam2d/install/create3_lidar/share/colcon-core/packages/create3_lidar)
+[26.860s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotics_roomba_2/slam2d/src/create3_examples/create3_teleop' returned '0': PYTHONPATH=/home/robotics_roomba_2/slam2d/build/create3_teleop/prefix_override:/home/robotics_roomba_2/slam2d/install/create3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/create3_teleop build --build-base /home/robotics_roomba_2/slam2d/build/create3_teleop/build install --record /home/robotics_roomba_2/slam2d/build/create3_teleop/install.log --single-version-externally-managed
+[26.891s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_teleop' for CMake module files
+[26.898s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_teleop' for CMake config files
+[26.910s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_teleop/lib'
+[26.913s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_teleop/bin'
+[26.925s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_teleop/lib/pkgconfig/create3_teleop.pc'
+[26.932s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_teleop/lib/python3.10/site-packages'
+[26.934s] Level 1:colcon.colcon_core.shell:create_environment_hook('create3_teleop', 'pythonpath')
+[26.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics_roomba_2/slam2d/install/create3_teleop/share/create3_teleop/hook/pythonpath.ps1'
+[26.960s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotics_roomba_2/slam2d/install/create3_teleop/share/create3_teleop/hook/pythonpath.dsv'
+[26.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics_roomba_2/slam2d/install/create3_teleop/share/create3_teleop/hook/pythonpath.sh'
+[26.976s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_teleop/bin'
+[26.977s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(create3_teleop)
+[26.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics_roomba_2/slam2d/install/create3_teleop/share/create3_teleop/package.ps1'
+[26.997s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotics_roomba_2/slam2d/install/create3_teleop/share/create3_teleop/package.dsv'
+[27.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics_roomba_2/slam2d/install/create3_teleop/share/create3_teleop/package.sh'
+[27.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics_roomba_2/slam2d/install/create3_teleop/share/create3_teleop/package.bash'
+[27.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics_roomba_2/slam2d/install/create3_teleop/share/create3_teleop/package.zsh'
+[27.052s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotics_roomba_2/slam2d/install/create3_teleop/share/colcon-core/packages/create3_teleop)
+[27.582s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_examples_py' for CMake module files
+[27.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotics_roomba_2/slam2d/src/create3_examples/create3_examples_py' returned '0': PYTHONPATH=/home/robotics_roomba_2/slam2d/build/create3_examples_py/prefix_override:/home/robotics_roomba_2/slam2d/install/create3_examples_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/create3_examples_py build --build-base /home/robotics_roomba_2/slam2d/build/create3_examples_py/build install --record /home/robotics_roomba_2/slam2d/build/create3_examples_py/install.log --single-version-externally-managed
+[27.588s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_examples_py' for CMake config files
+[27.595s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_examples_py/lib'
+[27.596s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_examples_py/bin'
+[27.597s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_examples_py/lib/pkgconfig/create3_examples_py.pc'
+[27.600s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_examples_py/lib/python3.10/site-packages'
+[27.600s] Level 1:colcon.colcon_core.shell:create_environment_hook('create3_examples_py', 'pythonpath')
+[27.613s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics_roomba_2/slam2d/install/create3_examples_py/share/create3_examples_py/hook/pythonpath.ps1'
+[27.618s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotics_roomba_2/slam2d/install/create3_examples_py/share/create3_examples_py/hook/pythonpath.dsv'
+[27.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics_roomba_2/slam2d/install/create3_examples_py/share/create3_examples_py/hook/pythonpath.sh'
+[27.629s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_examples_py/bin'
+[27.630s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(create3_examples_py)
+[27.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics_roomba_2/slam2d/install/create3_examples_py/share/create3_examples_py/package.ps1'
+[27.680s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotics_roomba_2/slam2d/install/create3_examples_py/share/create3_examples_py/package.dsv'
+[27.689s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics_roomba_2/slam2d/install/create3_examples_py/share/create3_examples_py/package.sh'
+[27.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics_roomba_2/slam2d/install/create3_examples_py/share/create3_examples_py/package.bash'
+[27.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics_roomba_2/slam2d/install/create3_examples_py/share/create3_examples_py/package.zsh'
+[27.716s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotics_roomba_2/slam2d/install/create3_examples_py/share/colcon-core/packages/create3_examples_py)
+[30.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotics_roomba_2/slam2d/build/create3_examples_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake /home/robotics_roomba_2/slam2d/src/create3_examples/create3_examples_msgs -DCMAKE_INSTALL_PREFIX=/home/robotics_roomba_2/slam2d/install/create3_examples_msgs
+[30.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotics_roomba_2/slam2d/build/create3_examples_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --build /home/robotics_roomba_2/slam2d/build/create3_examples_msgs -- -j4 -l4
+[71.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotics_roomba_2/slam2d/build/create3_examples_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --build /home/robotics_roomba_2/slam2d/build/create3_examples_msgs -- -j4 -l4
+[72.084s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotics_roomba_2/slam2d/build/create3_examples_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --install /home/robotics_roomba_2/slam2d/build/create3_examples_msgs
+[72.894s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(create3_examples_msgs)
+[72.913s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotics_roomba_2/slam2d/build/create3_examples_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --install /home/robotics_roomba_2/slam2d/build/create3_examples_msgs
+[72.916s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs' for CMake module files
+[72.925s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs' for CMake config files
+[72.930s] Level 1:colcon.colcon_core.shell:create_environment_hook('create3_examples_msgs', 'cmake_prefix_path')
+[72.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/hook/cmake_prefix_path.ps1'
+[72.945s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/hook/cmake_prefix_path.dsv'
+[72.948s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/hook/cmake_prefix_path.sh'
+[72.953s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib'
+[72.957s] Level 1:colcon.colcon_core.shell:create_environment_hook('create3_examples_msgs', 'ld_library_path_lib')
+[72.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/hook/ld_library_path_lib.ps1'
+[72.976s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/hook/ld_library_path_lib.dsv'
+[72.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/hook/ld_library_path_lib.sh'
+[72.984s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/bin'
+[72.985s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib/pkgconfig/create3_examples_msgs.pc'
+[72.988s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib/python3.10/site-packages'
+[72.990s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/bin'
+[72.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/package.ps1'
+[73.002s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/package.dsv'
+[73.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/package.sh'
+[73.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/package.bash'
+[73.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/package.zsh'
+[73.021s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/colcon-core/packages/create3_examples_msgs)
+[73.616s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(create3_examples_msgs)
+[73.627s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs' for CMake module files
+[73.635s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs' for CMake config files
+[73.639s] Level 1:colcon.colcon_core.shell:create_environment_hook('create3_examples_msgs', 'cmake_prefix_path')
+[73.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/hook/cmake_prefix_path.ps1'
+[73.653s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/hook/cmake_prefix_path.dsv'
+[73.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/hook/cmake_prefix_path.sh'
+[73.662s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib'
+[73.663s] Level 1:colcon.colcon_core.shell:create_environment_hook('create3_examples_msgs', 'ld_library_path_lib')
+[73.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/hook/ld_library_path_lib.ps1'
+[73.674s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/hook/ld_library_path_lib.dsv'
+[73.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/hook/ld_library_path_lib.sh'
+[73.685s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/bin'
+[73.686s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib/pkgconfig/create3_examples_msgs.pc'
+[73.689s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib/python3.10/site-packages'
+[73.692s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/bin'
+[73.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/package.ps1'
+[73.710s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/package.dsv'
+[73.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/package.sh'
+[73.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/package.bash'
+[73.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/package.zsh'
+[73.728s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/colcon-core/packages/create3_examples_msgs)
+[73.731s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robotics_roomba_2/slam2d/src/create3_examples/create3_coverage' with build type 'ament_cmake'
+[73.732s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robotics_roomba_2/slam2d/src/create3_examples/create3_coverage'
+[73.740s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[73.741s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[73.854s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotics_roomba_2/slam2d/build/create3_coverage': AMENT_PREFIX_PATH=/home/robotics_roomba_2/slam2d/install/create3_examples_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotics_roomba_2/slam2d/install/create3_examples_msgs:/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface:/home/robotics_roomba_2/create3_examples_ws/install/create3_lidar:/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py:/opt/ros/humble LD_LIBRARY_PATH=/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/robotics_roomba_2/slam2d/src/create3_examples/create3_coverage -DCMAKE_INSTALL_PREFIX=/home/robotics_roomba_2/slam2d/install/create3_coverage
+[92.667s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotics_roomba_2/slam2d/build/create3_coverage' returned '0': AMENT_PREFIX_PATH=/home/robotics_roomba_2/slam2d/install/create3_examples_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotics_roomba_2/slam2d/install/create3_examples_msgs:/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface:/home/robotics_roomba_2/create3_examples_ws/install/create3_lidar:/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py:/opt/ros/humble LD_LIBRARY_PATH=/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/robotics_roomba_2/slam2d/src/create3_examples/create3_coverage -DCMAKE_INSTALL_PREFIX=/home/robotics_roomba_2/slam2d/install/create3_coverage
+[92.692s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robotics_roomba_2/slam2d/build/create3_coverage': AMENT_PREFIX_PATH=/home/robotics_roomba_2/slam2d/install/create3_examples_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotics_roomba_2/slam2d/install/create3_examples_msgs:/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface:/home/robotics_roomba_2/create3_examples_ws/install/create3_lidar:/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py:/opt/ros/humble LD_LIBRARY_PATH=/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/robotics_roomba_2/slam2d/build/create3_coverage -- -j4 -l4
+[95.284s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robotics_roomba_2/slam2d/build/create3_coverage' returned '2': AMENT_PREFIX_PATH=/home/robotics_roomba_2/slam2d/install/create3_examples_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robotics_roomba_2/slam2d/install/create3_examples_msgs:/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface:/home/robotics_roomba_2/create3_examples_ws/install/create3_lidar:/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py:/opt/ros/humble LD_LIBRARY_PATH=/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/robotics_roomba_2/slam2d/build/create3_coverage -- -j4 -l4
+[95.753s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(create3_coverage)
+[95.771s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_coverage' for CMake module files
+[95.775s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_coverage' for CMake config files
+[95.778s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_coverage/bin'
+[95.780s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_coverage/lib/pkgconfig/create3_coverage.pc'
+[95.783s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_coverage/lib/python3.10/site-packages'
+[95.786s] Level 1:colcon.colcon_core.environment:checking '/home/robotics_roomba_2/slam2d/install/create3_coverage/bin'
+[95.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics_roomba_2/slam2d/install/create3_coverage/share/create3_coverage/package.ps1'
+[95.803s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robotics_roomba_2/slam2d/install/create3_coverage/share/create3_coverage/package.dsv'
+[95.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics_roomba_2/slam2d/install/create3_coverage/share/create3_coverage/package.sh'
+[95.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics_roomba_2/slam2d/install/create3_coverage/share/create3_coverage/package.bash'
+[95.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/robotics_roomba_2/slam2d/install/create3_coverage/share/create3_coverage/package.zsh'
+[95.821s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robotics_roomba_2/slam2d/install/create3_coverage/share/colcon-core/packages/create3_coverage)
+[95.835s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[95.838s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[95.839s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[95.840s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[95.897s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[95.898s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[95.898s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[96.084s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[96.098s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotics_roomba_2/slam2d/install/local_setup.ps1'
+[96.105s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robotics_roomba_2/slam2d/install/_local_setup_util_ps1.py'
+[96.118s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotics_roomba_2/slam2d/install/setup.ps1'
+[96.138s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotics_roomba_2/slam2d/install/local_setup.sh'
+[96.143s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robotics_roomba_2/slam2d/install/_local_setup_util_sh.py'
+[96.149s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotics_roomba_2/slam2d/install/setup.sh'
+[96.167s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotics_roomba_2/slam2d/install/local_setup.bash'
+[96.172s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotics_roomba_2/slam2d/install/setup.bash'
+[96.188s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robotics_roomba_2/slam2d/install/local_setup.zsh'
+[96.193s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robotics_roomba_2/slam2d/install/setup.zsh'

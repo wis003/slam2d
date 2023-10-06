@@ -1,0 +1,1 @@
+/home/robotics_roomba_2/slam2d/build/tmf882x_interfaces/ament_cmake_environment_hooks/local_setup.bash

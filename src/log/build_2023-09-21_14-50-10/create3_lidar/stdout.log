@@ -1,0 +1,41 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/robotics_roomba_2/slam2d/src/build/create3_lidar
+-- Install configuration: ""
+-- Installing: /home/robotics_roomba_2/slam2d/src/install/create3_lidar/share/create3_lidar/launch
+-- Installing: /home/robotics_roomba_2/slam2d/src/install/create3_lidar/share/create3_lidar/launch/sensors_launch.py
+-- Installing: /home/robotics_roomba_2/slam2d/src/install/create3_lidar/share/create3_lidar/launch/slam_toolbox_launch.py
+-- Installing: /home/robotics_roomba_2/slam2d/src/install/create3_lidar/share/create3_lidar/config
+-- Installing: /home/robotics_roomba_2/slam2d/src/install/create3_lidar/share/create3_lidar/config/rplidar_node.yaml
+-- Installing: /home/robotics_roomba_2/slam2d/src/install/create3_lidar/share/create3_lidar/config/mapper_params_online_async.yaml
+-- Installing: /home/robotics_roomba_2/slam2d/src/install/create3_lidar/share/create3_lidar/rviz
+-- Installing: /home/robotics_roomba_2/slam2d/src/install/create3_lidar/share/create3_lidar/rviz/create3_lidar.rviz
+-- Installing: /home/robotics_roomba_2/slam2d/src/install/create3_lidar/share/ament_index/resource_index/package_run_dependencies/create3_lidar
+-- Installing: /home/robotics_roomba_2/slam2d/src/install/create3_lidar/share/ament_index/resource_index/parent_prefix_path/create3_lidar
+-- Installing: /home/robotics_roomba_2/slam2d/src/install/create3_lidar/share/create3_lidar/environment/ament_prefix_path.sh
+-- Installing: /home/robotics_roomba_2/slam2d/src/install/create3_lidar/share/create3_lidar/environment/ament_prefix_path.dsv
+-- Installing: /home/robotics_roomba_2/slam2d/src/install/create3_lidar/share/create3_lidar/environment/path.sh
+-- Installing: /home/robotics_roomba_2/slam2d/src/install/create3_lidar/share/create3_lidar/environment/path.dsv
+-- Installing: /home/robotics_roomba_2/slam2d/src/install/create3_lidar/share/create3_lidar/local_setup.bash
+-- Installing: /home/robotics_roomba_2/slam2d/src/install/create3_lidar/share/create3_lidar/local_setup.sh
+-- Installing: /home/robotics_roomba_2/slam2d/src/install/create3_lidar/share/create3_lidar/local_setup.zsh
+-- Installing: /home/robotics_roomba_2/slam2d/src/install/create3_lidar/share/create3_lidar/local_setup.dsv
+-- Installing: /home/robotics_roomba_2/slam2d/src/install/create3_lidar/share/create3_lidar/package.dsv
+-- Installing: /home/robotics_roomba_2/slam2d/src/install/create3_lidar/share/ament_index/resource_index/packages/create3_lidar
+-- Installing: /home/robotics_roomba_2/slam2d/src/install/create3_lidar/share/create3_lidar/cmake/create3_lidarConfig.cmake
+-- Installing: /home/robotics_roomba_2/slam2d/src/install/create3_lidar/share/create3_lidar/cmake/create3_lidarConfig-version.cmake
+-- Installing: /home/robotics_roomba_2/slam2d/src/install/create3_lidar/share/create3_lidar/package.xml

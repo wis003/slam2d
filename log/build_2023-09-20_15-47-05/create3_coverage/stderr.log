@@ -1,0 +1,31 @@
+In file included from [01m[K/home/robotics_roomba_2/slam2d/src/create3_examples/create3_coverage/include/create3_coverage/behaviors/dock-behavior.hpp:5[m[K,
+                 from [01m[K/home/robotics_roomba_2/slam2d/src/create3_examples/create3_coverage/src/behaviors/dock-behavior.cpp:3[m[K:
+[01m[K/home/robotics_roomba_2/slam2d/src/create3_examples/create3_coverage/include/create3_coverage/behaviors/behavior.hpp:9:10:[m[K [01;31m[Kfatal error: [m[Kirobot_create_msgs/msg/dock.hpp: No such file or directory
+    9 | #include [01;31m[K"irobot_create_msgs/msg/dock.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/create3_coverage_core.dir/build.make:76: CMakeFiles/create3_coverage_core.dir/src/behaviors/dock-behavior.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/robotics_roomba_2/slam2d/src/create3_examples/create3_coverage/include/create3_coverage/behaviors/drive-straight-behavior.hpp:5[m[K,
+                 from [01m[K/home/robotics_roomba_2/slam2d/src/create3_examples/create3_coverage/src/behaviors/drive-straight-behavior.cpp:3[m[K:
+[01m[K/home/robotics_roomba_2/slam2d/src/create3_examples/create3_coverage/include/create3_coverage/behaviors/behavior.hpp:9:10:[m[K [01;31m[Kfatal error: [m[Kirobot_create_msgs/msg/dock.hpp: No such file or directory
+    9 | #include [01;31m[K"irobot_create_msgs/msg/dock.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/create3_coverage_core.dir/build.make:90: CMakeFiles/create3_coverage_core.dir/src/behaviors/drive-straight-behavior.cpp.o] Error 1
+In file included from [01m[K/home/robotics_roomba_2/slam2d/src/create3_examples/create3_coverage/include/create3_coverage/behaviors/reflex-behavior.hpp:5[m[K,
+                 from [01m[K/home/robotics_roomba_2/slam2d/src/create3_examples/create3_coverage/src/behaviors/reflex-behavior.cpp:3[m[K:
+[01m[K/home/robotics_roomba_2/slam2d/src/create3_examples/create3_coverage/include/create3_coverage/behaviors/behavior.hpp:9:10:[m[K [01;31m[Kfatal error: [m[Kirobot_create_msgs/msg/dock.hpp: No such file or directory
+    9 | #include [01;31m[K"irobot_create_msgs/msg/dock.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/create3_coverage_core.dir/build.make:104: CMakeFiles/create3_coverage_core.dir/src/behaviors/reflex-behavior.cpp.o] Error 1
+In file included from [01m[K/home/robotics_roomba_2/slam2d/src/create3_examples/create3_coverage/include/create3_coverage/behaviors/rotate-behavior.hpp:5[m[K,
+                 from [01m[K/home/robotics_roomba_2/slam2d/src/create3_examples/create3_coverage/src/behaviors/rotate-behavior.cpp:5[m[K:
+[01m[K/home/robotics_roomba_2/slam2d/src/create3_examples/create3_coverage/include/create3_coverage/behaviors/behavior.hpp:9:10:[m[K [01;31m[Kfatal error: [m[Kirobot_create_msgs/msg/dock.hpp: No such file or directory
+    9 | #include [01;31m[K"irobot_create_msgs/msg/dock.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/create3_coverage_core.dir/build.make:118: CMakeFiles/create3_coverage_core.dir/src/behaviors/rotate-behavior.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/create3_coverage_core.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

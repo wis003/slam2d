@@ -1,0 +1,33 @@
+[1.661s] Invoking command in '/home/robotics_roomba_2/slam2d/build/create3_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics_roomba_2/slam2d/install/tmf882x:/home/robotics_roomba_2/slam2d/install/create3_teleop:/home/robotics_roomba_2/slam2d/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake /home/robotics_roomba_2/slam2d/src/create3_examples/create3_lidar -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robotics_roomba_2/slam2d/install/create3_lidar
+[3.398s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.403s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.404s] -- Configuring done
+[3.409s] -- Generating done
+[3.410s] -- Build files have been written to: /home/robotics_roomba_2/slam2d/build/create3_lidar
+[4.871s] Invoked command in '/home/robotics_roomba_2/slam2d/build/create3_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics_roomba_2/slam2d/install/tmf882x:/home/robotics_roomba_2/slam2d/install/create3_teleop:/home/robotics_roomba_2/slam2d/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake /home/robotics_roomba_2/slam2d/src/create3_examples/create3_lidar -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robotics_roomba_2/slam2d/install/create3_lidar
+[4.884s] Invoking command in '/home/robotics_roomba_2/slam2d/build/create3_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics_roomba_2/slam2d/install/tmf882x:/home/robotics_roomba_2/slam2d/install/create3_teleop:/home/robotics_roomba_2/slam2d/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --build /home/robotics_roomba_2/slam2d/build/create3_lidar -- -j4 -l4
+[5.118s] Invoked command in '/home/robotics_roomba_2/slam2d/build/create3_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics_roomba_2/slam2d/install/tmf882x:/home/robotics_roomba_2/slam2d/install/create3_teleop:/home/robotics_roomba_2/slam2d/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --build /home/robotics_roomba_2/slam2d/build/create3_lidar -- -j4 -l4
+[5.456s] Invoking command in '/home/robotics_roomba_2/slam2d/build/create3_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics_roomba_2/slam2d/install/tmf882x:/home/robotics_roomba_2/slam2d/install/create3_teleop:/home/robotics_roomba_2/slam2d/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --install /home/robotics_roomba_2/slam2d/build/create3_lidar
+[5.509s] -- Install configuration: ""
+[5.514s] -- Execute custom install script
+[5.519s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/launch/sensors_launch.py
+[5.520s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/launch/slam_toolbox_launch.py
+[5.526s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/config/mapper_params_online_async.yaml
+[5.527s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/config/rplidar_node.yaml
+[5.529s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/rviz/create3_lidar.rviz
+[5.535s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/ament_index/resource_index/package_run_dependencies/create3_lidar
+[5.538s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/ament_index/resource_index/parent_prefix_path/create3_lidar
+[5.540s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/environment/ament_prefix_path.sh
+[5.541s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/environment/ament_prefix_path.dsv
+[5.548s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/environment/path.sh
+[5.551s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/environment/path.dsv
+[5.555s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/local_setup.bash
+[5.558s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/local_setup.sh
+[5.562s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/local_setup.zsh
+[5.566s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/local_setup.dsv
+[5.569s] -- Symlinking: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/package.dsv
+[5.622s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/ament_index/resource_index/packages/create3_lidar
+[5.625s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/cmake/create3_lidarConfig.cmake
+[5.628s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/cmake/create3_lidarConfig-version.cmake
+[5.631s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/package.xml
+[5.643s] Invoked command in '/home/robotics_roomba_2/slam2d/build/create3_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics_roomba_2/slam2d/install/tmf882x:/home/robotics_roomba_2/slam2d/install/create3_teleop:/home/robotics_roomba_2/slam2d/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --install /home/robotics_roomba_2/slam2d/build/create3_lidar

@@ -1,0 +1,1345 @@
+[0.000000] (-) TimerEvent: {}
+[0.004728] (create3_examples_msgs) JobQueued: {'identifier': 'create3_examples_msgs', 'dependencies': OrderedDict()}
+[0.006061] (create3_examples_py) JobQueued: {'identifier': 'create3_examples_py', 'dependencies': OrderedDict()}
+[0.008611] (create3_lidar) JobQueued: {'identifier': 'create3_lidar', 'dependencies': OrderedDict()}
+[0.009406] (create3_teleop) JobQueued: {'identifier': 'create3_teleop', 'dependencies': OrderedDict()}
+[0.010055] (create3_coverage) JobQueued: {'identifier': 'create3_coverage', 'dependencies': OrderedDict([('create3_examples_msgs', '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs')])}
+[0.010430] (create3_examples_msgs) JobStarted: {'identifier': 'create3_examples_msgs'}
+[0.090189] (create3_examples_py) JobStarted: {'identifier': 'create3_examples_py'}
+[0.097870] (-) TimerEvent: {}
+[0.186957] (create3_lidar) JobStarted: {'identifier': 'create3_lidar'}
+[0.203835] (-) TimerEvent: {}
+[0.265483] (create3_teleop) JobStarted: {'identifier': 'create3_teleop'}
+[0.304406] (-) TimerEvent: {}
+[0.402908] (create3_examples_msgs) JobProgress: {'identifier': 'create3_examples_msgs', 'progress': 'cmake'}
+[0.404632] (-) TimerEvent: {}
+[0.406321] (create3_examples_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/robotics_roomba_2/slam2d/src/create3_examples/create3_examples_msgs', '-DCMAKE_INSTALL_PREFIX=/home/robotics_roomba_2/slam2d/install/create3_examples_msgs'], 'cwd': '/home/robotics_roomba_2/slam2d/build/create3_examples_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robotics_roomba_2'), ('SSH_CLIENT', '10.140.162.236 60365 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/robotics_roomba_2'), ('OLDPWD', '/home/robotics_roomba_2/slam2d/src'), ('TERM_PROGRAM_VERSION', '1.82.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-ddabf533-0d49-4159-9ed9-a6a9b8358db6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/robotics_roomba_2/create3_examples_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robotics_roomba_2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '544'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/remote-cli:/home/robotics_roomba_2/.local/bin:/opt/ros/humble/bin:/home/robotics_roomba_2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ca9634ed00.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors:/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop:/home/robotics_roomba_2/create3_examples_ws/install/create3_lidar:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/robotics_roomba_2/slam2d/build/create3_examples_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.140.162.236 60365 10.140.25.40 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors/lib/python3.10/site-packages:/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface/local/lib/python3.10/dist-packages:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba/lib/python3.10/site-packages:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop/lib/python3.10/site-packages:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface:/home/robotics_roomba_2/create3_examples_ws/install/create3_lidar:/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py:/opt/ros/humble')]), 'shell': False}
+[0.505281] (-) TimerEvent: {}
+[0.609940] (-) TimerEvent: {}
+[0.719397] (-) TimerEvent: {}
+[0.823214] (-) TimerEvent: {}
+[0.927789] (-) TimerEvent: {}
+[1.034744] (-) TimerEvent: {}
+[1.137040] (-) TimerEvent: {}
+[1.238744] (-) TimerEvent: {}
+[1.340693] (-) TimerEvent: {}
+[1.442978] (-) TimerEvent: {}
+[1.550601] (-) TimerEvent: {}
+[1.658653] (-) TimerEvent: {}
+[1.761005] (-) TimerEvent: {}
+[1.862863] (-) TimerEvent: {}
+[1.964764] (-) TimerEvent: {}
+[2.066982] (-) TimerEvent: {}
+[2.168580] (-) TimerEvent: {}
+[2.270389] (-) TimerEvent: {}
+[2.374601] (-) TimerEvent: {}
+[2.481794] (-) TimerEvent: {}
+[2.584189] (-) TimerEvent: {}
+[2.685908] (-) TimerEvent: {}
+[2.787423] (-) TimerEvent: {}
+[2.889912] (-) TimerEvent: {}
+[2.992247] (-) TimerEvent: {}
+[3.098029] (-) TimerEvent: {}
+[3.200178] (-) TimerEvent: {}
+[3.301987] (-) TimerEvent: {}
+[3.405737] (-) TimerEvent: {}
+[3.507810] (-) TimerEvent: {}
+[3.611377] (-) TimerEvent: {}
+[3.714894] (-) TimerEvent: {}
+[3.823710] (-) TimerEvent: {}
+[3.931213] (-) TimerEvent: {}
+[4.039804] (-) TimerEvent: {}
+[4.068769] (create3_lidar) JobProgress: {'identifier': 'create3_lidar', 'progress': 'cmake'}
+[4.073630] (create3_lidar) Command: {'cmd': ['/usr/bin/cmake', '/home/robotics_roomba_2/slam2d/src/create3_examples/create3_lidar', '-DCMAKE_INSTALL_PREFIX=/home/robotics_roomba_2/slam2d/install/create3_lidar'], 'cwd': '/home/robotics_roomba_2/slam2d/build/create3_lidar', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robotics_roomba_2'), ('SSH_CLIENT', '10.140.162.236 60365 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/robotics_roomba_2'), ('OLDPWD', '/home/robotics_roomba_2/slam2d/src'), ('TERM_PROGRAM_VERSION', '1.82.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-ddabf533-0d49-4159-9ed9-a6a9b8358db6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/robotics_roomba_2/create3_examples_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robotics_roomba_2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '544'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/remote-cli:/home/robotics_roomba_2/.local/bin:/opt/ros/humble/bin:/home/robotics_roomba_2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ca9634ed00.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors:/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop:/home/robotics_roomba_2/create3_examples_ws/install/create3_lidar:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/robotics_roomba_2/slam2d/build/create3_lidar'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.140.162.236 60365 10.140.25.40 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors/lib/python3.10/site-packages:/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface/local/lib/python3.10/dist-packages:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba/lib/python3.10/site-packages:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop/lib/python3.10/site-packages:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface:/home/robotics_roomba_2/create3_examples_ws/install/create3_lidar:/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py:/opt/ros/humble')]), 'shell': False}
+[4.118502] (create3_examples_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[4.127453] (create3_examples_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[4.132433] (create3_examples_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.138724] (create3_examples_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.145817] (-) TimerEvent: {}
+[4.158351] (create3_examples_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.160515] (create3_examples_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.162010] (create3_examples_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.163224] (create3_examples_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.164608] (create3_examples_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.165747] (create3_examples_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.166700] (create3_examples_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.168365] (create3_examples_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.169591] (create3_examples_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.247905] (-) TimerEvent: {}
+[4.354364] (-) TimerEvent: {}
+[4.474258] (-) TimerEvent: {}
+[4.592523] (-) TimerEvent: {}
+[4.715603] (-) TimerEvent: {}
+[4.817887] (-) TimerEvent: {}
+[4.871879] (create3_lidar) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[4.918411] (-) TimerEvent: {}
+[5.020923] (-) TimerEvent: {}
+[5.130466] (-) TimerEvent: {}
+[5.244321] (-) TimerEvent: {}
+[5.353204] (-) TimerEvent: {}
+[5.460834] (-) TimerEvent: {}
+[5.563821] (-) TimerEvent: {}
+[5.669958] (-) TimerEvent: {}
+[5.776690] (-) TimerEvent: {}
+[5.802712] (create3_lidar) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[5.874683] (create3_lidar) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.876687] (-) TimerEvent: {}
+[5.997359] (-) TimerEvent: {}
+[6.102723] (-) TimerEvent: {}
+[6.211328] (-) TimerEvent: {}
+[6.324884] (-) TimerEvent: {}
+[6.435758] (-) TimerEvent: {}
+[6.548380] (-) TimerEvent: {}
+[6.650942] (-) TimerEvent: {}
+[6.764310] (-) TimerEvent: {}
+[6.864620] (create3_examples_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[6.869002] (-) TimerEvent: {}
+[6.968019] (create3_lidar) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.969909] (-) TimerEvent: {}
+[7.025701] (create3_lidar) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[7.028507] (create3_lidar) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[7.031465] (create3_lidar) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[7.070235] (-) TimerEvent: {}
+[7.085608] (create3_lidar) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[7.170617] (-) TimerEvent: {}
+[7.275529] (-) TimerEvent: {}
+[7.378918] (-) TimerEvent: {}
+[7.484200] (-) TimerEvent: {}
+[7.588234] (-) TimerEvent: {}
+[7.693377] (-) TimerEvent: {}
+[7.800422] (-) TimerEvent: {}
+[7.905134] (-) TimerEvent: {}
+[8.008756] (-) TimerEvent: {}
+[8.127303] (-) TimerEvent: {}
+[8.199949] (create3_lidar) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[8.228485] (-) TimerEvent: {}
+[8.282492] (create3_lidar) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[8.284642] (create3_lidar) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[8.288771] (create3_lidar) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.328957] (-) TimerEvent: {}
+[8.351251] (create3_lidar) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[8.429346] (-) TimerEvent: {}
+[8.533458] (-) TimerEvent: {}
+[8.539246] (create3_examples_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[8.604147] (create3_examples_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.633778] (-) TimerEvent: {}
+[8.737924] (-) TimerEvent: {}
+[8.780639] (create3_examples_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[8.838559] (-) TimerEvent: {}
+[8.946073] (-) TimerEvent: {}
+[9.052716] (-) TimerEvent: {}
+[9.159798] (-) TimerEvent: {}
+[9.264551] (-) TimerEvent: {}
+[9.375312] (-) TimerEvent: {}
+[9.492502] (-) TimerEvent: {}
+[9.598373] (-) TimerEvent: {}
+[9.714179] (-) TimerEvent: {}
+[9.754889] (create3_examples_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.814712] (-) TimerEvent: {}
+[9.950365] (-) TimerEvent: {}
+[10.061440] (-) TimerEvent: {}
+[10.167513] (-) TimerEvent: {}
+[10.275654] (-) TimerEvent: {}
+[10.391411] (-) TimerEvent: {}
+[10.493376] (-) TimerEvent: {}
+[10.598056] (-) TimerEvent: {}
+[10.700640] (-) TimerEvent: {}
+[10.711524] (create3_examples_msgs) StdoutLine: {'line': b'-- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)\n'}
+[10.801043] (-) TimerEvent: {}
+[10.908553] (-) TimerEvent: {}
+[11.013853] (-) TimerEvent: {}
+[11.121684] (-) TimerEvent: {}
+[11.226174] (-) TimerEvent: {}
+[11.333081] (-) TimerEvent: {}
+[11.437308] (-) TimerEvent: {}
+[11.542032] (-) TimerEvent: {}
+[11.647951] (-) TimerEvent: {}
+[11.755719] (-) TimerEvent: {}
+[11.839784] (create3_lidar) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[11.858795] (-) TimerEvent: {}
+[11.975503] (-) TimerEvent: {}
+[12.088479] (-) TimerEvent: {}
+[12.192689] (-) TimerEvent: {}
+[12.300738] (-) TimerEvent: {}
+[12.406429] (-) TimerEvent: {}
+[12.509019] (-) TimerEvent: {}
+[12.610911] (-) TimerEvent: {}
+[12.716061] (-) TimerEvent: {}
+[12.819387] (-) TimerEvent: {}
+[12.921857] (-) TimerEvent: {}
+[13.023916] (-) TimerEvent: {}
+[13.126395] (-) TimerEvent: {}
+[13.235265] (-) TimerEvent: {}
+[13.339530] (-) TimerEvent: {}
+[13.443161] (-) TimerEvent: {}
+[13.548915] (-) TimerEvent: {}
+[13.653454] (-) TimerEvent: {}
+[13.758040] (-) TimerEvent: {}
+[13.862726] (-) TimerEvent: {}
+[13.967720] (-) TimerEvent: {}
+[14.074158] (-) TimerEvent: {}
+[14.188164] (-) TimerEvent: {}
+[14.291201] (-) TimerEvent: {}
+[14.397986] (-) TimerEvent: {}
+[14.506155] (-) TimerEvent: {}
+[14.608444] (-) TimerEvent: {}
+[14.711635] (-) TimerEvent: {}
+[14.818707] (-) TimerEvent: {}
+[14.924128] (-) TimerEvent: {}
+[15.029404] (-) TimerEvent: {}
+[15.151894] (-) TimerEvent: {}
+[15.255890] (-) TimerEvent: {}
+[15.359639] (-) TimerEvent: {}
+[15.464451] (-) TimerEvent: {}
+[15.475224] (create3_lidar) StdoutLine: {'line': b'-- Configuring done\n'}
+[15.571599] (-) TimerEvent: {}
+[15.608763] (create3_lidar) StdoutLine: {'line': b'-- Generating done\n'}
+[15.674665] (-) TimerEvent: {}
+[15.682054] (create3_lidar) StdoutLine: {'line': b'-- Build files have been written to: /home/robotics_roomba_2/slam2d/build/create3_lidar\n'}
+[15.740346] (create3_lidar) CommandEnded: {'returncode': 0}
+[15.759274] (create3_lidar) JobProgress: {'identifier': 'create3_lidar', 'progress': 'build'}
+[15.784435] (-) TimerEvent: {}
+[15.819100] (create3_lidar) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robotics_roomba_2/slam2d/build/create3_lidar', '--', '-j4', '-l4'], 'cwd': '/home/robotics_roomba_2/slam2d/build/create3_lidar', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robotics_roomba_2'), ('SSH_CLIENT', '10.140.162.236 60365 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/robotics_roomba_2'), ('OLDPWD', '/home/robotics_roomba_2/slam2d/src'), ('TERM_PROGRAM_VERSION', '1.82.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-ddabf533-0d49-4159-9ed9-a6a9b8358db6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/robotics_roomba_2/create3_examples_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robotics_roomba_2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '544'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/remote-cli:/home/robotics_roomba_2/.local/bin:/opt/ros/humble/bin:/home/robotics_roomba_2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ca9634ed00.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors:/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop:/home/robotics_roomba_2/create3_examples_ws/install/create3_lidar:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/robotics_roomba_2/slam2d/build/create3_lidar'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.140.162.236 60365 10.140.25.40 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors/lib/python3.10/site-packages:/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface/local/lib/python3.10/dist-packages:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba/lib/python3.10/site-packages:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop/lib/python3.10/site-packages:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface:/home/robotics_roomba_2/create3_examples_ws/install/create3_lidar:/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py:/opt/ros/humble')]), 'shell': False}
+[15.885153] (-) TimerEvent: {}
+[16.000754] (-) TimerEvent: {}
+[16.105426] (-) TimerEvent: {}
+[16.210858] (-) TimerEvent: {}
+[16.317232] (-) TimerEvent: {}
+[16.421487] (-) TimerEvent: {}
+[16.528645] (-) TimerEvent: {}
+[16.584686] (create3_lidar) CommandEnded: {'returncode': 0}
+[16.629291] (-) TimerEvent: {}
+[16.736830] (-) TimerEvent: {}
+[16.846739] (-) TimerEvent: {}
+[16.961403] (-) TimerEvent: {}
+[17.045502] (create3_teleop) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/create3_teleop', 'build', '--build-base', '/home/robotics_roomba_2/slam2d/build/create3_teleop/build', 'install', '--record', '/home/robotics_roomba_2/slam2d/build/create3_teleop/install.log', '--single-version-externally-managed'], 'cwd': '/home/robotics_roomba_2/slam2d/src/create3_examples/create3_teleop', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robotics_roomba_2', 'SSH_CLIENT': '10.140.162.236 60365 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/robotics_roomba_2', 'OLDPWD': '/home/robotics_roomba_2/slam2d/src', 'TERM_PROGRAM_VERSION': '1.82.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-ddabf533-0d49-4159-9ed9-a6a9b8358db6.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/robotics_roomba_2/create3_examples_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'robotics_roomba_2', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '544', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/remote-cli:/home/robotics_roomba_2/.local/bin:/opt/ros/humble/bin:/home/robotics_roomba_2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-ca9634ed00.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors:/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop:/home/robotics_roomba_2/create3_examples_ws/install/create3_lidar:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/robotics_roomba_2/slam2d/build/create3_teleop', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.140.162.236 60365 10.140.25.40 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robotics_roomba_2/slam2d/build/create3_teleop/prefix_override:/home/robotics_roomba_2/slam2d/install/create3_teleop/lib/python3.10/site-packages:/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors/lib/python3.10/site-packages:/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface/local/lib/python3.10/dist-packages:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba/lib/python3.10/site-packages:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop/lib/python3.10/site-packages:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface:/home/robotics_roomba_2/create3_examples_ws/install/create3_lidar'}, 'shell': False}
+[17.099711] (-) TimerEvent: {}
+[17.215827] (-) TimerEvent: {}
+[17.236063] (create3_lidar) JobProgress: {'identifier': 'create3_lidar', 'progress': 'install'}
+[17.316299] (-) TimerEvent: {}
+[17.421047] (-) TimerEvent: {}
+[17.494165] (create3_lidar) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robotics_roomba_2/slam2d/build/create3_lidar'], 'cwd': '/home/robotics_roomba_2/slam2d/build/create3_lidar', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robotics_roomba_2'), ('SSH_CLIENT', '10.140.162.236 60365 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/robotics_roomba_2'), ('OLDPWD', '/home/robotics_roomba_2/slam2d/src'), ('TERM_PROGRAM_VERSION', '1.82.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-ddabf533-0d49-4159-9ed9-a6a9b8358db6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/robotics_roomba_2/create3_examples_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robotics_roomba_2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '544'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/remote-cli:/home/robotics_roomba_2/.local/bin:/opt/ros/humble/bin:/home/robotics_roomba_2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ca9634ed00.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors:/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop:/home/robotics_roomba_2/create3_examples_ws/install/create3_lidar:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/robotics_roomba_2/slam2d/build/create3_lidar'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.140.162.236 60365 10.140.25.40 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors/lib/python3.10/site-packages:/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface/local/lib/python3.10/dist-packages:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba/lib/python3.10/site-packages:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop/lib/python3.10/site-packages:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface:/home/robotics_roomba_2/create3_examples_ws/install/create3_lidar:/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py:/opt/ros/humble')]), 'shell': False}
+[17.521550] (-) TimerEvent: {}
+[17.627425] (-) TimerEvent: {}
+[17.658612] (create3_examples_py) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/create3_examples_py', 'build', '--build-base', '/home/robotics_roomba_2/slam2d/build/create3_examples_py/build', 'install', '--record', '/home/robotics_roomba_2/slam2d/build/create3_examples_py/install.log', '--single-version-externally-managed'], 'cwd': '/home/robotics_roomba_2/slam2d/src/create3_examples/create3_examples_py', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robotics_roomba_2', 'SSH_CLIENT': '10.140.162.236 60365 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/robotics_roomba_2', 'OLDPWD': '/home/robotics_roomba_2/slam2d/src', 'TERM_PROGRAM_VERSION': '1.82.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-ddabf533-0d49-4159-9ed9-a6a9b8358db6.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/robotics_roomba_2/create3_examples_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'robotics_roomba_2', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '544', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/remote-cli:/home/robotics_roomba_2/.local/bin:/opt/ros/humble/bin:/home/robotics_roomba_2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-ca9634ed00.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors:/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop:/home/robotics_roomba_2/create3_examples_ws/install/create3_lidar:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/robotics_roomba_2/slam2d/build/create3_examples_py', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.140.162.236 60365 10.140.25.40 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robotics_roomba_2/slam2d/build/create3_examples_py/prefix_override:/home/robotics_roomba_2/slam2d/install/create3_examples_py/lib/python3.10/site-packages:/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors/lib/python3.10/site-packages:/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface/local/lib/python3.10/dist-packages:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba/lib/python3.10/site-packages:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop/lib/python3.10/site-packages:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface:/home/robotics_roomba_2/create3_examples_ws/install/create3_lidar'}, 'shell': False}
+[17.695960] (create3_lidar) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.699962] (create3_lidar) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/launch\n'}
+[17.702446] (create3_lidar) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/launch/sensors_launch.py\n'}
+[17.706408] (create3_lidar) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/launch/slam_toolbox_launch.py\n'}
+[17.719130] (create3_lidar) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/config\n'}
+[17.721621] (create3_lidar) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/config/rplidar_node.yaml\n'}
+[17.724659] (create3_lidar) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/config/mapper_params_online_async.yaml\n'}
+[17.736895] (-) TimerEvent: {}
+[17.767618] (create3_lidar) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/rviz\n'}
+[17.769544] (create3_lidar) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/rviz/create3_lidar.rviz\n'}
+[17.770695] (create3_lidar) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/ament_index/resource_index/package_run_dependencies/create3_lidar\n'}
+[17.774701] (create3_lidar) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/ament_index/resource_index/parent_prefix_path/create3_lidar\n'}
+[17.779811] (create3_lidar) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/environment/ament_prefix_path.sh\n'}
+[17.781191] (create3_lidar) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/environment/ament_prefix_path.dsv\n'}
+[17.784040] (create3_lidar) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/environment/path.sh\n'}
+[17.793190] (create3_lidar) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/environment/path.dsv\n'}
+[17.795456] (create3_lidar) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/local_setup.bash\n'}
+[17.796649] (create3_examples_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.5 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[17.798333] (create3_lidar) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/local_setup.sh\n'}
+[17.811573] (create3_lidar) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/local_setup.zsh\n'}
+[17.813721] (create3_lidar) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/local_setup.dsv\n'}
+[17.815509] (create3_lidar) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/package.dsv\n'}
+[17.820697] (create3_examples_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.5 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[17.825226] (create3_lidar) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/ament_index/resource_index/packages/create3_lidar\n'}
+[17.829617] (create3_lidar) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/cmake/create3_lidarConfig.cmake\n'}
+[17.834013] (create3_lidar) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/cmake/create3_lidarConfig-version.cmake\n'}
+[17.865576] (-) TimerEvent: {}
+[17.867926] (create3_lidar) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/package.xml\n'}
+[17.870303] (create3_lidar) CommandEnded: {'returncode': 0}
+[17.874134] (create3_examples_msgs) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.12.5 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)\n'}
+[17.936479] (create3_examples_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[17.965983] (-) TimerEvent: {}
+[18.068160] (-) TimerEvent: {}
+[18.172527] (-) TimerEvent: {}
+[18.287710] (-) TimerEvent: {}
+[18.393131] (-) TimerEvent: {}
+[18.503464] (-) TimerEvent: {}
+[18.614974] (-) TimerEvent: {}
+[18.699700] (create3_lidar) JobEnded: {'identifier': 'create3_lidar', 'rc': 0}
+[18.715411] (-) TimerEvent: {}
+[18.820000] (-) TimerEvent: {}
+[18.927886] (-) TimerEvent: {}
+[19.032696] (-) TimerEvent: {}
+[19.141708] (-) TimerEvent: {}
+[19.247333] (-) TimerEvent: {}
+[19.351339] (-) TimerEvent: {}
+[19.456265] (-) TimerEvent: {}
+[19.561081] (-) TimerEvent: {}
+[19.666324] (-) TimerEvent: {}
+[19.773184] (-) TimerEvent: {}
+[19.878181] (-) TimerEvent: {}
+[19.983813] (-) TimerEvent: {}
+[20.093174] (-) TimerEvent: {}
+[20.197968] (-) TimerEvent: {}
+[20.312397] (-) TimerEvent: {}
+[20.417729] (-) TimerEvent: {}
+[20.519978] (-) TimerEvent: {}
+[20.624782] (-) TimerEvent: {}
+[20.733657] (-) TimerEvent: {}
+[20.838414] (-) TimerEvent: {}
+[20.944503] (-) TimerEvent: {}
+[21.048890] (-) TimerEvent: {}
+[21.059932] (create3_examples_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[21.149318] (-) TimerEvent: {}
+[21.254173] (-) TimerEvent: {}
+[21.370749] (-) TimerEvent: {}
+[21.473421] (-) TimerEvent: {}
+[21.575529] (-) TimerEvent: {}
+[21.677578] (-) TimerEvent: {}
+[21.782683] (-) TimerEvent: {}
+[21.887743] (-) TimerEvent: {}
+[21.994889] (-) TimerEvent: {}
+[22.100794] (-) TimerEvent: {}
+[22.106559] (create3_teleop) StdoutLine: {'line': b'running egg_info\n'}
+[22.116129] (create3_teleop) StdoutLine: {'line': b'creating ../../../build/create3_teleop/create3_teleop.egg-info\n'}
+[22.117504] (create3_teleop) StdoutLine: {'line': b'writing ../../../build/create3_teleop/create3_teleop.egg-info/PKG-INFO\n'}
+[22.119435] (create3_teleop) StdoutLine: {'line': b'writing dependency_links to ../../../build/create3_teleop/create3_teleop.egg-info/dependency_links.txt\n'}
+[22.122034] (create3_teleop) StdoutLine: {'line': b'writing requirements to ../../../build/create3_teleop/create3_teleop.egg-info/requires.txt\n'}
+[22.123140] (create3_teleop) StdoutLine: {'line': b'writing top-level names to ../../../build/create3_teleop/create3_teleop.egg-info/top_level.txt\n'}
+[22.124874] (create3_teleop) StdoutLine: {'line': b"writing manifest file '../../../build/create3_teleop/create3_teleop.egg-info/SOURCES.txt'\n"}
+[22.132976] (create3_teleop) StdoutLine: {'line': b"reading manifest file '../../../build/create3_teleop/create3_teleop.egg-info/SOURCES.txt'\n"}
+[22.147371] (create3_teleop) StdoutLine: {'line': b"writing manifest file '../../../build/create3_teleop/create3_teleop.egg-info/SOURCES.txt'\n"}
+[22.152130] (create3_teleop) StdoutLine: {'line': b'running build\n'}
+[22.153406] (create3_teleop) StdoutLine: {'line': b'running install\n'}
+[22.155796] (create3_teleop) StdoutLine: {'line': b'running install_data\n'}
+[22.160634] (create3_teleop) StdoutLine: {'line': b'creating /home/robotics_roomba_2/slam2d/install/create3_teleop/share/ament_index\n'}
+[22.162551] (create3_teleop) StdoutLine: {'line': b'creating /home/robotics_roomba_2/slam2d/install/create3_teleop/share/ament_index/resource_index\n'}
+[22.164236] (create3_teleop) StdoutLine: {'line': b'creating /home/robotics_roomba_2/slam2d/install/create3_teleop/share/ament_index/resource_index/packages\n'}
+[22.165783] (create3_teleop) StdoutLine: {'line': b'copying resource/create3_teleop -> /home/robotics_roomba_2/slam2d/install/create3_teleop/share/ament_index/resource_index/packages\n'}
+[22.167680] (create3_teleop) StdoutLine: {'line': b'copying package.xml -> /home/robotics_roomba_2/slam2d/install/create3_teleop/share/create3_teleop\n'}
+[22.171848] (create3_teleop) StdoutLine: {'line': b'creating /home/robotics_roomba_2/slam2d/install/create3_teleop/share/create3_teleop/launch\n'}
+[22.175518] (create3_teleop) StdoutLine: {'line': b'copying launch/teleop_joystick_launch.py -> /home/robotics_roomba_2/slam2d/install/create3_teleop/share/create3_teleop/launch\n'}
+[22.179425] (create3_teleop) StdoutLine: {'line': b'running install_egg_info\n'}
+[22.215661] (-) TimerEvent: {}
+[22.247474] (create3_teleop) StdoutLine: {'line': b'Copying ../../../build/create3_teleop/create3_teleop.egg-info to /home/robotics_roomba_2/slam2d/install/create3_teleop/lib/python3.10/site-packages/create3_teleop-0.0.1-py3.10.egg-info\n'}
+[22.266728] (create3_teleop) StdoutLine: {'line': b'running install_scripts\n'}
+[22.323647] (-) TimerEvent: {}
+[22.426006] (-) TimerEvent: {}
+[22.502741] (create3_teleop) StdoutLine: {'line': b"writing list of installed files to '/home/robotics_roomba_2/slam2d/build/create3_teleop/install.log'\n"}
+[22.526683] (-) TimerEvent: {}
+[22.589521] (create3_examples_py) StdoutLine: {'line': b'running egg_info\n'}
+[22.601391] (create3_examples_py) StdoutLine: {'line': b'creating ../../../build/create3_examples_py/create3_examples_py.egg-info\n'}
+[22.611809] (create3_examples_py) StdoutLine: {'line': b'writing ../../../build/create3_examples_py/create3_examples_py.egg-info/PKG-INFO\n'}
+[22.628345] (create3_examples_py) StdoutLine: {'line': b'writing dependency_links to ../../../build/create3_examples_py/create3_examples_py.egg-info/dependency_links.txt\n'}
+[22.639677] (-) TimerEvent: {}
+[22.664993] (create3_examples_py) StdoutLine: {'line': b'writing entry points to ../../../build/create3_examples_py/create3_examples_py.egg-info/entry_points.txt\n'}
+[22.678201] (create3_examples_py) StdoutLine: {'line': b'writing requirements to ../../../build/create3_examples_py/create3_examples_py.egg-info/requires.txt\n'}
+[22.681764] (create3_examples_py) StdoutLine: {'line': b'writing top-level names to ../../../build/create3_examples_py/create3_examples_py.egg-info/top_level.txt\n'}
+[22.684283] (create3_examples_py) StdoutLine: {'line': b"writing manifest file '../../../build/create3_examples_py/create3_examples_py.egg-info/SOURCES.txt'\n"}
+[22.723188] (create3_examples_py) StdoutLine: {'line': b"reading manifest file '../../../build/create3_examples_py/create3_examples_py.egg-info/SOURCES.txt'\n"}
+[22.740268] (-) TimerEvent: {}
+[22.756716] (create3_examples_py) StdoutLine: {'line': b"writing manifest file '../../../build/create3_examples_py/create3_examples_py.egg-info/SOURCES.txt'\n"}
+[22.759623] (create3_examples_py) StdoutLine: {'line': b'running build\n'}
+[22.763354] (create3_examples_py) StdoutLine: {'line': b'running build_py\n'}
+[22.766099] (create3_examples_py) StdoutLine: {'line': b'creating /home/robotics_roomba_2/slam2d/build/create3_examples_py/build\n'}
+[22.788401] (create3_examples_py) StdoutLine: {'line': b'creating /home/robotics_roomba_2/slam2d/build/create3_examples_py/build/lib\n'}
+[22.800444] (create3_examples_py) StdoutLine: {'line': b'creating /home/robotics_roomba_2/slam2d/build/create3_examples_py/build/lib/create3_examples_py\n'}
+[22.813502] (create3_examples_py) StdoutLine: {'line': b'copying create3_examples_py/__init__.py -> /home/robotics_roomba_2/slam2d/build/create3_examples_py/build/lib/create3_examples_py\n'}
+[22.822309] (create3_examples_py) StdoutLine: {'line': b'creating /home/robotics_roomba_2/slam2d/build/create3_examples_py/build/lib/create3_examples_py/dance\n'}
+[22.829846] (create3_examples_py) StdoutLine: {'line': b'copying create3_examples_py/dance/__init__.py -> /home/robotics_roomba_2/slam2d/build/create3_examples_py/build/lib/create3_examples_py/dance\n'}
+[22.839256] (create3_examples_py) StdoutLine: {'line': b'copying create3_examples_py/dance/create3_dance.py -> /home/robotics_roomba_2/slam2d/build/create3_examples_py/build/lib/create3_examples_py/dance\n'}
+[22.845056] (-) TimerEvent: {}
+[22.848689] (create3_examples_py) StdoutLine: {'line': b'copying create3_examples_py/dance/dance_choreograph.py -> /home/robotics_roomba_2/slam2d/build/create3_examples_py/build/lib/create3_examples_py/dance\n'}
+[22.874674] (create3_examples_py) StdoutLine: {'line': b'running install\n'}
+[22.881689] (create3_examples_py) StdoutLine: {'line': b'running install_lib\n'}
+[22.892816] (create3_examples_py) StdoutLine: {'line': b'creating /home/robotics_roomba_2/slam2d/install/create3_examples_py/lib/python3.10/site-packages/create3_examples_py\n'}
+[22.915969] (create3_examples_py) StdoutLine: {'line': b'creating /home/robotics_roomba_2/slam2d/install/create3_examples_py/lib/python3.10/site-packages/create3_examples_py/dance\n'}
+[22.920764] (create3_examples_py) StdoutLine: {'line': b'copying /home/robotics_roomba_2/slam2d/build/create3_examples_py/build/lib/create3_examples_py/dance/__init__.py -> /home/robotics_roomba_2/slam2d/install/create3_examples_py/lib/python3.10/site-packages/create3_examples_py/dance\n'}
+[22.923921] (create3_examples_py) StdoutLine: {'line': b'copying /home/robotics_roomba_2/slam2d/build/create3_examples_py/build/lib/create3_examples_py/dance/create3_dance.py -> /home/robotics_roomba_2/slam2d/install/create3_examples_py/lib/python3.10/site-packages/create3_examples_py/dance\n'}
+[22.926253] (create3_examples_py) StdoutLine: {'line': b'copying /home/robotics_roomba_2/slam2d/build/create3_examples_py/build/lib/create3_examples_py/dance/dance_choreograph.py -> /home/robotics_roomba_2/slam2d/install/create3_examples_py/lib/python3.10/site-packages/create3_examples_py/dance\n'}
+[22.933657] (create3_examples_py) StdoutLine: {'line': b'copying /home/robotics_roomba_2/slam2d/build/create3_examples_py/build/lib/create3_examples_py/__init__.py -> /home/robotics_roomba_2/slam2d/install/create3_examples_py/lib/python3.10/site-packages/create3_examples_py\n'}
+[22.936865] (create3_examples_py) StdoutLine: {'line': b'byte-compiling /home/robotics_roomba_2/slam2d/install/create3_examples_py/lib/python3.10/site-packages/create3_examples_py/dance/__init__.py to __init__.cpython-310.pyc\n'}
+[22.943398] (create3_examples_py) StdoutLine: {'line': b'byte-compiling /home/robotics_roomba_2/slam2d/install/create3_examples_py/lib/python3.10/site-packages/create3_examples_py/dance/create3_dance.py to create3_dance.cpython-310.pyc\n'}
+[22.954266] (-) TimerEvent: {}
+[22.963759] (create3_examples_py) StdoutLine: {'line': b'byte-compiling /home/robotics_roomba_2/slam2d/install/create3_examples_py/lib/python3.10/site-packages/create3_examples_py/dance/dance_choreograph.py to dance_choreograph.cpython-310.pyc\n'}
+[22.972166] (create3_examples_py) StdoutLine: {'line': b'byte-compiling /home/robotics_roomba_2/slam2d/install/create3_examples_py/lib/python3.10/site-packages/create3_examples_py/__init__.py to __init__.cpython-310.pyc\n'}
+[22.980329] (create3_examples_py) StdoutLine: {'line': b'running install_data\n'}
+[22.993357] (create3_examples_py) StdoutLine: {'line': b'creating /home/robotics_roomba_2/slam2d/install/create3_examples_py/share/ament_index\n'}
+[22.995668] (create3_examples_py) StdoutLine: {'line': b'creating /home/robotics_roomba_2/slam2d/install/create3_examples_py/share/ament_index/resource_index\n'}
+[22.997928] (create3_examples_py) StdoutLine: {'line': b'creating /home/robotics_roomba_2/slam2d/install/create3_examples_py/share/ament_index/resource_index/packages\n'}
+[23.000191] (create3_examples_py) StdoutLine: {'line': b'copying resource/create3_examples_py -> /home/robotics_roomba_2/slam2d/install/create3_examples_py/share/ament_index/resource_index/packages\n'}
+[23.002926] (create3_examples_py) StdoutLine: {'line': b'copying package.xml -> /home/robotics_roomba_2/slam2d/install/create3_examples_py/share/create3_examples_py\n'}
+[23.004927] (create3_examples_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[23.024704] (create3_examples_py) StdoutLine: {'line': b'Copying ../../../build/create3_examples_py/create3_examples_py.egg-info to /home/robotics_roomba_2/slam2d/install/create3_examples_py/lib/python3.10/site-packages/create3_examples_py-0.0.1-py3.10.egg-info\n'}
+[23.054707] (-) TimerEvent: {}
+[23.064616] (create3_examples_py) StdoutLine: {'line': b'running install_scripts\n'}
+[23.098571] (create3_teleop) CommandEnded: {'returncode': 0}
+[23.156320] (-) TimerEvent: {}
+[23.264452] (-) TimerEvent: {}
+[23.305917] (create3_teleop) JobEnded: {'identifier': 'create3_teleop', 'rc': 0}
+[23.361270] (create3_examples_py) StdoutLine: {'line': b'Installing create3_dance script to /home/robotics_roomba_2/slam2d/install/create3_examples_py/lib/create3_examples_py\n'}
+[23.364644] (-) TimerEvent: {}
+[23.367880] (create3_examples_py) StdoutLine: {'line': b"writing list of installed files to '/home/robotics_roomba_2/slam2d/build/create3_examples_py/install.log'\n"}
+[23.465384] (-) TimerEvent: {}
+[23.568570] (-) TimerEvent: {}
+[23.674525] (-) TimerEvent: {}
+[23.776709] (-) TimerEvent: {}
+[23.809349] (create3_examples_py) CommandEnded: {'returncode': 0}
+[23.882743] (-) TimerEvent: {}
+[23.963156] (create3_examples_py) JobEnded: {'identifier': 'create3_examples_py', 'rc': 0}
+[23.983258] (-) TimerEvent: {}
+[24.085227] (-) TimerEvent: {}
+[24.187639] (-) TimerEvent: {}
+[24.292668] (-) TimerEvent: {}
+[24.394317] (-) TimerEvent: {}
+[24.498925] (-) TimerEvent: {}
+[24.602853] (-) TimerEvent: {}
+[24.705233] (-) TimerEvent: {}
+[24.807178] (-) TimerEvent: {}
+[24.839352] (create3_examples_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[24.907565] (-) TimerEvent: {}
+[25.011292] (-) TimerEvent: {}
+[25.081204] (create3_examples_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[25.111678] (-) TimerEvent: {}
+[25.119186] (create3_examples_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[25.212050] (-) TimerEvent: {}
+[25.313991] (-) TimerEvent: {}
+[25.415927] (-) TimerEvent: {}
+[25.421210] (create3_examples_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[25.423379] (create3_examples_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[25.425220] (create3_examples_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[25.426461] (create3_examples_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[25.516187] (-) TimerEvent: {}
+[25.617834] (-) TimerEvent: {}
+[25.630053] (create3_examples_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[25.718192] (-) TimerEvent: {}
+[25.820159] (-) TimerEvent: {}
+[25.921448] (-) TimerEvent: {}
+[26.016442] (create3_examples_msgs) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.5 (/opt/ros/humble/share/ament_cmake_flake8/cmake)\n'}
+[26.021786] (-) TimerEvent: {}
+[26.055796] (create3_examples_msgs) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.12.5 (/opt/ros/humble/share/ament_cmake_pep257/cmake)\n'}
+[26.122126] (-) TimerEvent: {}
+[26.165309] (create3_examples_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[26.222542] (-) TimerEvent: {}
+[26.324834] (-) TimerEvent: {}
+[26.426995] (-) TimerEvent: {}
+[26.529246] (-) TimerEvent: {}
+[26.558822] (create3_examples_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[26.585746] (create3_examples_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/robotics_roomba_2/slam2d/build/create3_examples_msgs\n'}
+[26.629918] (-) TimerEvent: {}
+[26.700864] (create3_examples_msgs) CommandEnded: {'returncode': 0}
+[26.706243] (create3_examples_msgs) JobProgress: {'identifier': 'create3_examples_msgs', 'progress': 'build'}
+[26.708717] (create3_examples_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robotics_roomba_2/slam2d/build/create3_examples_msgs', '--', '-j4', '-l4'], 'cwd': '/home/robotics_roomba_2/slam2d/build/create3_examples_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robotics_roomba_2'), ('SSH_CLIENT', '10.140.162.236 60365 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/robotics_roomba_2'), ('OLDPWD', '/home/robotics_roomba_2/slam2d/src'), ('TERM_PROGRAM_VERSION', '1.82.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-ddabf533-0d49-4159-9ed9-a6a9b8358db6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/robotics_roomba_2/create3_examples_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robotics_roomba_2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '544'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/remote-cli:/home/robotics_roomba_2/.local/bin:/opt/ros/humble/bin:/home/robotics_roomba_2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ca9634ed00.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors:/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop:/home/robotics_roomba_2/create3_examples_ws/install/create3_lidar:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/robotics_roomba_2/slam2d/build/create3_examples_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.140.162.236 60365 10.140.25.40 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors/lib/python3.10/site-packages:/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface/local/lib/python3.10/dist-packages:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba/lib/python3.10/site-packages:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop/lib/python3.10/site-packages:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface:/home/robotics_roomba_2/create3_examples_ws/install/create3_lidar:/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py:/opt/ros/humble')]), 'shell': False}
+[26.730348] (-) TimerEvent: {}
+[26.832193] (-) TimerEvent: {}
+[26.933893] (-) TimerEvent: {}
+[27.032270] (create3_examples_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[27.034956] (-) TimerEvent: {}
+[27.134332] (create3_examples_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[27.136303] (-) TimerEvent: {}
+[27.241479] (-) TimerEvent: {}
+[27.262556] (create3_examples_msgs) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_create3_examples_msgs\n'}
+[27.343469] (-) TimerEvent: {}
+[27.454071] (-) TimerEvent: {}
+[27.561725] (-) TimerEvent: {}
+[27.666329] (-) TimerEvent: {}
+[27.772380] (-) TimerEvent: {}
+[27.877731] (-) TimerEvent: {}
+[27.983942] (-) TimerEvent: {}
+[28.088582] (-) TimerEvent: {}
+[28.192759] (-) TimerEvent: {}
+[28.297581] (-) TimerEvent: {}
+[28.402812] (-) TimerEvent: {}
+[28.512181] (-) TimerEvent: {}
+[28.625231] (-) TimerEvent: {}
+[28.730222] (-) TimerEvent: {}
+[28.834291] (-) TimerEvent: {}
+[28.938558] (-) TimerEvent: {}
+[29.042566] (-) TimerEvent: {}
+[29.147880] (-) TimerEvent: {}
+[29.251815] (-) TimerEvent: {}
+[29.356599] (-) TimerEvent: {}
+[29.460762] (-) TimerEvent: {}
+[29.565588] (-) TimerEvent: {}
+[29.671612] (-) TimerEvent: {}
+[29.775290] (-) TimerEvent: {}
+[29.879347] (-) TimerEvent: {}
+[29.985565] (-) TimerEvent: {}
+[30.089546] (-) TimerEvent: {}
+[30.194586] (-) TimerEvent: {}
+[30.304096] (-) TimerEvent: {}
+[30.410851] (-) TimerEvent: {}
+[30.517315] (-) TimerEvent: {}
+[30.619221] (-) TimerEvent: {}
+[30.722884] (-) TimerEvent: {}
+[30.828922] (-) TimerEvent: {}
+[30.934552] (-) TimerEvent: {}
+[31.038988] (-) TimerEvent: {}
+[31.143557] (-) TimerEvent: {}
+[31.248428] (-) TimerEvent: {}
+[31.282894] (create3_examples_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[31.302043] (create3_examples_msgs) StdoutLine: {'line': b'creating create3_examples_msgs.egg-info\n'}
+[31.303584] (create3_examples_msgs) StdoutLine: {'line': b'writing create3_examples_msgs.egg-info/PKG-INFO\n'}
+[31.307396] (create3_examples_msgs) StdoutLine: {'line': b'writing dependency_links to create3_examples_msgs.egg-info/dependency_links.txt\n'}
+[31.309737] (create3_examples_msgs) StdoutLine: {'line': b'writing top-level names to create3_examples_msgs.egg-info/top_level.txt\n'}
+[31.313592] (create3_examples_msgs) StdoutLine: {'line': b"writing manifest file 'create3_examples_msgs.egg-info/SOURCES.txt'\n"}
+[31.341107] (create3_examples_msgs) StdoutLine: {'line': b"reading manifest file 'create3_examples_msgs.egg-info/SOURCES.txt'\n"}
+[31.348828] (-) TimerEvent: {}
+[31.354044] (create3_examples_msgs) StdoutLine: {'line': b"writing manifest file 'create3_examples_msgs.egg-info/SOURCES.txt'\n"}
+[31.449625] (-) TimerEvent: {}
+[31.559499] (-) TimerEvent: {}
+[31.672425] (-) TimerEvent: {}
+[31.775296] (-) TimerEvent: {}
+[31.881323] (-) TimerEvent: {}
+[31.958288] (create3_examples_msgs) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_create3_examples_msgs_egg\n'}
+[31.982033] (-) TimerEvent: {}
+[32.089003] (-) TimerEvent: {}
+[32.193797] (-) TimerEvent: {}
+[32.299743] (-) TimerEvent: {}
+[32.411548] (-) TimerEvent: {}
+[32.425623] (create3_examples_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/create3_examples_msgs__rosidl_generator_c.dir/rosidl_generator_c/create3_examples_msgs/action/detail/coverage__functions.c.o\x1b[0m\n'}
+[32.511989] (-) TimerEvent: {}
+[32.587894] (create3_examples_msgs) StdoutLine: {'line': b'[  9%] Built target create3_examples_msgs__cpp\n'}
+[32.612557] (-) TimerEvent: {}
+[32.693854] (create3_examples_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[32.702368] (create3_examples_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[32.713185] (-) TimerEvent: {}
+[32.765462] (create3_examples_msgs) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[32.813952] (-) TimerEvent: {}
+[32.919162] (-) TimerEvent: {}
+[33.023940] (-) TimerEvent: {}
+[33.139396] (-) TimerEvent: {}
+[33.245253] (-) TimerEvent: {}
+[33.351205] (-) TimerEvent: {}
+[33.456498] (-) TimerEvent: {}
+[33.578237] (-) TimerEvent: {}
+[33.695538] (-) TimerEvent: {}
+[33.797703] (-) TimerEvent: {}
+[33.901202] (-) TimerEvent: {}
+[34.003600] (-) TimerEvent: {}
+[34.106784] (-) TimerEvent: {}
+[34.211647] (-) TimerEvent: {}
+[34.320194] (-) TimerEvent: {}
+[34.424058] (-) TimerEvent: {}
+[34.531743] (-) TimerEvent: {}
+[34.635596] (-) TimerEvent: {}
+[34.739862] (-) TimerEvent: {}
+[34.748271] (create3_examples_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libcreate3_examples_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[34.840436] (-) TimerEvent: {}
+[34.947094] (-) TimerEvent: {}
+[35.049331] (-) TimerEvent: {}
+[35.151879] (-) TimerEvent: {}
+[35.254820] (-) TimerEvent: {}
+[35.357764] (-) TimerEvent: {}
+[35.459829] (-) TimerEvent: {}
+[35.562405] (-) TimerEvent: {}
+[35.618024] (create3_examples_msgs) StdoutLine: {'line': b'[ 22%] Built target create3_examples_msgs__rosidl_generator_c\n'}
+[35.664773] (-) TimerEvent: {}
+[35.772136] (-) TimerEvent: {}
+[35.794785] (create3_examples_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[35.872610] (-) TimerEvent: {}
+[35.979593] (-) TimerEvent: {}
+[36.084192] (-) TimerEvent: {}
+[36.188063] (-) TimerEvent: {}
+[36.290401] (-) TimerEvent: {}
+[36.392383] (-) TimerEvent: {}
+[36.501712] (-) TimerEvent: {}
+[36.605822] (-) TimerEvent: {}
+[36.710987] (-) TimerEvent: {}
+[36.827081] (-) TimerEvent: {}
+[36.935540] (-) TimerEvent: {}
+[37.051221] (-) TimerEvent: {}
+[37.155787] (-) TimerEvent: {}
+[37.260147] (-) TimerEvent: {}
+[37.363852] (-) TimerEvent: {}
+[37.468133] (-) TimerEvent: {}
+[37.573769] (-) TimerEvent: {}
+[37.692729] (-) TimerEvent: {}
+[37.796301] (-) TimerEvent: {}
+[37.801890] (create3_examples_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/create3_examples_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/create3_examples_msgs/action/coverage__type_support.cpp.o\x1b[0m\n'}
+[37.896881] (-) TimerEvent: {}
+[38.001582] (-) TimerEvent: {}
+[38.103815] (-) TimerEvent: {}
+[38.213233] (-) TimerEvent: {}
+[38.316497] (-) TimerEvent: {}
+[38.418831] (-) TimerEvent: {}
+[38.459245] (create3_examples_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/create3_examples_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/create3_examples_msgs/action/detail/coverage__type_support.cpp.o\x1b[0m\n'}
+[38.519461] (-) TimerEvent: {}
+[38.626534] (-) TimerEvent: {}
+[38.728972] (-) TimerEvent: {}
+[38.833032] (-) TimerEvent: {}
+[38.937319] (-) TimerEvent: {}
+[39.041145] (-) TimerEvent: {}
+[39.144264] (-) TimerEvent: {}
+[39.246580] (-) TimerEvent: {}
+[39.349652] (-) TimerEvent: {}
+[39.392056] (create3_examples_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/create3_examples_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/create3_examples_msgs/action/detail/dds_fastrtps/coverage__type_support.cpp.o\x1b[0m\n'}
+[39.450202] (-) TimerEvent: {}
+[39.554711] (-) TimerEvent: {}
+[39.657212] (-) TimerEvent: {}
+[39.759346] (-) TimerEvent: {}
+[39.864497] (-) TimerEvent: {}
+[39.969283] (-) TimerEvent: {}
+[40.074616] (-) TimerEvent: {}
+[40.186986] (-) TimerEvent: {}
+[40.292090] (-) TimerEvent: {}
+[40.407723] (-) TimerEvent: {}
+[40.510077] (-) TimerEvent: {}
+[40.616179] (-) TimerEvent: {}
+[40.721654] (-) TimerEvent: {}
+[40.826174] (-) TimerEvent: {}
+[40.932236] (-) TimerEvent: {}
+[41.037983] (-) TimerEvent: {}
+[41.143530] (-) TimerEvent: {}
+[41.248384] (-) TimerEvent: {}
+[41.353863] (-) TimerEvent: {}
+[41.472061] (-) TimerEvent: {}
+[41.575265] (-) TimerEvent: {}
+[41.678283] (-) TimerEvent: {}
+[41.783945] (-) TimerEvent: {}
+[41.886837] (-) TimerEvent: {}
+[41.992987] (-) TimerEvent: {}
+[42.098470] (-) TimerEvent: {}
+[42.208373] (-) TimerEvent: {}
+[42.311340] (-) TimerEvent: {}
+[42.416071] (-) TimerEvent: {}
+[42.518930] (-) TimerEvent: {}
+[42.623084] (-) TimerEvent: {}
+[42.725939] (-) TimerEvent: {}
+[42.789910] (create3_examples_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/create3_examples_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/create3_examples_msgs/action/detail/coverage__type_support_c.cpp.o\x1b[0m\n'}
+[42.826718] (-) TimerEvent: {}
+[42.934747] (-) TimerEvent: {}
+[43.040204] (-) TimerEvent: {}
+[43.156214] (-) TimerEvent: {}
+[43.261952] (-) TimerEvent: {}
+[43.368037] (-) TimerEvent: {}
+[43.477183] (-) TimerEvent: {}
+[43.579992] (-) TimerEvent: {}
+[43.683853] (-) TimerEvent: {}
+[43.786212] (-) TimerEvent: {}
+[43.889718] (-) TimerEvent: {}
+[44.006797] (-) TimerEvent: {}
+[44.113203] (-) TimerEvent: {}
+[44.216919] (-) TimerEvent: {}
+[44.322668] (-) TimerEvent: {}
+[44.440367] (-) TimerEvent: {}
+[44.545390] (-) TimerEvent: {}
+[44.656420] (-) TimerEvent: {}
+[44.771980] (-) TimerEvent: {}
+[44.874184] (-) TimerEvent: {}
+[44.977770] (-) TimerEvent: {}
+[45.084582] (-) TimerEvent: {}
+[45.194683] (-) TimerEvent: {}
+[45.303875] (-) TimerEvent: {}
+[45.423527] (-) TimerEvent: {}
+[45.531293] (-) TimerEvent: {}
+[45.649931] (-) TimerEvent: {}
+[45.759826] (-) TimerEvent: {}
+[45.864555] (-) TimerEvent: {}
+[45.978405] (-) TimerEvent: {}
+[46.094366] (-) TimerEvent: {}
+[46.209125] (-) TimerEvent: {}
+[46.314644] (-) TimerEvent: {}
+[46.417355] (-) TimerEvent: {}
+[46.537231] (-) TimerEvent: {}
+[46.641655] (-) TimerEvent: {}
+[46.749372] (-) TimerEvent: {}
+[46.859267] (-) TimerEvent: {}
+[46.962028] (-) TimerEvent: {}
+[47.064656] (-) TimerEvent: {}
+[47.174768] (-) TimerEvent: {}
+[47.289548] (-) TimerEvent: {}
+[47.394126] (-) TimerEvent: {}
+[47.503310] (-) TimerEvent: {}
+[47.614004] (-) TimerEvent: {}
+[47.724962] (-) TimerEvent: {}
+[47.827759] (-) TimerEvent: {}
+[47.933641] (-) TimerEvent: {}
+[48.041707] (-) TimerEvent: {}
+[48.148280] (-) TimerEvent: {}
+[48.253272] (-) TimerEvent: {}
+[48.361581] (-) TimerEvent: {}
+[48.469077] (-) TimerEvent: {}
+[48.574885] (-) TimerEvent: {}
+[48.683603] (-) TimerEvent: {}
+[48.799338] (-) TimerEvent: {}
+[48.877860] (create3_examples_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libcreate3_examples_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[48.899832] (-) TimerEvent: {}
+[49.004409] (-) TimerEvent: {}
+[49.111270] (-) TimerEvent: {}
+[49.217784] (-) TimerEvent: {}
+[49.322856] (-) TimerEvent: {}
+[49.428744] (-) TimerEvent: {}
+[49.534536] (-) TimerEvent: {}
+[49.640064] (-) TimerEvent: {}
+[49.745808] (-) TimerEvent: {}
+[49.841356] (create3_examples_msgs) StdoutLine: {'line': b'[ 41%] Built target create3_examples_msgs__rosidl_typesupport_cpp\n'}
+[49.846286] (-) TimerEvent: {}
+[49.952366] (-) TimerEvent: {}
+[49.986472] (create3_examples_msgs) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[50.052784] (-) TimerEvent: {}
+[50.163740] (-) TimerEvent: {}
+[50.267547] (-) TimerEvent: {}
+[50.373594] (-) TimerEvent: {}
+[50.483982] (-) TimerEvent: {}
+[50.588422] (-) TimerEvent: {}
+[50.694387] (-) TimerEvent: {}
+[50.803274] (-) TimerEvent: {}
+[50.909292] (-) TimerEvent: {}
+[51.015682] (-) TimerEvent: {}
+[51.121495] (-) TimerEvent: {}
+[51.227379] (-) TimerEvent: {}
+[51.334085] (-) TimerEvent: {}
+[51.439204] (-) TimerEvent: {}
+[51.544678] (-) TimerEvent: {}
+[51.647347] (-) TimerEvent: {}
+[51.751594] (-) TimerEvent: {}
+[51.865695] (-) TimerEvent: {}
+[51.893242] (create3_examples_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libcreate3_examples_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[51.966599] (-) TimerEvent: {}
+[52.070241] (-) TimerEvent: {}
+[52.175234] (-) TimerEvent: {}
+[52.280051] (-) TimerEvent: {}
+[52.391959] (-) TimerEvent: {}
+[52.494383] (-) TimerEvent: {}
+[52.597092] (-) TimerEvent: {}
+[52.609618] (create3_examples_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libcreate3_examples_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[52.697765] (-) TimerEvent: {}
+[52.801706] (-) TimerEvent: {}
+[52.905907] (-) TimerEvent: {}
+[53.009787] (-) TimerEvent: {}
+[53.115336] (-) TimerEvent: {}
+[53.222615] (-) TimerEvent: {}
+[53.328617] (-) TimerEvent: {}
+[53.432494] (-) TimerEvent: {}
+[53.524283] (create3_examples_msgs) StdoutLine: {'line': b'[ 51%] Built target create3_examples_msgs__rosidl_typesupport_fastrtps_c\n'}
+[53.529901] (create3_examples_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libcreate3_examples_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[53.532791] (-) TimerEvent: {}
+[53.636086] (-) TimerEvent: {}
+[53.736422] (create3_examples_msgs) StdoutLine: {'line': b'[ 58%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[53.738118] (-) TimerEvent: {}
+[53.851637] (-) TimerEvent: {}
+[53.903337] (create3_examples_msgs) StdoutLine: {'line': b'[ 58%] Built target create3_examples_msgs__rosidl_typesupport_introspection_cpp\n'}
+[53.952400] (-) TimerEvent: {}
+[54.058785] (-) TimerEvent: {}
+[54.160820] (-) TimerEvent: {}
+[54.263258] (-) TimerEvent: {}
+[54.365916] (-) TimerEvent: {}
+[54.468851] (-) TimerEvent: {}
+[54.571728] (-) TimerEvent: {}
+[54.640235] (create3_examples_msgs) StdoutLine: {'line': b'[ 58%] Built target create3_examples_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[54.672170] (-) TimerEvent: {}
+[54.775868] (-) TimerEvent: {}
+[54.878714] (-) TimerEvent: {}
+[54.980278] (-) TimerEvent: {}
+[55.082094] (-) TimerEvent: {}
+[55.188051] (-) TimerEvent: {}
+[55.291336] (-) TimerEvent: {}
+[55.395466] (-) TimerEvent: {}
+[55.500259] (-) TimerEvent: {}
+[55.608469] (-) TimerEvent: {}
+[55.716297] (-) TimerEvent: {}
+[55.821571] (-) TimerEvent: {}
+[55.908996] (create3_examples_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/create3_examples_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/create3_examples_msgs/action/detail/coverage__type_support.c.o\x1b[0m\n'}
+[55.922029] (-) TimerEvent: {}
+[56.036647] (-) TimerEvent: {}
+[56.138380] (-) TimerEvent: {}
+[56.239936] (-) TimerEvent: {}
+[56.341798] (-) TimerEvent: {}
+[56.443989] (-) TimerEvent: {}
+[56.472353] (create3_examples_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library libcreate3_examples_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[56.544291] (-) TimerEvent: {}
+[56.645737] (-) TimerEvent: {}
+[56.750106] (-) TimerEvent: {}
+[56.793894] (create3_examples_msgs) StdoutLine: {'line': b'[ 64%] Built target create3_examples_msgs__rosidl_typesupport_introspection_c\n'}
+[56.850717] (-) TimerEvent: {}
+[56.955987] (-) TimerEvent: {}
+[57.058834] (-) TimerEvent: {}
+[57.125185] (create3_examples_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/create3_examples_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/create3_examples_msgs/action/coverage__type_support.cpp.o\x1b[0m\n'}
+[57.159605] (-) TimerEvent: {}
+[57.262078] (-) TimerEvent: {}
+[57.363884] (-) TimerEvent: {}
+[57.465987] (-) TimerEvent: {}
+[57.560319] (create3_examples_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libcreate3_examples_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[57.566354] (-) TimerEvent: {}
+[57.668120] (-) TimerEvent: {}
+[57.770514] (-) TimerEvent: {}
+[57.872482] (-) TimerEvent: {}
+[57.882464] (create3_examples_msgs) StdoutLine: {'line': b'[ 70%] Built target create3_examples_msgs__rosidl_typesupport_c\n'}
+[57.972923] (-) TimerEvent: {}
+[58.041265] (create3_examples_msgs) StdoutLine: {'line': b'[ 70%] Built target create3_examples_msgs\n'}
+[58.073314] (-) TimerEvent: {}
+[58.174860] (-) TimerEvent: {}
+[58.203740] (create3_examples_msgs) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[58.275319] (-) TimerEvent: {}
+[58.376718] (-) TimerEvent: {}
+[58.478482] (-) TimerEvent: {}
+[58.580228] (-) TimerEvent: {}
+[58.682341] (-) TimerEvent: {}
+[58.783913] (-) TimerEvent: {}
+[58.885505] (-) TimerEvent: {}
+[58.987209] (-) TimerEvent: {}
+[59.088607] (-) TimerEvent: {}
+[59.190072] (-) TimerEvent: {}
+[59.291532] (-) TimerEvent: {}
+[59.393005] (-) TimerEvent: {}
+[59.494811] (-) TimerEvent: {}
+[59.596328] (-) TimerEvent: {}
+[59.697686] (-) TimerEvent: {}
+[59.799111] (-) TimerEvent: {}
+[59.900528] (-) TimerEvent: {}
+[60.001962] (-) TimerEvent: {}
+[60.103530] (-) TimerEvent: {}
+[60.204946] (-) TimerEvent: {}
+[60.306559] (-) TimerEvent: {}
+[60.408595] (-) TimerEvent: {}
+[60.510662] (-) TimerEvent: {}
+[60.612156] (-) TimerEvent: {}
+[60.713621] (-) TimerEvent: {}
+[60.814897] (-) TimerEvent: {}
+[60.916229] (-) TimerEvent: {}
+[61.017746] (-) TimerEvent: {}
+[61.120182] (-) TimerEvent: {}
+[61.222121] (-) TimerEvent: {}
+[61.323766] (-) TimerEvent: {}
+[61.425619] (-) TimerEvent: {}
+[61.527331] (-) TimerEvent: {}
+[61.638690] (-) TimerEvent: {}
+[61.740776] (-) TimerEvent: {}
+[61.842086] (-) TimerEvent: {}
+[61.943522] (-) TimerEvent: {}
+[62.044905] (-) TimerEvent: {}
+[62.149358] (-) TimerEvent: {}
+[62.251041] (-) TimerEvent: {}
+[62.352687] (-) TimerEvent: {}
+[62.454186] (-) TimerEvent: {}
+[62.555656] (-) TimerEvent: {}
+[62.657469] (-) TimerEvent: {}
+[62.759176] (-) TimerEvent: {}
+[62.860760] (-) TimerEvent: {}
+[62.962452] (-) TimerEvent: {}
+[63.064141] (-) TimerEvent: {}
+[63.166356] (-) TimerEvent: {}
+[63.270173] (-) TimerEvent: {}
+[63.372877] (-) TimerEvent: {}
+[63.475387] (-) TimerEvent: {}
+[63.542760] (create3_examples_msgs) StdoutLine: {'line': b'[ 74%] Built target create3_examples_msgs__py\n'}
+[63.575732] (-) TimerEvent: {}
+[63.677669] (-) TimerEvent: {}
+[63.693007] (create3_examples_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/create3_examples_msgs__rosidl_generator_py.dir/rosidl_generator_py/create3_examples_msgs/action/_coverage_s.c.o\x1b[0m\n'}
+[63.777807] (-) TimerEvent: {}
+[63.882409] (-) TimerEvent: {}
+[63.984747] (-) TimerEvent: {}
+[64.086462] (-) TimerEvent: {}
+[64.188159] (-) TimerEvent: {}
+[64.290097] (-) TimerEvent: {}
+[64.392135] (-) TimerEvent: {}
+[64.498181] (-) TimerEvent: {}
+[64.599951] (-) TimerEvent: {}
+[64.701459] (-) TimerEvent: {}
+[64.753653] (create3_examples_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/create3_examples_msgs/libcreate3_examples_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[64.801853] (-) TimerEvent: {}
+[64.903631] (-) TimerEvent: {}
+[65.008961] (-) TimerEvent: {}
+[65.110605] (-) TimerEvent: {}
+[65.164206] (create3_examples_msgs) StdoutLine: {'line': b'[ 80%] Built target create3_examples_msgs__rosidl_generator_py\n'}
+[65.211245] (-) TimerEvent: {}
+[65.316702] (-) TimerEvent: {}
+[65.391758] (create3_examples_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/create3_examples_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/create3_examples_msgs/_create3_examples_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[65.417121] (-) TimerEvent: {}
+[65.434640] (create3_examples_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/create3_examples_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/create3_examples_msgs/_create3_examples_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[65.446187] (create3_examples_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/create3_examples_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/create3_examples_msgs/_create3_examples_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[65.521939] (-) TimerEvent: {}
+[65.624048] (-) TimerEvent: {}
+[65.725666] (-) TimerEvent: {}
+[65.827625] (-) TimerEvent: {}
+[65.932991] (-) TimerEvent: {}
+[66.037762] (-) TimerEvent: {}
+[66.148535] (-) TimerEvent: {}
+[66.265690] (-) TimerEvent: {}
+[66.369206] (-) TimerEvent: {}
+[66.485232] (-) TimerEvent: {}
+[66.587552] (-) TimerEvent: {}
+[66.689910] (-) TimerEvent: {}
+[66.756992] (create3_examples_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/create3_examples_msgs/create3_examples_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[66.790544] (-) TimerEvent: {}
+[66.806195] (create3_examples_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/create3_examples_msgs/create3_examples_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[66.821003] (create3_examples_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/create3_examples_msgs/create3_examples_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[66.891208] (-) TimerEvent: {}
+[66.993657] (-) TimerEvent: {}
+[67.099618] (-) TimerEvent: {}
+[67.206601] (-) TimerEvent: {}
+[67.315269] (-) TimerEvent: {}
+[67.421786] (-) TimerEvent: {}
+[67.441607] (create3_examples_msgs) StdoutLine: {'line': b'[100%] Built target create3_examples_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[67.523748] (-) TimerEvent: {}
+[67.574004] (create3_examples_msgs) StdoutLine: {'line': b'[100%] Built target create3_examples_msgs__rosidl_typesupport_c__pyext\n'}
+[67.622248] (create3_examples_msgs) StdoutLine: {'line': b'[100%] Built target create3_examples_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[67.624422] (-) TimerEvent: {}
+[67.713958] (create3_examples_msgs) CommandEnded: {'returncode': 0}
+[67.724624] (-) TimerEvent: {}
+[67.827958] (-) TimerEvent: {}
+[67.932306] (-) TimerEvent: {}
+[68.033926] (-) TimerEvent: {}
+[68.137510] (-) TimerEvent: {}
+[68.239534] (-) TimerEvent: {}
+[68.310478] (create3_examples_msgs) JobProgress: {'identifier': 'create3_examples_msgs', 'progress': 'install'}
+[68.313867] (create3_examples_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robotics_roomba_2/slam2d/build/create3_examples_msgs'], 'cwd': '/home/robotics_roomba_2/slam2d/build/create3_examples_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robotics_roomba_2'), ('SSH_CLIENT', '10.140.162.236 60365 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/robotics_roomba_2'), ('OLDPWD', '/home/robotics_roomba_2/slam2d/src'), ('TERM_PROGRAM_VERSION', '1.82.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-ddabf533-0d49-4159-9ed9-a6a9b8358db6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/robotics_roomba_2/create3_examples_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robotics_roomba_2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '544'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/remote-cli:/home/robotics_roomba_2/.local/bin:/opt/ros/humble/bin:/home/robotics_roomba_2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ca9634ed00.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors:/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop:/home/robotics_roomba_2/create3_examples_ws/install/create3_lidar:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/robotics_roomba_2/slam2d/build/create3_examples_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.140.162.236 60365 10.140.25.40 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors/lib/python3.10/site-packages:/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface/local/lib/python3.10/dist-packages:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba/lib/python3.10/site-packages:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop/lib/python3.10/site-packages:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface:/home/robotics_roomba_2/create3_examples_ws/install/create3_lidar:/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py:/opt/ros/humble')]), 'shell': False}
+[68.339933] (-) TimerEvent: {}
+[68.379690] (create3_examples_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[68.381738] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/ament_index/resource_index/rosidl_interfaces/create3_examples_msgs\n'}
+[68.384504] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs\n'}
+[68.386048] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/msg\n'}
+[68.387436] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[68.389355] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action\n'}
+[68.390470] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail\n'}
+[68.391823] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/coverage__struct.h\n'}
+[68.393938] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/coverage__functions.h\n'}
+[68.396594] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/coverage__functions.c\n'}
+[68.401298] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/coverage__type_support.h\n'}
+[68.403312] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/coverage.h\n'}
+[68.406153] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/environment/library_path.sh\n'}
+[68.408251] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/environment/library_path.dsv\n'}
+[68.411342] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_generator_c.so\n'}
+[68.416664] (create3_examples_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_generator_c.so" to ""\n'}
+[68.417931] (create3_examples_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs\n'}
+[68.418955] (create3_examples_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/msg\n'}
+[68.419863] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[68.420987] (create3_examples_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action\n'}
+[68.421797] (create3_examples_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail\n'}
+[68.422423] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/coverage__rosidl_typesupport_fastrtps_c.h\n'}
+[68.425200] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[68.429992] (create3_examples_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[68.431589] (create3_examples_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs\n'}
+[68.432386] (create3_examples_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/msg\n'}
+[68.432917] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[68.434315] (create3_examples_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action\n'}
+[68.435212] (create3_examples_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail\n'}
+[68.436142] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/coverage__type_support.c\n'}
+[68.438737] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/coverage__rosidl_typesupport_introspection_c.h\n'}
+[68.440014] (-) TimerEvent: {}
+[68.442155] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_typesupport_introspection_c.so\n'}
+[68.451001] (create3_examples_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[68.455530] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_typesupport_c.so\n'}
+[68.460912] (create3_examples_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_typesupport_c.so" to ""\n'}
+[68.465580] (create3_examples_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs\n'}
+[68.468825] (create3_examples_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action\n'}
+[68.470622] (create3_examples_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail\n'}
+[68.473192] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/coverage__traits.hpp\n'}
+[68.474986] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/coverage__builder.hpp\n'}
+[68.480132] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/coverage__struct.hpp\n'}
+[68.486139] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/coverage.hpp\n'}
+[68.488676] (create3_examples_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs\n'}
+[68.490499] (create3_examples_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/msg\n'}
+[68.491864] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[68.492600] (create3_examples_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action\n'}
+[68.493228] (create3_examples_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail\n'}
+[68.493774] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/dds_fastrtps\n'}
+[68.494292] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/coverage__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[68.494723] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[68.496806] (create3_examples_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[68.499538] (create3_examples_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs\n'}
+[68.500540] (create3_examples_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action\n'}
+[68.501064] (create3_examples_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail\n'}
+[68.501556] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/coverage__rosidl_typesupport_introspection_cpp.hpp\n'}
+[68.502731] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/coverage__type_support.cpp\n'}
+[68.506296] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[68.511820] (create3_examples_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[68.513349] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_typesupport_cpp.so\n'}
+[68.517171] (create3_examples_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[68.518619] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/environment/pythonpath.sh\n'}
+[68.520221] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/environment/pythonpath.dsv\n'}
+[68.522336] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs-0.0.1-py3.10.egg-info\n'}
+[68.524445] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs-0.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[68.526210] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs-0.0.1-py3.10.egg-info/PKG-INFO\n'}
+[68.528146] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs-0.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[68.529852] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs-0.0.1-py3.10.egg-info/top_level.txt\n'}
+[68.532145] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs\n'}
+[68.533411] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/_create3_examples_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[68.536078] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/libcreate3_examples_msgs__rosidl_generator_py.so\n'}
+[68.538374] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/create3_examples_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[68.540191] (-) TimerEvent: {}
+[68.541335] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/__init__.py\n'}
+[68.543170] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/_create3_examples_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[68.545971] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/_create3_examples_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[68.551197] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/create3_examples_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[68.554022] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/action\n'}
+[68.555409] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/action/_coverage_s.c\n'}
+[68.558384] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/action/__init__.py\n'}
+[68.560277] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/action/_coverage.py\n'}
+[68.562950] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/create3_examples_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[68.640599] (-) TimerEvent: {}
+[68.742315] (-) TimerEvent: {}
+[68.843773] (-) TimerEvent: {}
+[68.913946] (create3_examples_msgs) StdoutLine: {'line': b"Listing '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs'...\n"}
+[68.917656] (create3_examples_msgs) StdoutLine: {'line': b"Compiling '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/__init__.py'...\n"}
+[68.920240] (create3_examples_msgs) StdoutLine: {'line': b"Listing '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/action'...\n"}
+[68.922385] (create3_examples_msgs) StdoutLine: {'line': b"Compiling '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/action/__init__.py'...\n"}
+[68.924949] (create3_examples_msgs) StdoutLine: {'line': b"Compiling '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/action/_coverage.py'...\n"}
+[68.944245] (-) TimerEvent: {}
+[68.971574] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/create3_examples_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[68.976807] (create3_examples_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/create3_examples_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[68.980139] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/create3_examples_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[68.988711] (create3_examples_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/create3_examples_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[68.992367] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/create3_examples_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[68.999302] (create3_examples_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/create3_examples_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[69.001464] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_generator_py.so\n'}
+[69.007366] (create3_examples_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_generator_py.so" to ""\n'}
+[69.009823] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/action/Coverage.idl\n'}
+[69.011881] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/action/Coverage.action\n'}
+[69.015462] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/ament_index/resource_index/package_run_dependencies/create3_examples_msgs\n'}
+[69.018269] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/ament_index/resource_index/parent_prefix_path/create3_examples_msgs\n'}
+[69.020706] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/environment/ament_prefix_path.sh\n'}
+[69.023406] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/environment/ament_prefix_path.dsv\n'}
+[69.026064] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/environment/path.sh\n'}
+[69.028658] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/environment/path.dsv\n'}
+[69.031574] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/local_setup.bash\n'}
+[69.034242] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/local_setup.sh\n'}
+[69.036848] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/local_setup.zsh\n'}
+[69.039684] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/local_setup.dsv\n'}
+[69.042291] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/package.dsv\n'}
+[69.044429] (-) TimerEvent: {}
+[69.048078] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/ament_index/resource_index/packages/create3_examples_msgs\n'}
+[69.050427] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/export_create3_examples_msgs__rosidl_generator_cExport.cmake\n'}
+[69.055886] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/export_create3_examples_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[69.060164] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/export_create3_examples_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[69.062731] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/export_create3_examples_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[69.065764] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/create3_examples_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[69.068480] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/create3_examples_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[69.070902] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/create3_examples_msgs__rosidl_typesupport_cExport.cmake\n'}
+[69.073697] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/create3_examples_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[69.076078] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/export_create3_examples_msgs__rosidl_generator_cppExport.cmake\n'}
+[69.078620] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/export_create3_examples_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[69.081231] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/export_create3_examples_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[69.083939] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/create3_examples_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[69.086377] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/create3_examples_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[69.089024] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/create3_examples_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[69.091875] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/create3_examples_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[69.094521] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/export_create3_examples_msgs__rosidl_generator_pyExport.cmake\n'}
+[69.097118] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/export_create3_examples_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[69.099623] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[69.102076] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[69.104913] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[69.107331] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[69.109760] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[69.112079] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[69.114210] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[69.116900] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/create3_examples_msgsConfig.cmake\n'}
+[69.118892] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake/create3_examples_msgsConfig-version.cmake\n'}
+[69.121169] (create3_examples_msgs) StdoutLine: {'line': b'-- Installing: /home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/package.xml\n'}
+[69.136169] (create3_examples_msgs) CommandEnded: {'returncode': 0}
+[69.158209] (-) TimerEvent: {}
+[69.260880] (-) TimerEvent: {}
+[69.362324] (-) TimerEvent: {}
+[69.467168] (-) TimerEvent: {}
+[69.568557] (-) TimerEvent: {}
+[69.670055] (-) TimerEvent: {}
+[69.771521] (-) TimerEvent: {}
+[69.873505] (-) TimerEvent: {}
+[69.973566] (create3_examples_msgs) JobEnded: {'identifier': 'create3_examples_msgs', 'rc': 0}
+[69.989238] (-) TimerEvent: {}
+[69.990156] (create3_coverage) JobStarted: {'identifier': 'create3_coverage'}
+[70.065910] (create3_coverage) JobProgress: {'identifier': 'create3_coverage', 'progress': 'cmake'}
+[70.067800] (create3_coverage) Command: {'cmd': ['/usr/bin/cmake', '/home/robotics_roomba_2/slam2d/src/create3_examples/create3_coverage', '-DCMAKE_INSTALL_PREFIX=/home/robotics_roomba_2/slam2d/install/create3_coverage'], 'cwd': '/home/robotics_roomba_2/slam2d/build/create3_coverage', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robotics_roomba_2'), ('SSH_CLIENT', '10.140.162.236 60365 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib:/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/robotics_roomba_2'), ('OLDPWD', '/home/robotics_roomba_2/slam2d/src'), ('TERM_PROGRAM_VERSION', '1.82.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-ddabf533-0d49-4159-9ed9-a6a9b8358db6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/robotics_roomba_2/create3_examples_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robotics_roomba_2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '544'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/remote-cli:/home/robotics_roomba_2/.local/bin:/opt/ros/humble/bin:/home/robotics_roomba_2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ca9634ed00.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs:/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors:/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop:/home/robotics_roomba_2/create3_examples_ws/install/create3_lidar:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/robotics_roomba_2/slam2d/build/create3_coverage'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.140.162.236 60365 10.140.25.40 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages:/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors/lib/python3.10/site-packages:/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface/local/lib/python3.10/dist-packages:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba/lib/python3.10/site-packages:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop/lib/python3.10/site-packages:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs:/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface:/home/robotics_roomba_2/create3_examples_ws/install/create3_lidar:/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py:/opt/ros/humble')]), 'shell': False}
+[70.104121] (-) TimerEvent: {}
+[70.205769] (-) TimerEvent: {}
+[70.308224] (-) TimerEvent: {}
+[70.410586] (-) TimerEvent: {}
+[70.512393] (-) TimerEvent: {}
+[70.614515] (-) TimerEvent: {}
+[70.627723] (create3_coverage) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[70.715194] (-) TimerEvent: {}
+[70.816895] (-) TimerEvent: {}
+[70.918477] (-) TimerEvent: {}
+[71.021286] (-) TimerEvent: {}
+[71.110891] (create3_coverage) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[71.121562] (-) TimerEvent: {}
+[71.159825] (create3_coverage) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[71.221902] (-) TimerEvent: {}
+[71.323458] (-) TimerEvent: {}
+[71.425820] (-) TimerEvent: {}
+[71.528631] (-) TimerEvent: {}
+[71.630086] (-) TimerEvent: {}
+[71.737719] (-) TimerEvent: {}
+[71.773991] (create3_coverage) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[71.815271] (create3_coverage) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[71.818500] (create3_coverage) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[71.821247] (create3_coverage) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[71.838392] (-) TimerEvent: {}
+[71.849049] (create3_coverage) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[71.938762] (-) TimerEvent: {}
+[72.040608] (-) TimerEvent: {}
+[72.143652] (-) TimerEvent: {}
+[72.245292] (-) TimerEvent: {}
+[72.347083] (-) TimerEvent: {}
+[72.449320] (-) TimerEvent: {}
+[72.553220] (-) TimerEvent: {}
+[72.563640] (create3_coverage) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[72.603231] (create3_coverage) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[72.605209] (create3_coverage) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[72.608085] (create3_coverage) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[72.653597] (-) TimerEvent: {}
+[72.655360] (create3_coverage) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[72.753920] (-) TimerEvent: {}
+[72.855426] (-) TimerEvent: {}
+[72.956572] (-) TimerEvent: {}
+[73.058093] (-) TimerEvent: {}
+[73.159561] (-) TimerEvent: {}
+[73.261335] (-) TimerEvent: {}
+[73.363321] (-) TimerEvent: {}
+[73.465372] (-) TimerEvent: {}
+[73.568193] (-) TimerEvent: {}
+[73.669948] (-) TimerEvent: {}
+[73.772653] (-) TimerEvent: {}
+[73.874028] (-) TimerEvent: {}
+[73.975613] (-) TimerEvent: {}
+[74.076756] (-) TimerEvent: {}
+[74.178134] (-) TimerEvent: {}
+[74.279858] (-) TimerEvent: {}
+[74.381192] (-) TimerEvent: {}
+[74.452037] (create3_coverage) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[74.481592] (-) TimerEvent: {}
+[74.583267] (-) TimerEvent: {}
+[74.684557] (-) TimerEvent: {}
+[74.785936] (-) TimerEvent: {}
+[74.887285] (-) TimerEvent: {}
+[74.988797] (-) TimerEvent: {}
+[75.090994] (-) TimerEvent: {}
+[75.192763] (-) TimerEvent: {}
+[75.295400] (-) TimerEvent: {}
+[75.397326] (-) TimerEvent: {}
+[75.498816] (-) TimerEvent: {}
+[75.600388] (-) TimerEvent: {}
+[75.621319] (create3_coverage) StdoutLine: {'line': b'-- Found create3_examples_msgs: 0.0.1 (/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/share/create3_examples_msgs/cmake)\n'}
+[75.700726] (-) TimerEvent: {}
+[75.802178] (-) TimerEvent: {}
+[75.903738] (-) TimerEvent: {}
+[76.005168] (-) TimerEvent: {}
+[76.106647] (-) TimerEvent: {}
+[76.205287] (create3_coverage) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[76.206787] (-) TimerEvent: {}
+[76.296579] (create3_coverage) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[76.307264] (-) TimerEvent: {}
+[76.408688] (-) TimerEvent: {}
+[76.421803] (create3_coverage) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[76.509019] (-) TimerEvent: {}
+[76.570297] (create3_coverage) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[76.609349] (-) TimerEvent: {}
+[76.710883] (-) TimerEvent: {}
+[76.788768] (create3_coverage) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[76.811219] (-) TimerEvent: {}
+[76.913183] (-) TimerEvent: {}
+[77.016847] (-) TimerEvent: {}
+[77.121406] (-) TimerEvent: {}
+[77.227196] (-) TimerEvent: {}
+[77.328579] (-) TimerEvent: {}
+[77.429895] (-) TimerEvent: {}
+[77.532178] (-) TimerEvent: {}
+[77.633802] (-) TimerEvent: {}
+[77.735628] (-) TimerEvent: {}
+[77.837353] (-) TimerEvent: {}
+[77.910515] (create3_coverage) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[77.937877] (-) TimerEvent: {}
+[78.041119] (-) TimerEvent: {}
+[78.142625] (-) TimerEvent: {}
+[78.244557] (-) TimerEvent: {}
+[78.346082] (-) TimerEvent: {}
+[78.447852] (-) TimerEvent: {}
+[78.549285] (-) TimerEvent: {}
+[78.553900] (create3_coverage) StdoutLine: {'line': b'-- Found irobot_create_msgs: 2.1.0 (/opt/ros/humble/share/irobot_create_msgs/cmake)\n'}
+[78.649687] (-) TimerEvent: {}
+[78.751319] (-) TimerEvent: {}
+[78.853466] (-) TimerEvent: {}
+[78.956105] (-) TimerEvent: {}
+[79.058465] (-) TimerEvent: {}
+[79.161343] (-) TimerEvent: {}
+[79.264246] (-) TimerEvent: {}
+[79.345768] (create3_coverage) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[79.364994] (-) TimerEvent: {}
+[79.467150] (-) TimerEvent: {}
+[79.568840] (-) TimerEvent: {}
+[79.671318] (-) TimerEvent: {}
+[79.772922] (-) TimerEvent: {}
+[79.827944] (create3_coverage) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[79.873261] (-) TimerEvent: {}
+[79.974925] (-) TimerEvent: {}
+[80.076399] (-) TimerEvent: {}
+[80.177856] (-) TimerEvent: {}
+[80.279683] (-) TimerEvent: {}
+[80.381600] (-) TimerEvent: {}
+[80.484198] (-) TimerEvent: {}
+[80.585601] (-) TimerEvent: {}
+[80.594255] (create3_coverage) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[80.648514] (create3_coverage) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[80.685914] (-) TimerEvent: {}
+[80.787561] (-) TimerEvent: {}
+[80.890266] (-) TimerEvent: {}
+[80.991690] (-) TimerEvent: {}
+[81.092926] (-) TimerEvent: {}
+[81.194321] (-) TimerEvent: {}
+[81.295786] (-) TimerEvent: {}
+[81.397527] (-) TimerEvent: {}
+[81.499844] (-) TimerEvent: {}
+[81.601752] (-) TimerEvent: {}
+[81.703520] (-) TimerEvent: {}
+[81.805056] (-) TimerEvent: {}
+[81.823287] (create3_coverage) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[81.905344] (-) TimerEvent: {}
+[82.006734] (-) TimerEvent: {}
+[82.108169] (-) TimerEvent: {}
+[82.186596] (create3_coverage) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[82.208519] (-) TimerEvent: {}
+[82.310023] (-) TimerEvent: {}
+[82.411652] (-) TimerEvent: {}
+[82.512993] (-) TimerEvent: {}
+[82.614312] (-) TimerEvent: {}
+[82.715875] (-) TimerEvent: {}
+[82.785680] (create3_coverage) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[82.816205] (-) TimerEvent: {}
+[82.917591] (-) TimerEvent: {}
+[82.951265] (create3_coverage) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[83.018048] (-) TimerEvent: {}
+[83.119860] (-) TimerEvent: {}
+[83.221668] (-) TimerEvent: {}
+[83.323186] (-) TimerEvent: {}
+[83.425089] (-) TimerEvent: {}
+[83.526972] (-) TimerEvent: {}
+[83.583289] (create3_coverage) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[83.590058] (create3_coverage) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[83.627486] (-) TimerEvent: {}
+[83.729139] (-) TimerEvent: {}
+[83.833180] (-) TimerEvent: {}
+[83.935151] (-) TimerEvent: {}
+[84.039091] (-) TimerEvent: {}
+[84.141270] (-) TimerEvent: {}
+[84.211292] (create3_coverage) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[84.225129] (create3_coverage) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[84.241614] (-) TimerEvent: {}
+[84.343405] (-) TimerEvent: {}
+[84.444873] (-) TimerEvent: {}
+[84.546349] (-) TimerEvent: {}
+[84.648108] (-) TimerEvent: {}
+[84.749596] (-) TimerEvent: {}
+[84.852292] (-) TimerEvent: {}
+[84.954043] (-) TimerEvent: {}
+[85.055661] (-) TimerEvent: {}
+[85.104756] (create3_coverage) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.3 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[85.156102] (-) TimerEvent: {}
+[85.258071] (-) TimerEvent: {}
+[85.359717] (-) TimerEvent: {}
+[85.368739] (create3_coverage) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.2 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[85.460056] (-) TimerEvent: {}
+[85.561482] (-) TimerEvent: {}
+[85.663533] (-) TimerEvent: {}
+[85.666230] (create3_coverage) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[85.678729] (create3_coverage) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[85.680674] (create3_coverage) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[85.763856] (-) TimerEvent: {}
+[85.865382] (-) TimerEvent: {}
+[85.966845] (-) TimerEvent: {}
+[86.068606] (-) TimerEvent: {}
+[86.170704] (-) TimerEvent: {}
+[86.272715] (-) TimerEvent: {}
+[86.374220] (-) TimerEvent: {}
+[86.476202] (-) TimerEvent: {}
+[86.577723] (-) TimerEvent: {}
+[86.679230] (-) TimerEvent: {}
+[86.780634] (-) TimerEvent: {}
+[86.882180] (-) TimerEvent: {}
+[86.984006] (-) TimerEvent: {}
+[87.088592] (-) TimerEvent: {}
+[87.190136] (-) TimerEvent: {}
+[87.291958] (-) TimerEvent: {}
+[87.393931] (-) TimerEvent: {}
+[87.495380] (-) TimerEvent: {}
+[87.552968] (create3_coverage) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[87.595670] (-) TimerEvent: {}
+[87.697753] (-) TimerEvent: {}
+[87.799422] (-) TimerEvent: {}
+[87.901568] (-) TimerEvent: {}
+[88.003342] (-) TimerEvent: {}
+[88.104917] (-) TimerEvent: {}
+[88.207131] (-) TimerEvent: {}
+[88.308834] (-) TimerEvent: {}
+[88.410139] (-) TimerEvent: {}
+[88.478128] (create3_coverage) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[88.479740] (create3_coverage) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/robotics_roomba_2/slam2d/src/create3_examples/create3_coverage/include\n'}
+[88.480767] (create3_coverage) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[88.495390] (create3_coverage) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[88.510442] (-) TimerEvent: {}
+[88.526922] (create3_coverage) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[88.528181] (create3_coverage) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[88.536064] (create3_coverage) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[88.584853] (create3_coverage) StdoutLine: {'line': b'-- Configuring done\n'}
+[88.610721] (-) TimerEvent: {}
+[88.714487] (-) TimerEvent: {}
+[88.787154] (create3_coverage) StdoutLine: {'line': b'-- Generating done\n'}
+[88.803613] (create3_coverage) StdoutLine: {'line': b'-- Build files have been written to: /home/robotics_roomba_2/slam2d/build/create3_coverage\n'}
+[88.815178] (-) TimerEvent: {}
+[88.906151] (create3_coverage) CommandEnded: {'returncode': 0}
+[88.911592] (create3_coverage) JobProgress: {'identifier': 'create3_coverage', 'progress': 'build'}
+[88.921524] (create3_coverage) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robotics_roomba_2/slam2d/build/create3_coverage', '--', '-j4', '-l4'], 'cwd': '/home/robotics_roomba_2/slam2d/build/create3_coverage', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robotics_roomba_2'), ('SSH_CLIENT', '10.140.162.236 60365 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/lib:/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/robotics_roomba_2'), ('OLDPWD', '/home/robotics_roomba_2/slam2d/src'), ('TERM_PROGRAM_VERSION', '1.82.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-ddabf533-0d49-4159-9ed9-a6a9b8358db6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/robotics_roomba_2/create3_examples_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robotics_roomba_2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '544'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robotics_roomba_2/.vscode-server/bin/abd2f3db4bdb28f9e95536dfa84d8479f1eb312d/bin/remote-cli:/home/robotics_roomba_2/.local/bin:/opt/ros/humble/bin:/home/robotics_roomba_2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ca9634ed00.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs:/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors:/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop:/home/robotics_roomba_2/create3_examples_ws/install/create3_lidar:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/robotics_roomba_2/slam2d/build/create3_coverage'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.140.162.236 60365 10.140.25.40 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs/local/lib/python3.10/dist-packages:/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors/lib/python3.10/site-packages:/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface/local/lib/python3.10/dist-packages:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba/lib/python3.10/site-packages:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop/lib/python3.10/site-packages:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/robotics_roomba_2/slam2d/install/create3_examples_msgs:/home/robotics_roomba_2/create3_examples_ws/install/spad_demo_interface:/home/robotics_roomba_2/create3_examples_ws/install/create3_lidar:/home/robotics_roomba_2/create3_examples_ws/install/create3_sensors:/home/robotics_roomba_2/create3_examples_ws/install/helloRoomba:/home/robotics_roomba_2/create3_examples_ws/install/create3_teleop:/home/robotics_roomba_2/create3_examples_ws/install/create3_examples_py:/opt/ros/humble')]), 'shell': False}
+[88.935432] (-) TimerEvent: {}
+[89.037344] (-) TimerEvent: {}
+[89.138964] (-) TimerEvent: {}
+[89.240683] (-) TimerEvent: {}
+[89.343504] (-) TimerEvent: {}
+[89.368013] (create3_coverage) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/create3_coverage_core.dir/src/behaviors/reflex-behavior.cpp.o\x1b[0m\n'}
+[89.383461] (create3_coverage) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/create3_coverage_core.dir/src/behaviors/drive-straight-behavior.cpp.o\x1b[0m\n'}
+[89.385946] (create3_coverage) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/create3_coverage_core.dir/src/behaviors/dock-behavior.cpp.o\x1b[0m\n'}
+[89.389129] (create3_coverage) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/create3_coverage_core.dir/src/behaviors/rotate-behavior.cpp.o\x1b[0m\n'}
+[89.444128] (-) TimerEvent: {}
+[89.548679] (-) TimerEvent: {}
+[89.652587] (-) TimerEvent: {}
+[89.758075] (-) TimerEvent: {}
+[89.861783] (-) TimerEvent: {}
+[89.964775] (-) TimerEvent: {}
+[90.068587] (-) TimerEvent: {}
+[90.179586] (-) TimerEvent: {}
+[90.283955] (-) TimerEvent: {}
+[90.385993] (-) TimerEvent: {}
+[90.507786] (-) TimerEvent: {}
+[90.614049] (-) TimerEvent: {}
+[90.717310] (-) TimerEvent: {}
+[90.821778] (-) TimerEvent: {}
+[90.925603] (-) TimerEvent: {}
+[91.029640] (-) TimerEvent: {}
+[91.042525] (create3_coverage) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robotics_roomba_2/slam2d/src/create3_examples/create3_coverage/include/create3_coverage/behaviors/dock-behavior.hpp:5\x1b[m\x1b[K,\n'}
+[91.044768] (create3_coverage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotics_roomba_2/slam2d/src/create3_examples/create3_coverage/src/behaviors/dock-behavior.cpp:3\x1b[m\x1b[K:\n'}
+[91.046435] (create3_coverage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotics_roomba_2/slam2d/src/create3_examples/create3_coverage/include/create3_coverage/behaviors/behavior.hpp:9:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kirobot_create_msgs/msg/dock.hpp: No such file or directory\n'}
+[91.048582] (create3_coverage) StderrLine: {'line': b'    9 | #include \x1b[01;31m\x1b[K"irobot_create_msgs/msg/dock.hpp"\x1b[m\x1b[K\n'}
+[91.049833] (create3_coverage) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[91.050336] (create3_coverage) StderrLine: {'line': b'compilation terminated.\n'}
+[91.056427] (create3_coverage) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/create3_coverage_core.dir/build.make:76: CMakeFiles/create3_coverage_core.dir/src/behaviors/dock-behavior.cpp.o] Error 1\n'}
+[91.058811] (create3_coverage) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[91.130117] (-) TimerEvent: {}
+[91.236744] (-) TimerEvent: {}
+[91.253571] (create3_coverage) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robotics_roomba_2/slam2d/src/create3_examples/create3_coverage/include/create3_coverage/behaviors/drive-straight-behavior.hpp:5\x1b[m\x1b[K,\n'}
+[91.256367] (create3_coverage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotics_roomba_2/slam2d/src/create3_examples/create3_coverage/src/behaviors/drive-straight-behavior.cpp:3\x1b[m\x1b[K:\n'}
+[91.259814] (create3_coverage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotics_roomba_2/slam2d/src/create3_examples/create3_coverage/include/create3_coverage/behaviors/behavior.hpp:9:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kirobot_create_msgs/msg/dock.hpp: No such file or directory\n'}
+[91.261643] (create3_coverage) StderrLine: {'line': b'    9 | #include \x1b[01;31m\x1b[K"irobot_create_msgs/msg/dock.hpp"\x1b[m\x1b[K\n'}
+[91.264157] (create3_coverage) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[91.266822] (create3_coverage) StderrLine: {'line': b'compilation terminated.\n'}
+[91.271363] (create3_coverage) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/create3_coverage_core.dir/build.make:90: CMakeFiles/create3_coverage_core.dir/src/behaviors/drive-straight-behavior.cpp.o] Error 1\n'}
+[91.281445] (create3_coverage) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robotics_roomba_2/slam2d/src/create3_examples/create3_coverage/include/create3_coverage/behaviors/reflex-behavior.hpp:5\x1b[m\x1b[K,\n'}
+[91.283395] (create3_coverage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotics_roomba_2/slam2d/src/create3_examples/create3_coverage/src/behaviors/reflex-behavior.cpp:3\x1b[m\x1b[K:\n'}
+[91.284665] (create3_coverage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotics_roomba_2/slam2d/src/create3_examples/create3_coverage/include/create3_coverage/behaviors/behavior.hpp:9:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kirobot_create_msgs/msg/dock.hpp: No such file or directory\n'}
+[91.285681] (create3_coverage) StderrLine: {'line': b'    9 | #include \x1b[01;31m\x1b[K"irobot_create_msgs/msg/dock.hpp"\x1b[m\x1b[K\n'}
+[91.286775] (create3_coverage) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[91.288911] (create3_coverage) StderrLine: {'line': b'compilation terminated.\n'}
+[91.295360] (create3_coverage) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/create3_coverage_core.dir/build.make:104: CMakeFiles/create3_coverage_core.dir/src/behaviors/reflex-behavior.cpp.o] Error 1\n'}
+[91.337120] (-) TimerEvent: {}
+[91.439351] (-) TimerEvent: {}
+[91.485283] (create3_coverage) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/robotics_roomba_2/slam2d/src/create3_examples/create3_coverage/include/create3_coverage/behaviors/rotate-behavior.hpp:5\x1b[m\x1b[K,\n'}
+[91.486984] (create3_coverage) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotics_roomba_2/slam2d/src/create3_examples/create3_coverage/src/behaviors/rotate-behavior.cpp:5\x1b[m\x1b[K:\n'}
+[91.488182] (create3_coverage) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotics_roomba_2/slam2d/src/create3_examples/create3_coverage/include/create3_coverage/behaviors/behavior.hpp:9:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kirobot_create_msgs/msg/dock.hpp: No such file or directory\n'}
+[91.488832] (create3_coverage) StderrLine: {'line': b'    9 | #include \x1b[01;31m\x1b[K"irobot_create_msgs/msg/dock.hpp"\x1b[m\x1b[K\n'}
+[91.489322] (create3_coverage) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[91.490358] (create3_coverage) StderrLine: {'line': b'compilation terminated.\n'}
+[91.500425] (create3_coverage) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/create3_coverage_core.dir/build.make:118: CMakeFiles/create3_coverage_core.dir/src/behaviors/rotate-behavior.cpp.o] Error 1\n'}
+[91.502108] (create3_coverage) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/create3_coverage_core.dir/all] Error 2\n'}
+[91.504728] (create3_coverage) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[91.522229] (create3_coverage) CommandEnded: {'returncode': 2}
+[91.539852] (-) TimerEvent: {}
+[91.642011] (-) TimerEvent: {}
+[91.745455] (-) TimerEvent: {}
+[91.847652] (-) TimerEvent: {}
+[91.949593] (-) TimerEvent: {}
+[92.051423] (-) TimerEvent: {}
+[92.065889] (create3_coverage) JobEnded: {'identifier': 'create3_coverage', 'rc': 2}
+[92.082029] (-) EventReactorShutdown: {}

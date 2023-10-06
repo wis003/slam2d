@@ -1,0 +1,38 @@
+[0.233s] Invoking command in '/home/robotics_roomba_2/slam2d/build/create3_examples_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics_roomba_2/slam2d/install/tmf882x:/home/robotics_roomba_2/slam2d/install/create3_teleop:/home/robotics_roomba_2/slam2d/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake /home/robotics_roomba_2/slam2d/src/create3_examples/create3_examples_msgs -DCMAKE_INSTALL_PREFIX=/home/robotics_roomba_2/slam2d/install/create3_examples_msgs
+[1.967s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.968s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.968s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.969s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.969s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.970s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.971s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[3.744s] -- Found ament_cmake_cppcheck: 0.12.5 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[3.749s] -- Found ament_cmake_cpplint: 0.12.5 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[3.754s] -- Found ament_cmake_uncrustify: 0.12.5 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[3.759s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.287s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.445s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.626s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[7.790s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.790s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[7.791s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[7.971s] -- Found ament_cmake_flake8: 0.12.5 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[7.978s] -- Found ament_cmake_pep257: 0.12.5 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[8.067s] -- Configuring done
+[8.529s] -- Generating done
+[8.586s] -- Build files have been written to: /home/robotics_roomba_2/slam2d/build/create3_examples_msgs
+[8.638s] Invoked command in '/home/robotics_roomba_2/slam2d/build/create3_examples_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics_roomba_2/slam2d/install/tmf882x:/home/robotics_roomba_2/slam2d/install/create3_teleop:/home/robotics_roomba_2/slam2d/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake /home/robotics_roomba_2/slam2d/src/create3_examples/create3_examples_msgs -DCMAKE_INSTALL_PREFIX=/home/robotics_roomba_2/slam2d/install/create3_examples_msgs
+[8.642s] Invoking command in '/home/robotics_roomba_2/slam2d/build/create3_examples_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics_roomba_2/slam2d/install/tmf882x:/home/robotics_roomba_2/slam2d/install/create3_teleop:/home/robotics_roomba_2/slam2d/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --build /home/robotics_roomba_2/slam2d/build/create3_examples_msgs -- -j4 -l4
+[8.951s] [35m[1mConsolidate compiler generated dependencies of target create3_examples_msgs__rosidl_generator_c[0m
+[9.062s] [  3%] Built target create3_examples_msgs__cpp
+[9.103s] failed to create symbolic link '/home/robotics_roomba_2/slam2d/build/create3_examples_msgs/ament_cmake_python/create3_examples_msgs/create3_examples_msgs' because existing path cannot be removed: Is a directory
+[9.110s] [ 12%] Built target create3_examples_msgs__rosidl_generator_c
+[9.117s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_create3_examples_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_create3_examples_msgs] Error 1
+[9.120s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_create3_examples_msgs.dir/all] Error 2
+[9.123s] gmake[1]: *** Waiting for unfinished jobs....
+[9.197s] [35m[1mConsolidate compiler generated dependencies of target create3_examples_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[9.198s] [35m[1mConsolidate compiler generated dependencies of target create3_examples_msgs__rosidl_typesupport_cpp[0m
+[9.382s] [ 22%] Built target create3_examples_msgs__rosidl_typesupport_cpp
+[9.395s] [ 32%] Built target create3_examples_msgs__rosidl_typesupport_fastrtps_cpp
+[9.403s] gmake: *** [Makefile:146: all] Error 2
+[9.433s] Invoked command in '/home/robotics_roomba_2/slam2d/build/create3_examples_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics_roomba_2/slam2d/install/tmf882x:/home/robotics_roomba_2/slam2d/install/create3_teleop:/home/robotics_roomba_2/slam2d/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --build /home/robotics_roomba_2/slam2d/build/create3_examples_msgs -- -j4 -l4
