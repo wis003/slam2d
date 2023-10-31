@@ -25,6 +25,13 @@ inline void to_flow_style_yaml(
   std::ostream & out)
 {
   out << "{";
+  // member: time
+  {
+    out << "time: ";
+    rosidl_generator_traits::value_to_yaml(msg.time, out);
+    out << ", ";
+  }
+
   // member: num_zones
   {
     out << "num_zones: ";
@@ -194,6 +201,16 @@ inline void to_block_style_yaml(
   const TMF882XMeasure & msg,
   std::ostream & out, size_t indentation = 0)
 {
+  // member: time
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "time: ";
+    rosidl_generator_traits::value_to_yaml(msg.time, out);
+    out << "\n";
+  }
+
   // member: num_zones
   {
     if (indentation > 0) {

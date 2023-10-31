@@ -35,6 +35,7 @@ class TMF882XPub(Node):
             self.received_data = True
 
         message = TMF882XMeasure()
+        message.time = self.get_clock().now().nanoseconds * 1e-9
         message.num_zones = self.TMF882X_CHANNELS-1 # -1 because ignore reference hist
         message.num_bins = self.TMF882X_BINS
         message.i2c_address = dists[0]["I2C_address"]

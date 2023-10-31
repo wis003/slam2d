@@ -6,6 +6,8 @@
 module tmf882x_interfaces {
   module msg {
     struct TMF882XMeasure {
+      double time;
+
       int64 num_zones;
 
       int64 num_bins;

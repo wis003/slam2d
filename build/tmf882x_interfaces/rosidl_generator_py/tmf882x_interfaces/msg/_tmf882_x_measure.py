@@ -15,6 +15,8 @@ import array  # noqa: E402, I100
 
 import builtins  # noqa: E402, I100
 
+import math  # noqa: E402, I100
+
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -63,6 +65,7 @@ class TMF882XMeasure(metaclass=Metaclass_TMF882XMeasure):
     """Message class 'TMF882XMeasure'."""
 
     __slots__ = [
+        '_time',
         '_num_zones',
         '_num_bins',
         '_reference_hist',
@@ -80,6 +83,7 @@ class TMF882XMeasure(metaclass=Metaclass_TMF882XMeasure):
     ]
 
     _fields_and_field_types = {
+        'time': 'double',
         'num_zones': 'int64',
         'num_bins': 'int64',
         'reference_hist': 'sequence<int64>',
@@ -97,6 +101,7 @@ class TMF882XMeasure(metaclass=Metaclass_TMF882XMeasure):
     }
 
     SLOT_TYPES = (
+        rosidl_parser.definition.BasicType('double'),  # noqa: E501
         rosidl_parser.definition.BasicType('int64'),  # noqa: E501
         rosidl_parser.definition.BasicType('int64'),  # noqa: E501
         rosidl_parser.definition.UnboundedSequence(rosidl_parser.definition.BasicType('int64')),  # noqa: E501
@@ -117,6 +122,7 @@ class TMF882XMeasure(metaclass=Metaclass_TMF882XMeasure):
         assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
+        self.time = kwargs.get('time', float())
         self.num_zones = kwargs.get('num_zones', int())
         self.num_bins = kwargs.get('num_bins', int())
         self.reference_hist = array.array('q', kwargs.get('reference_hist', []))
@@ -161,6 +167,8 @@ class TMF882XMeasure(metaclass=Metaclass_TMF882XMeasure):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
+        if self.time != other.time:
+            return False
         if self.num_zones != other.num_zones:
             return False
         if self.num_bins != other.num_bins:
@@ -195,6 +203,21 @@ class TMF882XMeasure(metaclass=Metaclass_TMF882XMeasure):
     def get_fields_and_field_types(cls):
         from copy import copy
         return copy(cls._fields_and_field_types)
+
+    @builtins.property
+    def time(self):
+        """Message field 'time'."""
+        return self._time
+
+    @time.setter
+    def time(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, float), \
+                "The 'time' field must be of type 'float'"
+            assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
+                "The 'time' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
+        self._time = value
 
     @builtins.property
     def num_zones(self):

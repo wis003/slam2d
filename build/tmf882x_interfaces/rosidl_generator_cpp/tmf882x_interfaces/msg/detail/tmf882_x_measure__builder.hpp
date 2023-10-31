@@ -232,13 +232,29 @@ private:
 class Init_TMF882XMeasure_num_zones
 {
 public:
-  Init_TMF882XMeasure_num_zones()
-  : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
+  explicit Init_TMF882XMeasure_num_zones(::tmf882x_interfaces::msg::TMF882XMeasure & msg)
+  : msg_(msg)
   {}
   Init_TMF882XMeasure_num_bins num_zones(::tmf882x_interfaces::msg::TMF882XMeasure::_num_zones_type arg)
   {
     msg_.num_zones = std::move(arg);
     return Init_TMF882XMeasure_num_bins(msg_);
+  }
+
+private:
+  ::tmf882x_interfaces::msg::TMF882XMeasure msg_;
+};
+
+class Init_TMF882XMeasure_time
+{
+public:
+  Init_TMF882XMeasure_time()
+  : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
+  {}
+  Init_TMF882XMeasure_num_zones time(::tmf882x_interfaces::msg::TMF882XMeasure::_time_type arg)
+  {
+    msg_.time = std::move(arg);
+    return Init_TMF882XMeasure_num_zones(msg_);
   }
 
 private:
@@ -256,7 +272,7 @@ template<>
 inline
 auto build<::tmf882x_interfaces::msg::TMF882XMeasure>()
 {
-  return tmf882x_interfaces::msg::builder::Init_TMF882XMeasure_num_zones();
+  return tmf882x_interfaces::msg::builder::Init_TMF882XMeasure_time();
 }
 
 }  // namespace tmf882x_interfaces

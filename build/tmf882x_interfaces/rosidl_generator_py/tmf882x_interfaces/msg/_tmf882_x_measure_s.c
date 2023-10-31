@@ -56,6 +56,15 @@ bool tmf882x_interfaces__msg__tmf882_x_measure__convert_from_py(PyObject * _pyms
     assert(strncmp("tmf882x_interfaces.msg._tmf882_x_measure.TMF882XMeasure", full_classname_dest, 55) == 0);
   }
   tmf882x_interfaces__msg__TMF882XMeasure * ros_message = _ros_message;
+  {  // time
+    PyObject * field = PyObject_GetAttrString(_pymsg, "time");
+    if (!field) {
+      return false;
+    }
+    assert(PyFloat_Check(field));
+    ros_message->time = PyFloat_AS_DOUBLE(field);
+    Py_DECREF(field);
+  }
   {  // num_zones
     PyObject * field = PyObject_GetAttrString(_pymsg, "num_zones");
     if (!field) {
@@ -528,6 +537,17 @@ PyObject * tmf882x_interfaces__msg__tmf882_x_measure__convert_to_py(void * raw_r
     }
   }
   tmf882x_interfaces__msg__TMF882XMeasure * ros_message = (tmf882x_interfaces__msg__TMF882XMeasure *)raw_ros_message;
+  {  // time
+    PyObject * field = NULL;
+    field = PyFloat_FromDouble(ros_message->time);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "time", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
   {  // num_zones
     PyObject * field = NULL;
     field = PyLong_FromLongLong(ros_message->num_zones);

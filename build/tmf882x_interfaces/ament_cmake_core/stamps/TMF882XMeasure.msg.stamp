@@ -1,3 +1,4 @@
+float64 time
 int64 num_zones
 int64 num_bins
 int64[] reference_hist

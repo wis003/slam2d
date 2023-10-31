@@ -28,6 +28,7 @@ tmf882x_interfaces__msg__TMF882XMeasure__init(tmf882x_interfaces__msg__TMF882XMe
   if (!msg) {
     return false;
   }
+  // time
   // num_zones
   // num_bins
   // reference_hist
@@ -79,6 +80,7 @@ tmf882x_interfaces__msg__TMF882XMeasure__fini(tmf882x_interfaces__msg__TMF882XMe
   if (!msg) {
     return;
   }
+  // time
   // num_zones
   // num_bins
   // reference_hist
@@ -106,6 +108,10 @@ bool
 tmf882x_interfaces__msg__TMF882XMeasure__are_equal(const tmf882x_interfaces__msg__TMF882XMeasure * lhs, const tmf882x_interfaces__msg__TMF882XMeasure * rhs)
 {
   if (!lhs || !rhs) {
+    return false;
+  }
+  // time
+  if (lhs->time != rhs->time) {
     return false;
   }
   // num_zones
@@ -189,6 +195,8 @@ tmf882x_interfaces__msg__TMF882XMeasure__copy(
   if (!input || !output) {
     return false;
   }
+  // time
+  output->time = input->time;
   // num_zones
   output->num_zones = input->num_zones;
   // num_bins

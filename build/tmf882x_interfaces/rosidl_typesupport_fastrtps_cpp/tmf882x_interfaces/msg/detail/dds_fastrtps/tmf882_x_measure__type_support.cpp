@@ -32,6 +32,8 @@ cdr_serialize(
   const tmf882x_interfaces::msg::TMF882XMeasure & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
+  // Member: time
+  cdr << ros_message.time;
   // Member: num_zones
   cdr << ros_message.num_zones;
   // Member: num_bins
@@ -81,6 +83,9 @@ cdr_deserialize(
   eprosima::fastcdr::Cdr & cdr,
   tmf882x_interfaces::msg::TMF882XMeasure & ros_message)
 {
+  // Member: time
+  cdr >> ros_message.time;
+
   // Member: num_zones
   cdr >> ros_message.num_zones;
 
@@ -151,6 +156,12 @@ get_serialized_size(
   (void)padding;
   (void)wchar_size;
 
+  // Member: time
+  {
+    size_t item_size = sizeof(ros_message.time);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
   // Member: num_zones
   {
     size_t item_size = sizeof(ros_message.num_zones);
@@ -278,6 +289,14 @@ max_serialized_size_TMF882XMeasure(
   full_bounded = true;
   is_plain = true;
 
+
+  // Member: time
+  {
+    size_t array_size = 1;
+
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
 
   // Member: num_zones
   {

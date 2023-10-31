@@ -31,6 +31,7 @@ extern "C"
 /// Struct defined in msg/TMF882XMeasure in the package tmf882x_interfaces.
 typedef struct tmf882x_interfaces__msg__TMF882XMeasure
 {
+  double time;
   int64_t num_zones;
   int64_t num_bins;
   rosidl_runtime_c__int64__Sequence reference_hist;

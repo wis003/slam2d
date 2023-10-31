@@ -1,0 +1,30 @@
+running develop
+running egg_info
+writing ../../build/tmf882x/tmf882x.egg-info/PKG-INFO
+writing dependency_links to ../../build/tmf882x/tmf882x.egg-info/dependency_links.txt
+writing entry points to ../../build/tmf882x/tmf882x.egg-info/entry_points.txt
+writing requirements to ../../build/tmf882x/tmf882x.egg-info/requires.txt
+writing top-level names to ../../build/tmf882x/tmf882x.egg-info/top_level.txt
+reading manifest file '../../build/tmf882x/tmf882x.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/tmf882x/tmf882x.egg-info/SOURCES.txt'
+running build
+running build_py
+copying tmf882x/tmf882x_pub.py -> /home/robotics_roomba_2/slam2d/build/tmf882x/build/lib/tmf882x
+copying tmf882x/record_depth.py -> /home/robotics_roomba_2/slam2d/build/tmf882x/build/lib/tmf882x
+running install
+running install_lib
+copying /home/robotics_roomba_2/slam2d/build/tmf882x/build/lib/tmf882x/tmf882x_pub.py -> /home/robotics_roomba_2/slam2d/install/tmf882x/lib/python3.10/site-packages/tmf882x
+copying /home/robotics_roomba_2/slam2d/build/tmf882x/build/lib/tmf882x/record_depth.py -> /home/robotics_roomba_2/slam2d/install/tmf882x/lib/python3.10/site-packages/tmf882x
+byte-compiling /home/robotics_roomba_2/slam2d/install/tmf882x/lib/python3.10/site-packages/tmf882x/tmf882x_pub.py to tmf882x_pub.cpython-310.pyc
+byte-compiling /home/robotics_roomba_2/slam2d/install/tmf882x/lib/python3.10/site-packages/tmf882x/record_depth.py to record_depth.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/robotics_roomba_2/slam2d/install/tmf882x/lib/python3.10/site-packages/tmf882x-1.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/tmf882x/tmf882x.egg-info to /home/robotics_roomba_2/slam2d/install/tmf882x/lib/python3.10/site-packages/tmf882x-1.0.0-py3.10.egg-info
+running install_scripts
+Installing plane_vis script to /home/robotics_roomba_2/slam2d/install/tmf882x/lib/tmf882x
+Installing record_depth script to /home/robotics_roomba_2/slam2d/install/tmf882x/lib/tmf882x
+Installing tmf882x_pub script to /home/robotics_roomba_2/slam2d/install/tmf882x/lib/tmf882x
+Installing tmf882x_vis script to /home/robotics_roomba_2/slam2d/install/tmf882x/lib/tmf882x
+writing list of installed files to '/home/robotics_roomba_2/slam2d/build/tmf882x/install.log'

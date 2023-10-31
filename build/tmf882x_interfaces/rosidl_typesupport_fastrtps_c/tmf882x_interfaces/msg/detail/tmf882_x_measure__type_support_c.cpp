@@ -53,6 +53,11 @@ static bool _TMF882XMeasure__cdr_serialize(
     return false;
   }
   const _TMF882XMeasure__ros_msg_type * ros_message = static_cast<const _TMF882XMeasure__ros_msg_type *>(untyped_ros_message);
+  // Field name: time
+  {
+    cdr << ros_message->time;
+  }
+
   // Field name: num_zones
   {
     cdr << ros_message->num_zones;
@@ -162,6 +167,11 @@ static bool _TMF882XMeasure__cdr_deserialize(
     return false;
   }
   _TMF882XMeasure__ros_msg_type * ros_message = static_cast<_TMF882XMeasure__ros_msg_type *>(untyped_ros_message);
+  // Field name: time
+  {
+    cdr >> ros_message->time;
+  }
+
   // Field name: num_zones
   {
     cdr >> ros_message->num_zones;
@@ -326,6 +336,12 @@ size_t get_serialized_size_tmf882x_interfaces__msg__TMF882XMeasure(
   (void)padding;
   (void)wchar_size;
 
+  // field.name time
+  {
+    size_t item_size = sizeof(ros_message->time);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
   // field.name num_zones
   {
     size_t item_size = sizeof(ros_message->num_zones);
@@ -465,6 +481,13 @@ size_t max_serialized_size_tmf882x_interfaces__msg__TMF882XMeasure(
   full_bounded = true;
   is_plain = true;
 
+  // member: time
+  {
+    size_t array_size = 1;
+
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
   // member: num_zones
   {
     size_t array_size = 1;

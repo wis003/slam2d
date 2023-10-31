@@ -307,7 +307,24 @@ void resize_function__TMF882XMeasure__confs_2(void * untyped_member, size_t size
   member->resize(size);
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember TMF882XMeasure_message_member_array[14] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember TMF882XMeasure_message_member_array[15] = {
+  {
+    "time",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_DOUBLE,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(tmf882x_interfaces::msg::TMF882XMeasure, time),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
+  },
   {
     "num_zones",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT64,  // type
@@ -551,7 +568,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember TMF882XMeasur
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers TMF882XMeasure_message_members = {
   "tmf882x_interfaces::msg",  // message namespace
   "TMF882XMeasure",  // message name
-  14,  // number of fields
+  15,  // number of fields
   sizeof(tmf882x_interfaces::msg::TMF882XMeasure),
   TMF882XMeasure_message_member_array,  // message members
   TMF882XMeasure_init_function,  // function to initialize message memory (memory has to be allocated)

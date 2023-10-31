@@ -372,7 +372,24 @@ bool tmf882x_interfaces__msg__TMF882XMeasure__rosidl_typesupport_introspection_c
   return rosidl_runtime_c__int64__Sequence__init(member, size);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember tmf882x_interfaces__msg__TMF882XMeasure__rosidl_typesupport_introspection_c__TMF882XMeasure_message_member_array[14] = {
+static rosidl_typesupport_introspection_c__MessageMember tmf882x_interfaces__msg__TMF882XMeasure__rosidl_typesupport_introspection_c__TMF882XMeasure_message_member_array[15] = {
+  {
+    "time",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(tmf882x_interfaces__msg__TMF882XMeasure, time),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
   {
     "num_zones",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_INT64,  // type
@@ -616,7 +633,7 @@ static rosidl_typesupport_introspection_c__MessageMember tmf882x_interfaces__msg
 static const rosidl_typesupport_introspection_c__MessageMembers tmf882x_interfaces__msg__TMF882XMeasure__rosidl_typesupport_introspection_c__TMF882XMeasure_message_members = {
   "tmf882x_interfaces__msg",  // message namespace
   "TMF882XMeasure",  // message name
-  14,  // number of fields
+  15,  // number of fields
   sizeof(tmf882x_interfaces__msg__TMF882XMeasure),
   tmf882x_interfaces__msg__TMF882XMeasure__rosidl_typesupport_introspection_c__TMF882XMeasure_message_member_array,  // message members
   tmf882x_interfaces__msg__TMF882XMeasure__rosidl_typesupport_introspection_c__TMF882XMeasure_init_function,  // function to initialize message memory (memory has to be allocated)

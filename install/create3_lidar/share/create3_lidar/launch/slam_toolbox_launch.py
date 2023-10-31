@@ -26,6 +26,7 @@ def generate_launch_description():
         executable='async_slam_toolbox_node',
         name='slam_toolbox',
         output='screen')
+        #arguments=['--ros-args', '--log-level', 'debug'])
 
     ld = LaunchDescription()
 

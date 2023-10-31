@@ -38,6 +38,7 @@ struct TMF882XMeasure_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
+      this->time = 0.0;
       this->num_zones = 0ll;
       this->num_bins = 0ll;
       this->i2c_address = 0ll;
@@ -55,6 +56,7 @@ struct TMF882XMeasure_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
+      this->time = 0.0;
       this->num_zones = 0ll;
       this->num_bins = 0ll;
       this->i2c_address = 0ll;
@@ -67,6 +69,9 @@ struct TMF882XMeasure_
   }
 
   // field types and members
+  using _time_type =
+    double;
+  _time_type time;
   using _num_zones_type =
     int64_t;
   _num_zones_type num_zones;
@@ -111,6 +116,12 @@ struct TMF882XMeasure_
   _histogram_type_type histogram_type;
 
   // setters for named parameter idiom
+  Type & set__time(
+    const double & _arg)
+  {
+    this->time = _arg;
+    return *this;
+  }
   Type & set__num_zones(
     const int64_t & _arg)
   {
@@ -238,6 +249,9 @@ struct TMF882XMeasure_
   // comparison operators
   bool operator==(const TMF882XMeasure_ & other) const
   {
+    if (this->time != other.time) {
+      return false;
+    }
     if (this->num_zones != other.num_zones) {
       return false;
     }
