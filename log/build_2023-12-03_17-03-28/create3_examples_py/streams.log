@@ -1,0 +1,24 @@
+[10.989s] Invoking command in '/home/robotics_roomba_2/slam2d/build/create3_examples_py': PYTHONPATH=/home/robotics_roomba_2/slam2d/build/create3_examples_py/prefix_override:/home/robotics_roomba_2/slam2d/install/create3_examples_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/robotics_roomba_2/slam2d/build/create3_examples_py/build
+[14.052s] running develop
+[16.251s] Invoked command in '/home/robotics_roomba_2/slam2d/build/create3_examples_py' returned '0': PYTHONPATH=/home/robotics_roomba_2/slam2d/build/create3_examples_py/prefix_override:/home/robotics_roomba_2/slam2d/install/create3_examples_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/robotics_roomba_2/slam2d/build/create3_examples_py/build
+[16.265s] Invoking command in '/home/robotics_roomba_2/slam2d/src/create3_examples/create3_examples_py': PYTHONPATH=/home/robotics_roomba_2/slam2d/build/create3_examples_py/prefix_override:/home/robotics_roomba_2/slam2d/install/create3_examples_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/create3_examples_py build --build-base /home/robotics_roomba_2/slam2d/build/create3_examples_py/build install --record /home/robotics_roomba_2/slam2d/build/create3_examples_py/install.log --single-version-externally-managed
+[18.844s] running egg_info
+[18.867s] writing ../../../build/create3_examples_py/create3_examples_py.egg-info/PKG-INFO
+[18.878s] writing dependency_links to ../../../build/create3_examples_py/create3_examples_py.egg-info/dependency_links.txt
+[18.896s] writing entry points to ../../../build/create3_examples_py/create3_examples_py.egg-info/entry_points.txt
+[18.905s] writing requirements to ../../../build/create3_examples_py/create3_examples_py.egg-info/requires.txt
+[18.978s] writing top-level names to ../../../build/create3_examples_py/create3_examples_py.egg-info/top_level.txt
+[18.998s] reading manifest file '../../../build/create3_examples_py/create3_examples_py.egg-info/SOURCES.txt'
+[19.000s] writing manifest file '../../../build/create3_examples_py/create3_examples_py.egg-info/SOURCES.txt'
+[19.007s] running build
+[19.008s] running build_py
+[19.016s] running install
+[19.021s] running install_lib
+[19.043s] running install_data
+[19.049s] running install_egg_info
+[19.074s] removing '/home/robotics_roomba_2/slam2d/install/create3_examples_py/lib/python3.10/site-packages/create3_examples_py-0.0.1-py3.10.egg-info' (and everything under it)
+[19.075s] Copying ../../../build/create3_examples_py/create3_examples_py.egg-info to /home/robotics_roomba_2/slam2d/install/create3_examples_py/lib/python3.10/site-packages/create3_examples_py-0.0.1-py3.10.egg-info
+[19.076s] running install_scripts
+[19.219s] Installing create3_dance script to /home/robotics_roomba_2/slam2d/install/create3_examples_py/lib/create3_examples_py
+[19.227s] writing list of installed files to '/home/robotics_roomba_2/slam2d/build/create3_examples_py/install.log'
+[19.580s] Invoked command in '/home/robotics_roomba_2/slam2d/src/create3_examples/create3_examples_py' returned '0': PYTHONPATH=/home/robotics_roomba_2/slam2d/build/create3_examples_py/prefix_override:/home/robotics_roomba_2/slam2d/install/create3_examples_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/create3_examples_py build --build-base /home/robotics_roomba_2/slam2d/build/create3_examples_py/build install --record /home/robotics_roomba_2/slam2d/build/create3_examples_py/install.log --single-version-externally-managed

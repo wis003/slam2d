@@ -1,0 +1,20 @@
+[10.868s] Invoking command in '/home/robotics_roomba_2/slam2d/build/create3_teleop': PYTHONPATH=/home/robotics_roomba_2/slam2d/build/create3_teleop/prefix_override:/home/robotics_roomba_2/slam2d/install/create3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/robotics_roomba_2/slam2d/build/create3_teleop/build
+[14.001s] running develop
+[16.311s] Invoked command in '/home/robotics_roomba_2/slam2d/build/create3_teleop' returned '0': PYTHONPATH=/home/robotics_roomba_2/slam2d/build/create3_teleop/prefix_override:/home/robotics_roomba_2/slam2d/install/create3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/robotics_roomba_2/slam2d/build/create3_teleop/build
+[16.317s] Invoking command in '/home/robotics_roomba_2/slam2d/src/create3_examples/create3_teleop': PYTHONPATH=/home/robotics_roomba_2/slam2d/build/create3_teleop/prefix_override:/home/robotics_roomba_2/slam2d/install/create3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/create3_teleop build --build-base /home/robotics_roomba_2/slam2d/build/create3_teleop/build install --record /home/robotics_roomba_2/slam2d/build/create3_teleop/install.log --single-version-externally-managed
+[18.806s] running egg_info
+[18.816s] writing ../../../build/create3_teleop/create3_teleop.egg-info/PKG-INFO
+[18.828s] writing dependency_links to ../../../build/create3_teleop/create3_teleop.egg-info/dependency_links.txt
+[18.833s] writing requirements to ../../../build/create3_teleop/create3_teleop.egg-info/requires.txt
+[18.844s] writing top-level names to ../../../build/create3_teleop/create3_teleop.egg-info/top_level.txt
+[18.866s] reading manifest file '../../../build/create3_teleop/create3_teleop.egg-info/SOURCES.txt'
+[18.867s] writing manifest file '../../../build/create3_teleop/create3_teleop.egg-info/SOURCES.txt'
+[18.868s] running build
+[18.869s] running install
+[18.869s] running install_data
+[18.870s] running install_egg_info
+[18.872s] removing '/home/robotics_roomba_2/slam2d/install/create3_teleop/lib/python3.10/site-packages/create3_teleop-0.0.1-py3.10.egg-info' (and everything under it)
+[18.872s] Copying ../../../build/create3_teleop/create3_teleop.egg-info to /home/robotics_roomba_2/slam2d/install/create3_teleop/lib/python3.10/site-packages/create3_teleop-0.0.1-py3.10.egg-info
+[18.891s] running install_scripts
+[19.037s] writing list of installed files to '/home/robotics_roomba_2/slam2d/build/create3_teleop/install.log'
+[19.302s] Invoked command in '/home/robotics_roomba_2/slam2d/src/create3_examples/create3_teleop' returned '0': PYTHONPATH=/home/robotics_roomba_2/slam2d/build/create3_teleop/prefix_override:/home/robotics_roomba_2/slam2d/install/create3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/create3_teleop build --build-base /home/robotics_roomba_2/slam2d/build/create3_teleop/build install --record /home/robotics_roomba_2/slam2d/build/create3_teleop/install.log --single-version-externally-managed

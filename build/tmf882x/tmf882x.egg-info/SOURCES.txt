@@ -17,5 +17,6 @@ test/test_pep257.py
 tmf882x/__init__.py
 tmf882x/plane_vis.py
 tmf882x/record_depth.py
+tmf882x/test.py
 tmf882x/tmf882x_pub.py
 tmf882x/tmf882x_vis.py

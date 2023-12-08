@@ -1,0 +1,31 @@
+[5.519s] Invoking command in '/home/robotics_roomba_2/slam2d/build/tmf882x': PYTHONPATH=/home/robotics_roomba_2/slam2d/build/tmf882x/prefix_override:/home/robotics_roomba_2/slam2d/install/tmf882x/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/robotics_roomba_2/slam2d/build/tmf882x/build
+[8.114s] running develop
+[9.691s] Invoked command in '/home/robotics_roomba_2/slam2d/build/tmf882x' returned '0': PYTHONPATH=/home/robotics_roomba_2/slam2d/build/tmf882x/prefix_override:/home/robotics_roomba_2/slam2d/install/tmf882x/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/robotics_roomba_2/slam2d/build/tmf882x/build
+[9.701s] Invoking command in '/home/robotics_roomba_2/slam2d/src/tmf882x': PYTHONPATH=/home/robotics_roomba_2/slam2d/build/tmf882x/prefix_override:/home/robotics_roomba_2/slam2d/install/tmf882x/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tmf882x build --build-base /home/robotics_roomba_2/slam2d/build/tmf882x/build install --record /home/robotics_roomba_2/slam2d/build/tmf882x/install.log --single-version-externally-managed
+[11.122s] running egg_info
+[11.125s] writing ../../build/tmf882x/tmf882x.egg-info/PKG-INFO
+[11.126s] writing dependency_links to ../../build/tmf882x/tmf882x.egg-info/dependency_links.txt
+[11.127s] writing entry points to ../../build/tmf882x/tmf882x.egg-info/entry_points.txt
+[11.128s] writing requirements to ../../build/tmf882x/tmf882x.egg-info/requires.txt
+[11.129s] writing top-level names to ../../build/tmf882x/tmf882x.egg-info/top_level.txt
+[11.140s] reading manifest file '../../build/tmf882x/tmf882x.egg-info/SOURCES.txt'
+[11.142s] adding license file 'LICENSE'
+[11.145s] writing manifest file '../../build/tmf882x/tmf882x.egg-info/SOURCES.txt'
+[11.145s] running build
+[11.146s] running build_py
+[11.148s] copying tmf882x/tmf882x_vis.py -> /home/robotics_roomba_2/slam2d/build/tmf882x/build/lib/tmf882x
+[11.150s] running install
+[11.151s] running install_lib
+[11.156s] copying /home/robotics_roomba_2/slam2d/build/tmf882x/build/lib/tmf882x/tmf882x_vis.py -> /home/robotics_roomba_2/slam2d/install/tmf882x/lib/python3.10/site-packages/tmf882x
+[11.160s] byte-compiling /home/robotics_roomba_2/slam2d/install/tmf882x/lib/python3.10/site-packages/tmf882x/tmf882x_vis.py to tmf882x_vis.cpython-310.pyc
+[11.164s] running install_data
+[11.167s] running install_egg_info
+[11.174s] removing '/home/robotics_roomba_2/slam2d/install/tmf882x/lib/python3.10/site-packages/tmf882x-1.0.0-py3.10.egg-info' (and everything under it)
+[11.176s] Copying ../../build/tmf882x/tmf882x.egg-info to /home/robotics_roomba_2/slam2d/install/tmf882x/lib/python3.10/site-packages/tmf882x-1.0.0-py3.10.egg-info
+[11.184s] running install_scripts
+[11.271s] Installing plane_vis script to /home/robotics_roomba_2/slam2d/install/tmf882x/lib/tmf882x
+[11.272s] Installing record_depth script to /home/robotics_roomba_2/slam2d/install/tmf882x/lib/tmf882x
+[11.273s] Installing tmf882x_pub script to /home/robotics_roomba_2/slam2d/install/tmf882x/lib/tmf882x
+[11.274s] Installing tmf882x_vis script to /home/robotics_roomba_2/slam2d/install/tmf882x/lib/tmf882x
+[11.276s] writing list of installed files to '/home/robotics_roomba_2/slam2d/build/tmf882x/install.log'
+[11.414s] Invoked command in '/home/robotics_roomba_2/slam2d/src/tmf882x' returned '0': PYTHONPATH=/home/robotics_roomba_2/slam2d/build/tmf882x/prefix_override:/home/robotics_roomba_2/slam2d/install/tmf882x/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tmf882x build --build-base /home/robotics_roomba_2/slam2d/build/tmf882x/build install --record /home/robotics_roomba_2/slam2d/build/tmf882x/install.log --single-version-externally-managed

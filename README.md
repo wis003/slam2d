@@ -20,6 +20,9 @@ Next:
 Record ros2bag: 'ros2 bag record -o folder_name /topic'
 Convert ros2bag to csv: 'ros2bag-convert xxxx.db3'
 
-rplidar notes: 721 measurements per 2pi rotation
+rplidar notes: 720 measurements per 2pi rotation
 Note: SPAD mount is ~21 cm away from lidar
 http://bucket.download.slamtec.com/5586c3ce11eda9f273746a8d06dc30eb55337382/LD601_SLAMTEC_rplidar_datasheet_S1_v1.0_en.pdf
+https://www.omnicalculator.com/math/arc-length
+
+Unitree L1: https://oss-global-cdn.unitree.com/static/f5ca3e9038d44ca29f711f90005a2185.pdf

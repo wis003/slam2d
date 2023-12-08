@@ -1,0 +1,118 @@
+[0.080s] Invoking command in '/home/robotics_roomba_2/slam2d/build/tmf882x_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics_roomba_2/slam2d/install/tmf882x:/home/robotics_roomba_2/slam2d/install/create3_teleop:/home/robotics_roomba_2/slam2d/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --build /home/robotics_roomba_2/slam2d/build/tmf882x_interfaces -- -j4 -l4
+[0.462s] [  3%] Built target tmf882x_interfaces__cpp
+[0.529s] [ 12%] Built target tmf882x_interfaces__rosidl_generator_c
+[0.687s] [ 12%] Built target ament_cmake_python_symlink_tmf882x_interfaces
+[0.797s] [ 22%] Built target tmf882x_interfaces__rosidl_typesupport_cpp
+[0.822s] [ 35%] Built target tmf882x_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.833s] [ 41%] Built target tmf882x_interfaces__rosidl_typesupport_introspection_cpp
+[0.937s] [ 51%] Built target tmf882x_interfaces__rosidl_typesupport_fastrtps_c
+[1.024s] [ 61%] Built target tmf882x_interfaces__rosidl_typesupport_c
+[1.108s] [ 70%] Built target tmf882x_interfaces__rosidl_typesupport_introspection_c
+[1.347s] [ 70%] Built target tmf882x_interfaces
+[1.535s] [ 74%] Built target tmf882x_interfaces__py
+[1.825s] [ 80%] Built target tmf882x_interfaces__rosidl_generator_py
+[2.145s] [ 87%] Built target tmf882x_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.230s] [ 93%] Built target tmf882x_interfaces__rosidl_typesupport_c__pyext
+[2.245s] [100%] Built target tmf882x_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.532s] running egg_info
+[3.540s] writing tmf882x_interfaces.egg-info/PKG-INFO
+[3.548s] writing dependency_links to tmf882x_interfaces.egg-info/dependency_links.txt
+[3.559s] writing top-level names to tmf882x_interfaces.egg-info/top_level.txt
+[3.583s] reading manifest file 'tmf882x_interfaces.egg-info/SOURCES.txt'
+[3.596s] writing manifest file 'tmf882x_interfaces.egg-info/SOURCES.txt'
+[4.020s] [100%] Built target ament_cmake_python_build_tmf882x_interfaces_egg
+[4.167s] Invoked command in '/home/robotics_roomba_2/slam2d/build/tmf882x_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics_roomba_2/slam2d/install/tmf882x:/home/robotics_roomba_2/slam2d/install/create3_teleop:/home/robotics_roomba_2/slam2d/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --build /home/robotics_roomba_2/slam2d/build/tmf882x_interfaces -- -j4 -l4
+[5.077s] Invoking command in '/home/robotics_roomba_2/slam2d/build/tmf882x_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics_roomba_2/slam2d/install/tmf882x:/home/robotics_roomba_2/slam2d/install/create3_teleop:/home/robotics_roomba_2/slam2d/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --install /home/robotics_roomba_2/slam2d/build/tmf882x_interfaces
+[5.133s] -- Install configuration: ""
+[5.136s] -- Execute custom install script
+[5.139s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/ament_index/resource_index/rosidl_interfaces/tmf882x_interfaces
+[5.143s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/include/tmf882x_interfaces/tmf882x_interfaces/msg/detail/tmf882_x_measure__functions.h
+[5.148s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/include/tmf882x_interfaces/tmf882x_interfaces/msg/detail/tmf882_x_measure__struct.h
+[5.151s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/include/tmf882x_interfaces/tmf882x_interfaces/msg/detail/tmf882_x_measure__type_support.h
+[5.154s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/include/tmf882x_interfaces/tmf882x_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.162s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/include/tmf882x_interfaces/tmf882x_interfaces/msg/tmf882_x_measure.h
+[5.167s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/environment/library_path.sh
+[5.170s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/environment/library_path.dsv
+[5.174s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/include/tmf882x_interfaces/tmf882x_interfaces/msg/detail/tmf882_x_measure__rosidl_typesupport_fastrtps_c.h
+[5.181s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/include/tmf882x_interfaces/tmf882x_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.184s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/include/tmf882x_interfaces/tmf882x_interfaces/msg/detail/tmf882_x_measure__rosidl_typesupport_introspection_c.h
+[5.190s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/include/tmf882x_interfaces/tmf882x_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.193s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/include/tmf882x_interfaces/tmf882x_interfaces/msg/detail/tmf882_x_measure__builder.hpp
+[5.193s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/include/tmf882x_interfaces/tmf882x_interfaces/msg/detail/tmf882_x_measure__struct.hpp
+[5.194s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/include/tmf882x_interfaces/tmf882x_interfaces/msg/detail/tmf882_x_measure__traits.hpp
+[5.195s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/include/tmf882x_interfaces/tmf882x_interfaces/msg/tmf882_x_measure.hpp
+[5.195s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/include/tmf882x_interfaces/tmf882x_interfaces/msg/detail/tmf882_x_measure__rosidl_typesupport_fastrtps_cpp.hpp
+[5.200s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/include/tmf882x_interfaces/tmf882x_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.201s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/include/tmf882x_interfaces/tmf882x_interfaces/msg/detail/tmf882_x_measure__rosidl_typesupport_introspection_cpp.hpp
+[5.201s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/environment/pythonpath.sh
+[5.202s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/environment/pythonpath.dsv
+[5.202s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/local/lib/python3.10/dist-packages/tmf882x_interfaces-1.0.0-py3.10.egg-info/PKG-INFO
+[5.203s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/local/lib/python3.10/dist-packages/tmf882x_interfaces-1.0.0-py3.10.egg-info/SOURCES.txt
+[5.203s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/local/lib/python3.10/dist-packages/tmf882x_interfaces-1.0.0-py3.10.egg-info/dependency_links.txt
+[5.204s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/local/lib/python3.10/dist-packages/tmf882x_interfaces-1.0.0-py3.10.egg-info/top_level.txt
+[5.215s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/local/lib/python3.10/dist-packages/tmf882x_interfaces/__init__.py
+[5.218s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/local/lib/python3.10/dist-packages/tmf882x_interfaces/_tmf882x_interfaces_s.ep.rosidl_typesupport_c.c
+[5.221s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/local/lib/python3.10/dist-packages/tmf882x_interfaces/_tmf882x_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.223s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/local/lib/python3.10/dist-packages/tmf882x_interfaces/_tmf882x_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.226s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/local/lib/python3.10/dist-packages/tmf882x_interfaces/libtmf882x_interfaces__rosidl_generator_py.so
+[5.228s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/local/lib/python3.10/dist-packages/tmf882x_interfaces/msg/__init__.py
+[5.232s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/local/lib/python3.10/dist-packages/tmf882x_interfaces/msg/_tmf882_x_measure.py
+[5.234s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/local/lib/python3.10/dist-packages/tmf882x_interfaces/msg/_tmf882_x_measure_s.c
+[5.237s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/local/lib/python3.10/dist-packages/tmf882x_interfaces/tmf882x_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[5.240s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/local/lib/python3.10/dist-packages/tmf882x_interfaces/tmf882x_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[5.243s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/local/lib/python3.10/dist-packages/tmf882x_interfaces/tmf882x_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[5.249s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/local/lib/python3.10/dist-packages/tmf882x_interfaces/tmf882x_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[5.256s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/local/lib/python3.10/dist-packages/tmf882x_interfaces/tmf882x_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[5.260s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/local/lib/python3.10/dist-packages/tmf882x_interfaces/tmf882x_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[5.263s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/msg/TMF882XMeasure.idl
+[5.266s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/msg/TMF882XMeasure.msg
+[5.269s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/ament_index/resource_index/package_run_dependencies/tmf882x_interfaces
+[5.272s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/ament_index/resource_index/parent_prefix_path/tmf882x_interfaces
+[5.275s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/environment/ament_prefix_path.sh
+[5.278s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/environment/ament_prefix_path.dsv
+[5.281s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/environment/path.sh
+[5.284s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/environment/path.dsv
+[5.286s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/local_setup.bash
+[5.289s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/local_setup.sh
+[5.292s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/local_setup.zsh
+[5.294s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/local_setup.dsv
+[5.297s] -- Symlinking: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/package.dsv
+[5.354s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/ament_index/resource_index/packages/tmf882x_interfaces
+[5.357s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.359s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.362s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.365s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.367s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.370s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.373s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.375s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/cmake/tmf882x_interfacesConfig.cmake
+[5.378s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/cmake/tmf882x_interfacesConfig-version.cmake
+[5.380s] -- Up-to-date symlink: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/package.xml
+[5.383s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/lib/libtmf882x_interfaces__rosidl_generator_c.so
+[5.387s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/lib/libtmf882x_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.391s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/lib/libtmf882x_interfaces__rosidl_typesupport_introspection_c.so
+[5.395s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/lib/libtmf882x_interfaces__rosidl_typesupport_c.so
+[5.399s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/lib/libtmf882x_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.404s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/lib/libtmf882x_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.408s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/lib/libtmf882x_interfaces__rosidl_typesupport_cpp.so
+[5.636s] Listing '/home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/local/lib/python3.10/dist-packages/tmf882x_interfaces'...
+[5.637s] Listing '/home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/local/lib/python3.10/dist-packages/tmf882x_interfaces/msg'...
+[5.683s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/lib/libtmf882x_interfaces__rosidl_generator_py.so
+[5.692s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/cmake/export_tmf882x_interfaces__rosidl_generator_cExport.cmake
+[5.697s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/cmake/export_tmf882x_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.703s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/cmake/export_tmf882x_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.708s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/cmake/export_tmf882x_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.714s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/cmake/tmf882x_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.720s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/cmake/tmf882x_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.726s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/cmake/tmf882x_interfaces__rosidl_typesupport_cExport.cmake
+[5.731s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/cmake/tmf882x_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.736s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/cmake/export_tmf882x_interfaces__rosidl_generator_cppExport.cmake
+[5.742s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/cmake/export_tmf882x_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.747s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/cmake/export_tmf882x_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.759s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/cmake/tmf882x_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.765s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/cmake/tmf882x_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.769s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/cmake/tmf882x_interfaces__rosidl_typesupport_cppExport.cmake
+[5.777s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/cmake/tmf882x_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.781s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/cmake/export_tmf882x_interfaces__rosidl_generator_pyExport.cmake
+[5.788s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/tmf882x_interfaces/share/tmf882x_interfaces/cmake/export_tmf882x_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.811s] Invoked command in '/home/robotics_roomba_2/slam2d/build/tmf882x_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics_roomba_2/slam2d/install/tmf882x:/home/robotics_roomba_2/slam2d/install/create3_teleop:/home/robotics_roomba_2/slam2d/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --install /home/robotics_roomba_2/slam2d/build/tmf882x_interfaces

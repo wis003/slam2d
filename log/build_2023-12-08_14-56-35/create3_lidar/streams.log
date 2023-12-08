@@ -1,0 +1,28 @@
+[2.089s] Invoking command in '/home/robotics_roomba_2/slam2d/build/create3_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics_roomba_2/slam2d/install/tmf882x:/home/robotics_roomba_2/slam2d/install/create3_teleop:/home/robotics_roomba_2/slam2d/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --build /home/robotics_roomba_2/slam2d/build/create3_lidar -- -j4 -l4
+[3.743s] Invoked command in '/home/robotics_roomba_2/slam2d/build/create3_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics_roomba_2/slam2d/install/tmf882x:/home/robotics_roomba_2/slam2d/install/create3_teleop:/home/robotics_roomba_2/slam2d/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --build /home/robotics_roomba_2/slam2d/build/create3_lidar -- -j4 -l4
+[3.952s] Invoking command in '/home/robotics_roomba_2/slam2d/build/create3_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics_roomba_2/slam2d/install/tmf882x:/home/robotics_roomba_2/slam2d/install/create3_teleop:/home/robotics_roomba_2/slam2d/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --install /home/robotics_roomba_2/slam2d/build/create3_lidar
+[4.003s] -- Install configuration: ""
+[4.008s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/launch
+[4.012s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/launch/sensors_launch.py
+[4.014s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/launch/slam_toolbox_launch.py
+[4.016s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/config
+[4.019s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/config/rplidar_node.yaml
+[4.021s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/config/mapper_params_online_async.yaml
+[4.023s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/rviz
+[4.025s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/rviz/create3_lidar.rviz
+[4.028s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/ament_index/resource_index/package_run_dependencies/create3_lidar
+[4.030s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/ament_index/resource_index/parent_prefix_path/create3_lidar
+[4.036s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/environment/ament_prefix_path.sh
+[4.040s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/environment/ament_prefix_path.dsv
+[4.040s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/environment/path.sh
+[4.041s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/environment/path.dsv
+[4.041s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/local_setup.bash
+[4.044s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/local_setup.sh
+[4.046s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/local_setup.zsh
+[4.048s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/local_setup.dsv
+[4.050s] -- Installing: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/package.dsv
+[4.058s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/ament_index/resource_index/packages/create3_lidar
+[4.060s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/cmake/create3_lidarConfig.cmake
+[4.062s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/cmake/create3_lidarConfig-version.cmake
+[4.064s] -- Up-to-date: /home/robotics_roomba_2/slam2d/install/create3_lidar/share/create3_lidar/package.xml
+[4.075s] Invoked command in '/home/robotics_roomba_2/slam2d/build/create3_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robotics_roomba_2/slam2d/install/tmf882x:/home/robotics_roomba_2/slam2d/install/create3_teleop:/home/robotics_roomba_2/slam2d/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --install /home/robotics_roomba_2/slam2d/build/create3_lidar
